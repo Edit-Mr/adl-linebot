@@ -1,0 +1,29 @@
+{
+  "name": "adl-linebot",
+  "version": "1.0.0",
+  "description": "教育部因材網影片機器人",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edit-Mr/adl-linebot.git"
+  },
+  "keywords": [
+    "line",
+    "bot",
+    "education",
+    "Taiwan"
+  ],
+  "author": "Elvis Mao",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Edit-Mr/adl-linebot/issues"
+  },
+  "homepage": "https://github.com/Edit-Mr/adl-linebot#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}

@@ -1,0 +1,475 @@
+{
+    "國小": {
+        "一年級": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=1",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=1",
+            "體育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=1"
+        },
+        "二年級": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=2",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=2",
+            "體育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=2"
+        },
+        "三年級": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=3",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=3",
+            "自然科學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=3&subsubject=4&grade=3",
+            "英語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=3",
+            "資訊教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=120&grade=3",
+            "體育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=3",
+            "音樂": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=147&grade=3",
+            "視覺藝術": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=151&grade=3",
+            "表演藝術": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=143&grade=3"
+        },
+        "四年級": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=4",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=4",
+            "自然科學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=3&subsubject=4&grade=4",
+            "英語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=4",
+            "資訊教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=120&grade=4",
+            "體育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=4",
+            "音樂": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=147&grade=4",
+            "視覺藝術": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=151&grade=4",
+            "表演藝術": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=143&grade=4"
+        },
+        "五年級": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=5",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=5",
+            "自然科學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=3&subsubject=4&grade=5",
+            "英語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=5",
+            "資訊教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=120&grade=5",
+            "體育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=5"
+        },
+        "六年級": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=6",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=6",
+            "自然科學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=3&subsubject=4&grade=6",
+            "英語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=6",
+            "資訊教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=120&grade=6",
+            "體育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=6"
+        },
+        "素養專區": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=27&category=1",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=1",
+            "自然科學": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=29&category=1",
+            "對話式數學": "https://adl.edu.tw/https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=1",
+            "對話式語文": "https://adl.edu.tw/https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=5",
+            "21世紀核心素養": "https://adl.edu.tw/modules_new.php?op=modload&name=21cps&file=coreLiteracyIntroduction"
+        },
+        "課綱議題": {
+            "交通安全": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=1",
+            "水域安全": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=水域安全&subject=145",
+            "防災教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=防災教育&subject=153",
+            "環境教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=環境教育&subject=159",
+            "文化教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=文化教育&subject=158",
+            "能源議題": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=能源議題&subject=136",
+            "海洋與環境": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋與環境&subject=146",
+            "海洋教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋教育議題&subject=152",
+            "新住民教材": "https://adl.edu.tw/https://mkm.k12ea.gov.tw/textbook"
+        },
+        "主題教材": {
+            "植樹教材": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=植樹教材&subject=121",
+            "美力台灣": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=美力台灣&subject=135",
+            "LIS自然": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=LIS自然&subject=150",
+            "看見系列": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=看見系列&subject=166",
+            "雙語藝術": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=雙語藝術&subject=161",
+            "日文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=日文&subject=43",
+            "自主學習": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=自主學習&subject=48",
+            "科博館探究": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=科博館探究&subject=169"
+        },
+        "資訊科技": {
+            "數學運算思維": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=2",
+            "人工智慧": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=人工智慧&subject=127",
+            "程式設計": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=77&category=2",
+            "資訊素養": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=54",
+            "Python與AI數位學習": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=Python與AI數位學習&subject=137",
+            "程式教育在E-game": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=157"
+        },
+        "遊戲式學習": {
+            "守護木林森": "https://adl.edu.tw/./games/planting/index",
+            "因雄崛起": "https://adl.edu.tw/./games/game_base_learning/index",
+            "E-game": "https://adl.edu.tw/./games/egame/index",
+            "虛擬偵探社": "https://adl.edu.tw/https://apps.apple.com/tw/app/%E8%99%9B%E6%93%AC%E5%81%B5%E6%8E%A2%E7%A4%BE/id6449760992",
+            "速戰數決": "https://adl.edu.tw/https://adl.edu.tw/mathgame/"
+        },
+        "互動學習": {
+            "物理模擬": "https://adl.edu.tw/modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=physics_interactive&subject=29",
+            "數學實驗室": "https://adl.edu.tw/laboratory/math/index.html",
+            "運算思維": "https://adl.edu.tw/modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=concept_its&subject=77",
+            "VR / AR": "https://adl.edu.tw/https://market.cloud.edu.tw/list/arvr.jsp"
+        },
+        "資源服務": {
+            "教育雲電子書": "https://adl.edu.tw/https://oidcebook.nlpi.edu.tw/",
+            "數位臺史博": "https://adl.edu.tw/https://www.nmth.gov.tw/digitalresource?uid=312",
+            "國圖到你家": "https://adl.edu.tw/https://nclibtv.ncl.edu.tw/",
+            "藝術教育網": "https://adl.edu.tw/https://ed.arte.gov.tw/ch/content/m_108syllabus_list_1.aspx",
+            "本土數位教材專區": "https://adl.edu.tw/https://mhi.moe.edu.tw/eduCloud/learning-resource/",
+            "科宇宙悠遊學": "https://adl.edu.tw/https://www.nmns.arplanets.com/categories/c108",
+            "客語辭典": "https://adl.edu.tw/https://hakkadict.moe.edu.tw/"
+        },
+        "活動專區": {
+            "E時代字音字形大挑戰": "https://adl.edu.tw/contest/adlresource/frame?file=OVdiUVpvPT0&sn=RVRNPQ&contest_code=QWpNR2F5WnlNcDVXTVhaPQ",
+            "數學素養題挑戰賽(國小)": "https://adl.edu.tw/contest/adlresource/frame?file=OVdiUVpvPT0&sn=RXpNPQ&contest_code=QWpNV1l5WHkwMGgyPVFSPQ",
+            "跟著小鷹阿柴遊臺灣": "https://adl.edu.tw/contest/adlresource/frame?file=OVdiUVpvPT0&sn=RXpOPQ&contest_code=QWpNbWJ5YXpVbnhXTUhhPQ"
+        }
+    },
+    "國中": {
+        "七年級": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=7",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=7",
+            "英語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=7",
+            "生物(暫綱)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subsubject=2&grade=7",
+            "生物(108課綱)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=3&grade=7",
+            "地理": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=144&grade=7",
+            "資訊科技": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=156&grade=7",
+            "健康與體育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=7",
+            "音樂": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=147&grade=7",
+            "視覺藝術": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=151&grade=7",
+            "表演藝術": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=143&grade=7"
+        },
+        "八年級": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=8",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=8",
+            "英語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=8",
+            "理化": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subsubject=1&grade=8",
+            "地理": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=144&grade=8",
+            "音樂": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=147&grade=8",
+            "體育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=8"
+        },
+        "九年級": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=9",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=9",
+            "英語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=9",
+            "理化": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subsubject=1&grade=9",
+            "地球科學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=165&grade=9",
+            "音樂": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=147&grade=9",
+            "體育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=9"
+        },
+        "素養專區": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=27&category=1",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=1",
+            "自然科學": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=29&category=1",
+            "對話式數學": "https://adl.edu.tw/https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=1",
+            "對話式語文": "https://adl.edu.tw/https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=5",
+            "21世紀核心素養": "https://adl.edu.tw/modules_new.php?op=modload&name=21cps&file=coreLiteracyIntroduction"
+        },
+        "課綱議題": {
+            "交通安全": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=1",
+            "水域安全": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=水域安全&subject=145",
+            "防災教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=防災教育&subject=153",
+            "環境教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=環境教育&subject=159",
+            "文化教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=文化教育&subject=158",
+            "能源議題": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=能源議題&subject=136",
+            "海洋與環境": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋與環境&subject=146",
+            "海洋教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋教育議題&subject=152",
+            "新住民教材": "https://adl.edu.tw/https://mkm.k12ea.gov.tw/textbook"
+        },
+        "主題教材": {
+            "植樹教材": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=植樹教材&subject=121",
+            "美力台灣": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=美力台灣&subject=135",
+            "LIS自然": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=LIS自然&subject=150",
+            "自主學習": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=自主學習&subject=48",
+            "日文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=日文&subject=43",
+            "科博館探究": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=科博館探究&subject=169"
+        },
+        "資訊科技": {
+            "數學運算思維": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=2",
+            "人工智慧": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=人工智慧&subject=127",
+            "程式設計": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=77&category=2",
+            "資訊素養": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=54",
+            "Python與AI數位學習": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=Python與AI數位學習&subject=137",
+            "程式教育在E-game": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=157"
+        },
+        "遊戲式學習": {
+            "守護木林森": "https://adl.edu.tw/./games/planting/index",
+            "因雄崛起": "https://adl.edu.tw/./games/game_base_learning/index",
+            "E-game": "https://adl.edu.tw/./games/egame/index",
+            "虛擬偵探社": "https://adl.edu.tw/https://apps.apple.com/tw/app/%E8%99%9B%E6%93%AC%E5%81%B5%E6%8E%A2%E7%A4%BE/id6449760992",
+            "速戰數決": "https://adl.edu.tw/https://adl.edu.tw/mathgame/"
+        },
+        "互動學習": {
+            "物理模擬": "https://adl.edu.tw/modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=physics_interactive&subject=29",
+            "數學實驗室": "https://adl.edu.tw/laboratory/math/index.html",
+            "運算思維": "https://adl.edu.tw/modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=concept_its&subject=77",
+            "VR / AR": "https://adl.edu.tw/https://market.cloud.edu.tw/list/arvr.jsp"
+        },
+        "資源服務": {
+            "教育雲電子書": "https://adl.edu.tw/https://oidcebook.nlpi.edu.tw/",
+            "數位臺史博": "https://adl.edu.tw/https://www.nmth.gov.tw/digitalresource?uid=312",
+            "國圖到你家": "https://adl.edu.tw/https://nclibtv.ncl.edu.tw/",
+            "藝術教育網": "https://adl.edu.tw/https://ed.arte.gov.tw/ch/content/m_108syllabus_list_1.aspx",
+            "本土數位教材專區": "https://adl.edu.tw/https://mhi.moe.edu.tw/eduCloud/learning-resource/",
+            "科宇宙悠遊學": "https://adl.edu.tw/https://www.nmns.arplanets.com/categories/c108",
+            "客語辭典": "https://adl.edu.tw/https://hakkadict.moe.edu.tw/"
+        },
+        "活動專區": {
+            "挑戰一夏": "https://adl.edu.tw/contest/2021summer/info",
+            "數學素養題挑戰賽(國中)": "https://adl.edu.tw/contest/adlresource/frame?file=OVdiUVpvPT0&sn=RUROPQ&contest_code=QWpNV1l5WHkwMGgyPWdTPQ"
+        }
+    },
+    "普通型高中": {
+        "十年級": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=10",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=10",
+            "英語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=10",
+            "生物(必修)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=131&grade=10",
+            "化學(必修)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=133&grade=10",
+            "物理(必修)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=3&grade=10",
+            "資訊科技": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=156&grade=10"
+        },
+        "十一年級": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=11",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=11",
+            "英語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=11",
+            "生物(選修一、二)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=131&grade=11",
+            "化學(選修)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=133&grade=11",
+            "物理(選修)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=119&grade=11"
+        },
+        "十二年級": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=12",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=12",
+            "英語文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=12",
+            "生物(選修三、四)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=131&grade=12",
+            "化學(選修)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=133&grade=12"
+        },
+        "素養專區": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=27&category=1",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=1",
+            "自然科學": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=29&category=1",
+            "對話式數學": "https://adl.edu.tw/https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=1",
+            "對話式語文": "https://adl.edu.tw/https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=5",
+            "21世紀核心素養": "https://adl.edu.tw/modules_new.php?op=modload&name=21cps&file=coreLiteracyIntroduction"
+        },
+        "課綱議題": {
+            "交通安全": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=5",
+            "水域安全": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=水域安全&subject=145",
+            "防災教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=防災教育&subject=153",
+            "環境教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=環境教育&subject=159",
+            "文化教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=文化教育&subject=158",
+            "海洋與環境": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋與環境&subject=146",
+            "海洋教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋教育議題&subject=152",
+            "新住民教材": "https://adl.edu.tw/https://mkm.k12ea.gov.tw/textbook"
+        },
+        "主題教材": {
+            "植樹教材": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=植樹教材&subject=121",
+            "美力台灣": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=美力台灣&subject=135",
+            "LIS自然": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=LIS自然&subject=150",
+            "自主學習": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=自主學習&subject=48",
+            "日文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=日文&subject=43",
+            "科博館探究": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=科博館探究&subject=169"
+        },
+        "資訊科技": {
+            "數學運算思維": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=2",
+            "人工智慧": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=人工智慧&subject=127",
+            "程式設計": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=77&category=2",
+            "資訊素養": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=54",
+            "Python與AI數位學習": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=Python與AI數位學習&subject=137",
+            "資通安全實務": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=134"
+        },
+        "遊戲式學習": {
+            "守護木林森": "https://adl.edu.tw/./games/planting/index",
+            "因雄崛起": "https://adl.edu.tw/./games/game_base_learning/index",
+            "E-game": "https://adl.edu.tw/./games/egame/index",
+            "飛英任務": "https://adl.edu.tw/./games/sdgs/index",
+            "虛擬偵探社": "https://adl.edu.tw/https://apps.apple.com/tw/app/%E8%99%9B%E6%93%AC%E5%81%B5%E6%8E%A2%E7%A4%BE/id6449760992",
+            "速戰數決": "https://adl.edu.tw/https://adl.edu.tw/mathgame/"
+        },
+        "互動學習": {
+            "物理模擬": "https://adl.edu.tw/modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=physics_interactive&subject=29",
+            "數學實驗室": "https://adl.edu.tw/laboratory/math/index.html",
+            "運算思維": "https://adl.edu.tw/modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=concept_its&subject=77",
+            "VR / AR": "https://adl.edu.tw/https://market.cloud.edu.tw/list/arvr.jsp"
+        },
+        "資源服務": {
+            "教育雲電子書": "https://adl.edu.tw/https://oidcebook.nlpi.edu.tw/",
+            "數位臺史博": "https://adl.edu.tw/https://www.nmth.gov.tw/digitalresource?uid=312",
+            "國圖到你家": "https://adl.edu.tw/https://nclibtv.ncl.edu.tw/",
+            "藝術教育網": "https://adl.edu.tw/https://ed.arte.gov.tw/ch/content/m_108syllabus_list_1.aspx",
+            "本土數位教材專區": "https://adl.edu.tw/https://mhi.moe.edu.tw/eduCloud/learning-resource/",
+            "高中自主學習網": "https://adl.edu.tw/https://sdl.ntl.edu.tw",
+            "科宇宙悠遊學": "https://adl.edu.tw/https://www.nmns.arplanets.com/categories/c108",
+            "客語辭典": "https://adl.edu.tw/https://hakkadict.moe.edu.tw/"
+        },
+        "活動專區": {
+            "人機互動挑戰數理王": "https://adl.edu.tw/contest/2021mathscience/info",
+            "第2屆人機互動挑戰數理王": "https://adl.edu.tw/contest/adlresource/frame?file=OVdiUVpvPT0&sn=RVROPQ&contest_code=QWpNV1l5Y3owMGgybFdaV1pqdU4",
+            "人機互動 數理同樂": "https://adl.edu.tw/contest/adlresource/frame?file=OVdiUVpvPT0&sn=RURPPQ&contest_code=QWpNV1l5YzAwMGgybFdaV1pqdU4"
+        }
+    },
+    "技術型高中": {
+        "共同科目": {
+            "英語文(十)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=10",
+            "英語文(十一)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=11",
+            "英語文(十二)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=12",
+            "生物(A)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=132&grade=10",
+            "物理(A)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=125&grade=10",
+            "物理(B)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=126&grade=10",
+            "普通化學(十)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=171&grade=10",
+            "數學(A)(十)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=10&publisher=52",
+            "數學(B)(十)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=10&publisher=53",
+            "數學(C)(十)": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=10&publisher=54"
+        },
+        "電機與電子群": {
+            "基本電學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=138&grade=10",
+            "數位邏輯設計": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=140&grade=11",
+            "電工機械": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=142&grade=11",
+            "電子學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks\t_viewlist_new&subject=139&grade=11",
+            "微處理機": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=141&grade=11"
+        },
+        "": {},
+        "素養專區": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=27&category=1",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=1",
+            "自然科學": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=29&category=1",
+            "對話式數學": "https://adl.edu.tw/https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=1",
+            "對話式語文": "https://adl.edu.tw/https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=5",
+            "21世紀核心素養": "https://adl.edu.tw/modules_new.php?op=modload&name=21cps&file=coreLiteracyIntroduction"
+        },
+        "課綱議題": {
+            "交通安全": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=5",
+            "水域安全": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=水域安全&subject=145",
+            "防災教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=防災教育&subject=153",
+            "環境教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=環境教育&subject=159",
+            "文化教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=文化教育&subject=158",
+            "海洋與環境": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋與環境&subject=146",
+            "海洋教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋教育議題&subject=152",
+            "新住民教材": "https://adl.edu.tw/https://mkm.k12ea.gov.tw/textbook"
+        },
+        "主題教材": {
+            "植樹教材": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=植樹教材&subject=121",
+            "美力台灣": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=美力台灣&subject=135",
+            "LIS自然": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=LIS自然&subject=150",
+            "自主學習": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=自主學習&subject=48",
+            "日文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=日文&subject=43",
+            "科博館探究": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=科博館探究&subject=169"
+        },
+        "資訊科技": {
+            "數學運算思維": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=2",
+            "人工智慧": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=人工智慧&subject=127",
+            "程式設計": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=77&category=2",
+            "資訊素養": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=54",
+            "Python與AI數位學習": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=Python與AI數位學習&subject=137",
+            "資通安全實務": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=134"
+        },
+        "遊戲式學習": {
+            "守護木林森": "https://adl.edu.tw/./games/planting/index",
+            "因雄崛起": "https://adl.edu.tw/./games/game_base_learning/index",
+            "E-game": "https://adl.edu.tw/./games/egame/index",
+            "飛英任務": "https://adl.edu.tw/./games/sdgs/index",
+            "虛擬偵探社": "https://adl.edu.tw/https://apps.apple.com/tw/app/%E8%99%9B%E6%93%AC%E5%81%B5%E6%8E%A2%E7%A4%BE/id6449760992",
+            "速戰數決": "https://adl.edu.tw/https://adl.edu.tw/mathgame/"
+        },
+        "互動學習": {
+            "物理模擬": "https://adl.edu.tw/modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=physics_interactive&subject=29",
+            "數學實驗室": "https://adl.edu.tw/laboratory/math/index.html",
+            "運算思維": "https://adl.edu.tw/modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=concept_its&subject=77",
+            "VR / AR": "https://adl.edu.tw/https://market.cloud.edu.tw/list/arvr.jsp"
+        },
+        "資源服務": {
+            "教育雲電子書": "https://adl.edu.tw/https://oidcebook.nlpi.edu.tw/",
+            "數位臺史博": "https://adl.edu.tw/https://www.nmth.gov.tw/digitalresource?uid=312",
+            "國圖到你家": "https://adl.edu.tw/https://nclibtv.ncl.edu.tw/",
+            "藝術教育網": "https://adl.edu.tw/https://ed.arte.gov.tw/ch/content/m_108syllabus_list_1.aspx",
+            "本土數位教材專區": "https://adl.edu.tw/https://mhi.moe.edu.tw/eduCloud/learning-resource/",
+            "高中自主學習網": "https://adl.edu.tw/https://sdl.ntl.edu.tw",
+            "科宇宙悠遊學": "https://adl.edu.tw/https://www.nmns.arplanets.com/categories/c108",
+            "客語辭典": "https://adl.edu.tw/https://hakkadict.moe.edu.tw/"
+        },
+        "活動專區": {
+            "人機互動挑戰數理王": "https://adl.edu.tw/contest/2021mathscience/info",
+            "第2屆人機互動挑戰數理王": "https://adl.edu.tw/contest/adlresource/frame?file=OVdiUVpvPT0&sn=RVROPQ&contest_code=QWpNV1l5Y3owMGgybFdaV1pqdU4",
+            "人機互動 數理同樂": "https://adl.edu.tw/contest/adlresource/frame?file=OVdiUVpvPT0&sn=RURPPQ&contest_code=QWpNV1l5YzAwMGgybFdaV1pqdU4"
+        }
+    },
+    "大考專區": {},
+    "議題/素養": {
+        "素養專區": {
+            "國語文": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=27&category=1",
+            "數學": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=1",
+            "自然科學": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=29&category=1",
+            "對話式數學": "https://adl.edu.tw/https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=1",
+            "對話式語文": "https://adl.edu.tw/https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=5",
+            "21世紀核心素養": "https://adl.edu.tw/modules_new.php?op=modload&name=21cps&file=coreLiteracyIntroduction"
+        },
+        "課綱議題": {
+            "交通安全": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=1",
+            "水域安全": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=水域安全&subject=145",
+            "防災教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=防災教育&subject=153",
+            "環境教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=環境教育&subject=159",
+            "文化教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=文化教育&subject=158",
+            "能源議題": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=能源議題&subject=136",
+            "海洋與環境": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋與環境&subject=146",
+            "海洋教育": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋教育議題&subject=152",
+            "新住民教材": "https://adl.edu.tw/https://mkm.k12ea.gov.tw/textbook"
+        },
+        "主題教材": {
+            "植樹教材": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=植樹教材&subject=121",
+            "美力台灣": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=美力台灣&subject=135",
+            "LIS自然": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=LIS自然&subject=150",
+            "看見系列": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=看見系列&subject=166",
+            "雙語藝術": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=雙語藝術&subject=161",
+            "日文": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=日文&subject=43",
+            "自主學習": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=自主學習&subject=48",
+            "科博館探究": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=科博館探究&subject=169"
+        }
+    },
+    "特色專區": {
+        "資訊科技": {
+            "數學運算思維": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=2",
+            "人工智慧": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=127",
+            "程式設計": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=77&category=2",
+            "資訊素養": "https://adl.edu.tw/modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=54",
+            "Python與AI數位學習": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=137",
+            "資通安全實務": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=134",
+            "程式教育在E-game": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=157"
+        },
+        "遊戲式學習": {
+            "守護木林森": "https://adl.edu.tw/./games/planting/index",
+            "因雄崛起": "https://adl.edu.tw/./games/game_base_learning/index",
+            "E-game": "https://adl.edu.tw/./games/egame/index",
+            "飛英任務": "https://adl.edu.tw/./games/sdgs/index",
+            "虛擬偵探社": "https://adl.edu.tw/https://apps.apple.com/tw/app/%E8%99%9B%E6%93%AC%E5%81%B5%E6%8E%A2%E7%A4%BE/id6449760992",
+            "速戰數決": "https://adl.edu.tw/https://adl.edu.tw/mathgame/"
+        },
+        "互動學習": {
+            "物理模擬": "https://adl.edu.tw/modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=physics_interactive&subject=29",
+            "數學實驗室": "https://adl.edu.tw/laboratory/math/index.html",
+            "運算思維": "https://adl.edu.tw/modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=concept_its&subject=77",
+            "VR / AR": "https://adl.edu.tw/https://market.cloud.edu.tw/list/arvr.jsp"
+        },
+        "資源服務": {
+            "教育雲電子書": "https://adl.edu.tw/https://oidcebook.nlpi.edu.tw/",
+            "數位臺史博": "https://adl.edu.tw/https://www.nmth.gov.tw/digitalresource?uid=312",
+            "國圖到你家": "https://adl.edu.tw/https://nclibtv.ncl.edu.tw/",
+            "藝術教育網": "https://adl.edu.tw/https://ed.arte.gov.tw/ch/content/m_108syllabus_list_1.aspx",
+            "本土數位教材專區": "https://adl.edu.tw/https://mhi.moe.edu.tw/eduCloud/learning-resource/",
+            "高中自主學習網": "https://adl.edu.tw/https://sdl.ntl.edu.tw",
+            "科宇宙悠遊學": "https://adl.edu.tw/https://www.nmns.arplanets.com/categories/c108",
+            "客語辭典": "https://adl.edu.tw/https://hakkadict.moe.edu.tw/"
+        },
+        "活動專區": {
+            "E時代字音字形大挑戰": "https://adl.edu.tw/contest/adlresource/frame?file=OVdiUVpvPT0&sn=RVRNPQ&contest_code=QWpNR2F5WnlNcDVXTVhaPQ",
+            "數學素養題挑戰賽(國小)": "https://adl.edu.tw/contest/adlresource/frame?file=OVdiUVpvPT0&sn=RXpNPQ&contest_code=QWpNV1l5WHkwMGgyPVFSPQ",
+            "跟著小鷹阿柴遊臺灣": "https://adl.edu.tw/contest/adlresource/frame?file=OVdiUVpvPT0&sn=RXpOPQ&contest_code=QWpNbWJ5YXpVbnhXTUhhPQ",
+            "挑戰一夏": "https://adl.edu.tw/contest/2021summer/info",
+            "數學素養題挑戰賽(國中)": "https://adl.edu.tw/contest/adlresource/frame?file=OVdiUVpvPT0&sn=RUROPQ&contest_code=QWpNV1l5WHkwMGgyPWdTPQ",
+            "人機互動挑戰數理王": "https://adl.edu.tw/contest/2021mathscience/info",
+            "第2屆人機互動挑戰數理王": "https://adl.edu.tw/contest/adlresource/frame?file=OVdiUVpvPT0&sn=RVROPQ&contest_code=QWpNV1l5Y3owMGgybFdaV1pqdU4",
+            "人機互動 數理同樂": "https://adl.edu.tw/contest/adlresource/frame?file=OVdiUVpvPT0&sn=RURPPQ&contest_code=QWpNV1l5YzAwMGgybFdaV1pqdU4"
+        },
+        "數位學習工作坊": {
+            "數位學習工作坊A": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=130",
+            "數位學習工作坊C": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=128"
+        }
+    },
+    "高等教育": {
+        "師資生": {
+            "師資生數學": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=12&grade=1",
+            "星空圖": "https://adl.edu.tw/modules_new.php?op=modload&name=D3&file=chart&subject=17",
+            "師資生國語": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=13&grade=1",
+            "師資生自然": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=14&grade=1",
+            "師資生社會": "https://adl.edu.tw/modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=15&grade=1"
+        },
+        "": {}
+    }
+}

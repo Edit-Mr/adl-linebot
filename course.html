@@ -1,0 +1,2208 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+	<title>教育部因材網0029</title>
+	<meta http-equiv="content-language" content="zh-tw">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes,maximum-scale=5.0,minimum-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+
+	<!-- style -->
+	<!-- 身分 -->
+	<link id="cssFile" rel="stylesheet" type="text/css" href="css/student_root.css?ver=20240517014831" />
+		<!-- 重設 -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css?ver=20240517014831" />
+	<!-- adl -->
+	<link rel="stylesheet" type="text/css" href="css/adl.css?ver=20240517014831" />
+	<link rel="stylesheet" type="text/css" href="css/adluser.css?ver=20240517014831" />
+	<link rel="stylesheet" type="text/css" href="css/adlcomponent.css?ver=20240517014831" />
+	<link rel="stylesheet" type="text/css" href="css/adlplugin.css?ver=20240517014831" />
+	<!-- 套件 -->
+	<link rel="stylesheet" type="text/css" href="js/colorPick/colorPicker.css?ver=20240517014831" />
+	<link rel="stylesheet" type="text/css" href="css/iziModal.css?ver=20240517014831" /><!-- 問題回報 -->
+	<link rel="stylesheet" type="text/css" href="scripts/venobox/venobox.css?ver=20240517014831" media="screen" />
+	<link rel="stylesheet" type="text/css" href="scripts/sweetalert.css?ver=20240517014831" />
+	<link rel="stylesheet" type="text/css" href="scripts/sweetalert2/sweetalert2.min.css?ver=20240517014831" />
+	<link rel="stylesheet" type="text/css" href="css/main.min.css?ver=20240517014831" /><!-- FullCalendar -->
+	<!-- <link rel="stylesheet" type="text/css" href="node_modules/vue-multiselect/dist/vue-multiselect.css?ver=20240517014831" /> -->
+	<link rel="stylesheet" href="css/jquery-ui.css?ver=20240517014831" />
+	<link rel="stylesheet" type="text/css" href="css/conversational_robot.css">
+
+  <!-- script -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-N8MCXTXN"></script>
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-KV6JP68J"></script> -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-07X29V013K"></script>
+	<script src="scripts/gtm.js?ver=20240517014831"></script>
+
+  <script src="scripts/jquery-3.6.1.min.ob.js?ver=20240517014831"></script>
+  <!-- adl -->
+  <script src="scripts/function.js?ver=20240517014831"></script>
+  <script src="js/customStyle_function.js?ver=20240517014831"></script>
+  <!-- 套件 -->
+  <script src="js/colorPick/jquery.colorPicker.js?ver=20240517014831"></script>
+  <script src="js/drawPad.js?ver=20240517014831"></script>
+  <script src="scripts/jquery.tipsy.js?ver=20240517014831"></script><!-- tooltips套件 -->
+  <script src="scripts/loadingoverlay.min.js?ver=20240517014831"></script><!-- 讀取轉圈圈 -->
+  <script src="scripts/sortable.min.js?ver=20240517014831"></script><!-- 更改排序套件 -->
+  <script src="scripts/iziModal.js?ver=1.6.0"></script><!-- 彈跳視窗1 問題回報視窗-->
+  <script src="scripts/sweetalert.min.js?ver=20240517014831"></script><!-- 彈跳視窗2 -->
+  <script src="scripts/axios/1.2.2/axios.min.js"></script><!-- simple ajax -->
+  <script src="scripts/jquery-ui.js?ver=1.12.1"></script>
+  <script src="scripts/customer.js?ver=20240517014831"></script>
+  <script src="scripts/html2canvas.js?ver=1.0.0-rc.1"></script><!-- 截圖套件 -->
+  <script src="scripts/chartjs.min.js?ver=20240517014831"></script>
+  <script src="scripts/venobox/venobox.min.js?ver=180514"></script><!-- 彈跳視窗3 -->
+  <script src="scripts/main.min.js?ver=20240517014831"></script>
+  <script src="scripts/moment.min.js?ver=20240517014831"></script>
+  <script src="scripts/rotate.js?ver=20240517014831"></script>
+	<script src="node_modules/vue/dist/vue.global.prod.js"></script><script src="node_modules/vue-router/dist/vue-router.global.prod.js"></script>	<!-- <script src="node_modules/vue-multiselect/dist/vue-multiselect.js"></script> -->
+	<!-- <script src="node_modules/sortablejs/Sortable.min.js"></script> -->
+	<!-- <script src="node_modules/vuedraggable/dist/vuedraggable.umd.min.js"></script> -->
+  	<script src="node_modules/hammerjs/hammer.min.js?ver=20240517014831"></script>
+
+  <style>
+	.robotBtn {
+		position: fixed;
+		bottom: 100px;
+		right: 20px;
+		z-index: 999;
+		width: 75px;
+		height: 75px;
+		background-image: url("images/adl_chat_robot.png");
+		background-size: 90px;
+		background-repeat: no-repeat;
+		background-position: top;
+	}
+  	.robotBtn.disableBtn{
+  		-webkit-filter: grayscale(1);
+  	}
+  	.robotBtn.disableBtn:hover,
+  	.robotBtn.disableBtn:active{
+  		background-color: unset;
+  	}
+
+	.chatWrap{
+	  	display: none;
+	}
+  </style>
+</head>
+
+<body>
+	<header>
+		<ul>
+			<li class="menubtn">
+				<i class="fas fa-bars"></i>
+			</li>
+			<li class="logo">
+				<a href="HomePage/home/index.php"><img src="images/logo1.png" /></a>
+			</li>
+			<li>
+							</li>
+			<li class="empty"></li>
+			<li class="manualblock">
+				<button class="btn" onclick="window.open('HomePage/webinfo/?id=4')"><sup style="color:#ee5b5b;">NEW</sup> 操作介紹</button>
+			</li>
+			<li class="coursesoverviewblock">
+				<div class="toolTip">
+					<button class="btn">課程總覽</button>
+					<div class="toolTipText">
+						<style>
+	li.coursesoverviewblock>.toolTip>.toolTipText {
+		max-height: 92vh !important;
+		overflow: hidden !important;
+	}
+
+	.course-main {
+		width: 100%;
+		border-radius: 10px;
+		min-height: 67vh;
+		max-height: 79vh;
+		overflow: auto;
+	}
+
+	.course-center>div {
+		padding-left: 10px;
+	}
+
+	.course-right {
+		padding-left: 10px;
+	}
+
+	.course-main>div {
+		margin: 0;
+		border-right: 1px solid #AAA;
+		padding: 0 20px;
+		flex: 1;
+	}
+
+	.course-main>div:last-child {
+		border-right: 0;
+	}
+
+	.flex {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.textAl {
+		color: white;
+		font-size: 1.2rem;
+		background-color: var(--main-gloomy);
+		border-radius: 8px 8px 0 0;
+		padding: 10px 20px;
+		/* margin: 0 20px; */
+	}
+
+	.across-step-font{
+		background-color: var(--main-gloomy);
+		color: #fff;
+		margin: 0 15px;
+		padding: 5px 8px;
+		font-size: 1.12rem;
+	}
+
+	.materialList dt {
+		color: var(--main-gloomy);
+		font-weight: bold;
+		padding-bottom: 5px;
+		margin-bottom: 5px;
+	}
+
+	.materialList dd {
+		/* 與function的偵測視窗大小有關聯，修改時要注意 */
+		margin-bottom: 10px;
+	}
+
+	.materialList a {
+		text-decoration: none;
+		margin: 5px;
+		display: inline-block;
+	}
+
+	@media screen and (max-width: 414px) {
+		.materialList.displayFlex {
+			display: block;
+		}
+
+		.course-main>div {
+			border-right: 0;
+			border-bottom: 1px solid #AAA;
+		}
+
+		.materialList dl {
+			max-width: auto;
+			width: 100%;
+		}
+
+	}
+
+	#toolTip>div.toolTipText {
+		height: calc(100vh - 100%);
+		max-height: 100vh;
+	}
+
+	.menu-header {
+		border-bottom: 3px solid var(--main-light);
+		padding: 5px 25px;
+	}
+
+	.menu-footer {
+		width: 100%;
+		padding: 10px 5px;
+		border-top: 3px solid var(--main-light);
+		display: none;
+	}
+
+	.menu-footer .menu-list {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.menu-footer .menu-list li {
+		width: unset;
+		white-space: nowrap;
+		padding: 10px 3%;
+	}
+
+	.menu-list {
+		justify-content: center;
+	}
+
+	.menu-list li {
+		display: block;
+		text-decoration: none;
+		font-weight: 700;
+		color: var(--main-dark);
+		padding: 0.4em 0.8em;
+		cursor: pointer;
+		font-size: 23px;
+		border-radius: 5pt;
+		white-space: nowrap;
+	}
+
+	.menu-list li.active {
+		color: var(--main-bright);
+		background-color: var(--main-gloomy);
+	}
+
+	.menu-list a {
+		display: block;
+		text-decoration: none;
+		font-weight: 700;
+		color: #ea7070;
+		padding: 1em;
+	}
+
+	.menu-list a:hover {
+		color: #4bc2c5;
+	}
+
+	.menu-container {
+		counter-reset: item;
+		display: grid;
+		gap: 10px;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		grid-auto-flow: dense;
+		justify-items: center;
+		align-items: start;
+		background-color: var(--main-bright);
+		padding: 20px 15px;
+		border-radius: 0 0 8px 8px;
+	}
+
+	.menu-container-new {
+		background-color: var(--main-bright);
+		padding: 15px 15px;
+		border-radius: 8px;
+	}
+
+	.menu-item {
+		counter-increment: item;
+		grid-column-start: auto;
+		grid-row-start: auto;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 100%;
+	}
+
+	.menu-item>div {
+		background-color: var(--main-bright);
+		border-radius: 0 20px 10px 10px;
+		padding: 15px;
+	}
+
+	p.hesparea {
+		color: var(--main-gloomy);
+		font-weight: bold;
+		border-bottom: 2px solid white;
+		padding-bottom: 5px;
+		margin-bottom: 5px;
+	}
+
+	p.hesparea:not(:first-child) {
+		margin-top: 10px;
+	}
+
+	@media screen and (max-width: 561px) {
+		.menu-header {
+			display: none;
+		}
+
+		.menu-footer {
+			display: block;
+		}
+
+		.menu-footer .menu-sub ul {
+			columns: 1;
+			-webkit-columns: 1;
+			-moz-columns: 1;
+		}
+
+		.course-main {
+			max-height: 64vh;
+		}
+	}
+
+	@media screen and (min-width: 890px) {
+		.menu-list li:first-child {}
+
+		.menu-list li {
+			display: inline-block;
+		}
+
+		.course-main ul {
+			columns: 3;
+			-webkit-columns: 3;
+			-moz-columns: 3;
+		}
+	}
+
+	@media screen and (max-width: 890px) and (min-width: 500px) {
+		.menu-list li {
+			text-align: center;
+			padding: 3px;
+		}
+
+		.menu-sub ul {
+			-webkit-columns: 4;
+		}
+
+		.menu-list a {
+			padding: 3px;
+		}
+
+	}
+
+	@media screen and (max-width: 890px) and (min-width: 561px) {
+		.course-main {
+			max-height: 76vh;
+		}
+	}
+
+	@media screen and (max-width: 500px) {
+		.menu-list li {
+			text-align: center;
+			width: 100px;
+			margin-top: 2px;
+			margin-bottom: 2px;
+			padding: 3px;
+		}
+
+		.menu-sub ul {
+			columns: 3;
+			-webkit-columns: 3;
+			-moz-columns: 3;
+		}
+
+		.menu-list a {
+			padding: 3px;
+		}
+	}
+
+	#HESPList dd {
+		display: none;
+	}
+
+	.zooms {
+		cursor: pointer;
+	}
+
+	.course-main dl {
+		width: 100%;
+	}
+
+	.materialList dt:not(.zooms) {
+		border-bottom: solid 1px;
+	}
+
+	dt.hespcourse {
+		color: var(--main-active);
+		margin-top: 10px;
+	}
+
+	dd.tvedb {
+		border-top: 1px solid var(--main-gloomy);
+		padding-top: 5px;
+	}
+
+	.menu-container-all>.category {
+		/* margin-top的20px與resize記算高教下面空白DIV有關係，修改時請注意 */
+		background-color: var(--main-bright);
+		margin-top: 20px;
+	}
+</style>
+<div class="menu-header clearfix">
+	<div class="menu-sub clearfix">
+		<ul class="menu-list clearfix" id="clickt">
+			<li class="elementaryList" id="#elementaryList">國小</a></li>
+			<li class="secondaryList" id="#secondaryList">國中</a></li>
+			<li class="highList" id="#highList">普高</a></li>
+			<li class="tvedbList" id="#tvedbList">技高</a></li>
+			<li class="examList" id="#examList">大考</a></li>
+			<li class="issueList" id="#issueList">議題/素養</a></li>
+			<li class="specialList" id="#specialList">特色專區</a></li>
+			<li class="HESPList" id="#HESPList">高教</a></li>
+		</ul>
+	</div>
+</div>
+<div class="course-main materialList">
+	<div class="menu-container-all">
+		<div class="category" id="elementaryList">
+			<h2 class="textAl">國小</h2>
+			<div class="menu-container">
+				<dl class="menu-item">
+					<dt>一年級</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=1">國語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=1">數學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=1">體育</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>二年級</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=2">國語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=2">數學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=2">體育</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>三年級</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=3">國語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=3">數學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=3&subsubject=4&grade=3">自然科學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=3">英語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=120&grade=3">資訊教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=3">體育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=147&grade=3">音樂</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=151&grade=3">視覺藝術</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=143&grade=3">表演藝術</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>四年級</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=4">國語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=4">數學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=3&subsubject=4&grade=4">自然科學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=4">英語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=120&grade=4">資訊教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=4">體育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=147&grade=4">音樂</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=151&grade=4">視覺藝術</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=143&grade=4">表演藝術</a>
+
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>五年級</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=5">國語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=5">數學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=3&subsubject=4&grade=5">自然科學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=5">英語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=120&grade=5">資訊教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=5">體育</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>六年級</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=6">國語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=6">數學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=3&subsubject=4&grade=6">自然科學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=6">英語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=120&grade=6">資訊教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=6">體育</a>
+					</dd>
+				</dl>
+			</div>
+			<h3 class="across-step-font">跨階段</h3>
+			<div class="menu-container">
+				<dl class="menu-item">
+					<dt>素養專區</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=27&category=1">國語文</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=1">數學</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=29&category=1">自然科學</a>
+						<a href="https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=1" rel="noopener noreferrer">對話式數學</a>
+						<a href="https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=5" rel="noopener noreferrer">對話式語文</a>
+						<a href="modules_new.php?op=modload&name=21cps&file=coreLiteracyIntroduction">21世紀核心素養</a>
+					<dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>課綱議題</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=1">交通安全</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=水域安全&subject=145">水域安全</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=防災教育&subject=153">防災教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=環境教育&subject=159">環境教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=文化教育&subject=158">文化教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=能源議題&subject=136">能源議題</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋與環境&subject=146">海洋與環境</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋教育議題&subject=152">海洋教育</a>
+						<a href="https://mkm.k12ea.gov.tw/textbook" target="_blank" rel="noopener noreferrer">新住民教材</a>
+					<dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>主題教材</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=植樹教材&subject=121">植樹教材</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=美力台灣&subject=135">美力台灣</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=LIS自然&subject=150">LIS自然</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=看見系列&subject=166">看見系列</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=雙語藝術&subject=161">雙語藝術</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=日文&subject=43">日文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=自主學習&subject=48">自主學習</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=科博館探究&subject=169">科博館探究</a>
+					<dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>資訊科技</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=2">數學運算思維</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=人工智慧&subject=127">人工智慧</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=77&category=2">程式設計</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=54">資訊素養</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=Python與AI數位學習&subject=137">Python與AI數位學習</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=157">程式教育在E-game</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>遊戲式學習</dt>
+					<dd>
+						<a href="./games/planting/index">守護木林森</a>
+						<a href="./games/game_base_learning/index">因雄崛起</a>
+						<a href="./games/egame/index" target="_blank" rel="noopener noreferrer">E-game</a>
+						<a href="https://apps.apple.com/tw/app/%E8%99%9B%E6%93%AC%E5%81%B5%E6%8E%A2%E7%A4%BE/id6449760992" target="_blank" rel="noopener noreferrer">虛擬偵探社</a>
+						<a href="https://adl.edu.tw/mathgame/" target="_blank" rel="noopener noreferrer">速戰數決</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>互動學習</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=physics_interactive&subject=29">物理模擬</a>
+						<a href="laboratory/math/index.html" target="_blank">數學實驗室</a>
+						<a href="modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=concept_its&subject=77">運算思維</a>
+						<a href="https://market.cloud.edu.tw/list/arvr.jsp" target="_blank" rel="noopener noreferrer">VR / AR</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>資源服務</dt>
+					<dd>
+						<a href="https://oidcebook.nlpi.edu.tw/" target="_blank" rel="noopener noreferrer">教育雲電子書</a>
+						<a href="https://www.nmth.gov.tw/digitalresource?uid=312" target="_blank" rel="noopener noreferrer">數位臺史博</a>
+						<a href="https://nclibtv.ncl.edu.tw/" target="_blank" rel="noopener noreferrer">國圖到你家</a>
+						<a href="https://ed.arte.gov.tw/ch/content/m_108syllabus_list_1.aspx" target="_blank" rel="noopener noreferrer">藝術教育網</a>
+						<a href="https://mhi.moe.edu.tw/eduCloud/learning-resource/" target="_blank" rel="noopener noreferrer">本土數位教材專區</a>
+						<a href="https://www.nmns.arplanets.com/categories/c108" target="_blank" rel="noopener noreferrer">科宇宙悠遊學</a>
+						<a href="https://hakkadict.moe.edu.tw/" target="_blank" rel="noopener noreferrer">客語辭典</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>活動專區</dt>
+					<dd>
+						<a href="contest/adlresource/frame?file=OVdiUVpvPT0&sn=RVRNPQ&contest_code=QWpNR2F5WnlNcDVXTVhaPQ" target="_blank" rel="noopener noreferrer">E時代字音字形大挑戰</a>
+						<a href="contest/adlresource/frame?file=OVdiUVpvPT0&sn=RXpNPQ&contest_code=QWpNV1l5WHkwMGgyPVFSPQ" target="_blank" rel="noopener noreferrer">數學素養題挑戰賽(國小)</a>
+						<a href="contest/adlresource/frame?file=OVdiUVpvPT0&sn=RXpOPQ&contest_code=QWpNbWJ5YXpVbnhXTUhhPQ" target="_blank" rel="noopener noreferrer">跟著小鷹阿柴遊臺灣</a>
+					</dd>
+				</dl>
+			</div>
+		</div>
+
+		<div class="category" id="secondaryList">
+			<h2 class="textAl">國中</h2>
+			<div class="menu-container">
+				<dl class="menu-item">
+					<dt>七年級</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=7">國語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=7">數學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=7">英語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subsubject=2&grade=7">生物(暫綱)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=3&grade=7">生物(108課綱)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=144&grade=7">地理</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=156&grade=7">資訊科技</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=7">健康與體育</a>
+                        <a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=147&grade=7">音樂</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=151&grade=7">視覺藝術</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=143&grade=7">表演藝術</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>八年級</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=8">國語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=8">數學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=8">英語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subsubject=1&grade=8">理化</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=144&grade=8">地理</a>
+                        <a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=147&grade=8">音樂</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=8">體育</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>九年級</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=9">國語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=9">數學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=9">英語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subsubject=1&grade=9">理化</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=165&grade=9">地球科學</a>
+                        <a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=147&grade=9">音樂</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=155&grade=9">體育</a>
+					</dd>
+				</dl>
+			</div>
+			<h3 class="across-step-font">跨階段</h3>
+			<div class="menu-container">
+				<dl class="menu-item">
+					<dt>素養專區</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=27&category=1">國語文</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=1">數學</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=29&category=1">自然科學</a>
+						<a href="https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=1" rel="noopener noreferrer">對話式數學</a>
+						<a href="https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=5" rel="noopener noreferrer">對話式語文</a>
+						<a href="modules_new.php?op=modload&name=21cps&file=coreLiteracyIntroduction">21世紀核心素養</a>
+					<dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>課綱議題</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=1">交通安全</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=水域安全&subject=145">水域安全</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=防災教育&subject=153">防災教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=環境教育&subject=159">環境教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=文化教育&subject=158">文化教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=能源議題&subject=136">能源議題</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋與環境&subject=146">海洋與環境</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋教育議題&subject=152">海洋教育</a>
+						<a href="https://mkm.k12ea.gov.tw/textbook" target="_blank" rel="noopener noreferrer">新住民教材</a>
+					<dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>主題教材</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=植樹教材&subject=121">植樹教材</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=美力台灣&subject=135">美力台灣</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=LIS自然&subject=150">LIS自然</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=自主學習&subject=48">自主學習</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=日文&subject=43">日文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=科博館探究&subject=169">科博館探究</a>
+					<dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>資訊科技</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=2">數學運算思維</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=人工智慧&subject=127">人工智慧</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=77&category=2">程式設計</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=54">資訊素養</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=Python與AI數位學習&subject=137">Python與AI數位學習</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=157">程式教育在E-game</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>遊戲式學習</dt>
+					<dd>
+						<a href="./games/planting/index">守護木林森</a>
+						<a href="./games/game_base_learning/index">因雄崛起</a>
+						<a href="./games/egame/index" target="_blank" rel="noopener noreferrer">E-game</a>
+						<a href="https://apps.apple.com/tw/app/%E8%99%9B%E6%93%AC%E5%81%B5%E6%8E%A2%E7%A4%BE/id6449760992" target="_blank" rel="noopener noreferrer">虛擬偵探社</a>
+						<a href="https://adl.edu.tw/mathgame/" target="_blank" rel="noopener noreferrer">速戰數決</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>互動學習</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=physics_interactive&subject=29">物理模擬</a>
+						<a href="laboratory/math/index.html" target="_blank">數學實驗室</a>
+						<a href="modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=concept_its&subject=77">運算思維</a>
+						<a href="https://market.cloud.edu.tw/list/arvr.jsp" target="_blank" rel="noopener noreferrer">VR / AR</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>資源服務</dt>
+					<dd>
+						<a href="https://oidcebook.nlpi.edu.tw/" target="_blank" rel="noopener noreferrer">教育雲電子書</a>
+						<a href="https://www.nmth.gov.tw/digitalresource?uid=312" target="_blank" rel="noopener noreferrer">數位臺史博</a>
+						<a href="https://nclibtv.ncl.edu.tw/" target="_blank" rel="noopener noreferrer">國圖到你家</a>
+						<a href="https://ed.arte.gov.tw/ch/content/m_108syllabus_list_1.aspx" target="_blank" rel="noopener noreferrer">藝術教育網</a>
+						<a href="https://mhi.moe.edu.tw/eduCloud/learning-resource/" target="_blank" rel="noopener noreferrer">本土數位教材專區</a>
+						<a href="https://www.nmns.arplanets.com/categories/c108" target="_blank" rel="noopener noreferrer">科宇宙悠遊學</a>
+						<a href="https://hakkadict.moe.edu.tw/" target="_blank" rel="noopener noreferrer">客語辭典</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>活動專區</dt>
+					<dd>
+						<a href="contest/2021summer/info" target="_blank" rel="noopener noreferrer">挑戰一夏</a>
+						<a href="contest/adlresource/frame?file=OVdiUVpvPT0&sn=RUROPQ&contest_code=QWpNV1l5WHkwMGgyPWdTPQ" target="_blank" rel="noopener noreferrer">數學素養題挑戰賽(國中)</a>
+					</dd>
+				</dl>
+			</div>
+		</div>
+
+		<div class="category" id="highList">
+			<h2 class="textAl">普通型高中</h2>
+			<div class="menu-container">
+				<dl class="menu-item">
+					<dt>十年級</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=10">國語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=10">數學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=10">英語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=131&grade=10">生物(必修)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=133&grade=10">化學(必修)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=3&grade=10">物理(必修)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=156&grade=10">資訊科技</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>十一年級</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=11">國語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=11">數學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=11">英語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=131&grade=11">生物(選修一、二)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=133&grade=11">化學(選修)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=119&grade=11">物理(選修)</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>十二年級</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=1&grade=12">國語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=12">數學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=12">英語文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=131&grade=12">生物(選修三、四)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=133&grade=12">化學(選修)</a>
+					</dd>
+				</dl>
+			</div>
+			<h3 class="across-step-font">跨階段</h3>
+			<div class="menu-container">
+				<dl class="menu-item">
+					<dt>素養專區</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=27&category=1">國語文</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=1">數學</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=29&category=1">自然科學</a>
+						<a href="https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=1" rel="noopener noreferrer">對話式數學</a>
+						<a href="https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=5" rel="noopener noreferrer">對話式語文</a>
+						<a href="modules_new.php?op=modload&name=21cps&file=coreLiteracyIntroduction">21世紀核心素養</a>
+					<dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>課綱議題</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=5">交通安全</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=水域安全&subject=145">水域安全</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=防災教育&subject=153">防災教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=環境教育&subject=159">環境教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=文化教育&subject=158">文化教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋與環境&subject=146">海洋與環境</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋教育議題&subject=152">海洋教育</a>
+						<a href="https://mkm.k12ea.gov.tw/textbook" target="_blank" rel="noopener noreferrer">新住民教材</a>
+					<dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>主題教材</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=植樹教材&subject=121">植樹教材</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=美力台灣&subject=135">美力台灣</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=LIS自然&subject=150">LIS自然</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=自主學習&subject=48">自主學習</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=日文&subject=43">日文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=科博館探究&subject=169">科博館探究</a>
+					<dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>資訊科技</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=2">數學運算思維</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=人工智慧&subject=127">人工智慧</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=77&category=2">程式設計</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=54">資訊素養</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=Python與AI數位學習&subject=137">Python與AI數位學習</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=134">資通安全實務</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>遊戲式學習</dt>
+					<dd>
+						<a href="./games/planting/index">守護木林森</a>
+						<a href="./games/game_base_learning/index">因雄崛起</a>
+						<a href="./games/egame/index" target="_blank" rel="noopener noreferrer">E-game</a>
+						<a href="./games/sdgs/index">飛英任務</a>
+						<a href="https://apps.apple.com/tw/app/%E8%99%9B%E6%93%AC%E5%81%B5%E6%8E%A2%E7%A4%BE/id6449760992" target="_blank" rel="noopener noreferrer">虛擬偵探社</a>
+						<a href="https://adl.edu.tw/mathgame/" target="_blank" rel="noopener noreferrer">速戰數決</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>互動學習</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=physics_interactive&subject=29">物理模擬</a>
+						<a href="laboratory/math/index.html" target="_blank">數學實驗室</a>
+						<a href="modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=concept_its&subject=77">運算思維</a>
+						<a href="https://market.cloud.edu.tw/list/arvr.jsp" target="_blank" rel="noopener noreferrer">VR / AR</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>資源服務</dt>
+					<dd>
+						<a href="https://oidcebook.nlpi.edu.tw/" target="_blank" rel="noopener noreferrer">教育雲電子書</a>
+						<a href="https://www.nmth.gov.tw/digitalresource?uid=312" target="_blank" rel="noopener noreferrer">數位臺史博</a>
+						<a href="https://nclibtv.ncl.edu.tw/" target="_blank" rel="noopener noreferrer">國圖到你家</a>
+						<a href="https://ed.arte.gov.tw/ch/content/m_108syllabus_list_1.aspx" target="_blank" rel="noopener noreferrer">藝術教育網</a>
+						<a href="https://mhi.moe.edu.tw/eduCloud/learning-resource/" target="_blank" rel="noopener noreferrer">本土數位教材專區</a>
+						<a href="https://sdl.ntl.edu.tw" target="_blank" rel="noopener noreferrer">高中自主學習網</a>
+						<a href="https://www.nmns.arplanets.com/categories/c108" target="_blank" rel="noopener noreferrer">科宇宙悠遊學</a>
+						<a href="https://hakkadict.moe.edu.tw/" target="_blank" rel="noopener noreferrer">客語辭典</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>活動專區</dt>
+					<dd>
+						<a href="contest/2021mathscience/info" target="_blank" rel="noopener noreferrer">人機互動挑戰數理王</a>
+						<a href="contest/adlresource/frame?file=OVdiUVpvPT0&sn=RVROPQ&contest_code=QWpNV1l5Y3owMGgybFdaV1pqdU4" target="_blank" rel="noopener noreferrer">第2屆人機互動挑戰數理王</a>
+						<a href="contest/adlresource/frame?file=OVdiUVpvPT0&sn=RURPPQ&contest_code=QWpNV1l5YzAwMGgybFdaV1pqdU4" target="_blank" rel="noopener noreferrer">人機互動 數理同樂</a>
+					</dd>
+				</dl>
+			</div>
+		</div>
+
+		<div class="category" id="tvedbList">
+			<h2 class="textAl">技術型高中</h2>
+			<div class="menu-container">
+				<dl class="menu-item">
+					<dt>共同科目</dt>
+					<dd>
+						<!--a href="">數學A</a-->
+						<!--a href="">數學B</a-->
+						<!--a href="">數學C</a-->
+						<!--a href="">化學A</a-->
+						<!--a href="">化學B</a-->
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=10">英語文(十)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=11">英語文(十一)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=4&grade=12">英語文(十二)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=132&grade=10">生物(A)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=125&grade=10">物理(A)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=126&grade=10">物理(B)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=171&grade=10">普通化學(十)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=10&publisher=52">數學(A)(十)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=10&publisher=53">數學(B)(十)</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=2&grade=10&publisher=54">數學(C)(十)</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>電機與電子群</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=138&grade=10">基本電學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=140&grade=11">數位邏輯設計</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=142&grade=11">電工機械</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks	_viewlist_new&subject=139&grade=11">電子學</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=141&grade=11">微處理機</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+				</dl>
+			</div>
+			<h3 class="across-step-font">跨階段</h3>
+			<div class="menu-container">
+				<dl class="menu-item">
+					<dt>素養專區</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=27&category=1">國語文</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=1">數學</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=29&category=1">自然科學</a>
+						<a href="https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=1" rel="noopener noreferrer">對話式數學</a>
+						<a href="https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=5" rel="noopener noreferrer">對話式語文</a>
+						<a href="modules_new.php?op=modload&name=21cps&file=coreLiteracyIntroduction">21世紀核心素養</a>
+					<dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>課綱議題</dt>
+					<dd>
+					<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=5">交通安全</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=水域安全&subject=145">水域安全</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=防災教育&subject=153">防災教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=環境教育&subject=159">環境教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=文化教育&subject=158">文化教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋與環境&subject=146">海洋與環境</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋教育議題&subject=152">海洋教育</a>
+						<a href="https://mkm.k12ea.gov.tw/textbook" target="_blank" rel="noopener noreferrer">新住民教材</a>
+					<dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>主題教材</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=植樹教材&subject=121">植樹教材</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=美力台灣&subject=135">美力台灣</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=LIS自然&subject=150">LIS自然</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=自主學習&subject=48">自主學習</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=日文&subject=43">日文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=科博館探究&subject=169">科博館探究</a>
+					<dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>資訊科技</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=2">數學運算思維</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=人工智慧&subject=127">人工智慧</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=77&category=2">程式設計</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=54">資訊素養</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=Python與AI數位學習&subject=137">Python與AI數位學習</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=134">資通安全實務</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>遊戲式學習</dt>
+					<dd>
+						<a href="./games/planting/index">守護木林森</a>
+						<a href="./games/game_base_learning/index">因雄崛起</a>
+						<a href="./games/egame/index" target="_blank" rel="noopener noreferrer">E-game</a>
+						<a href="./games/sdgs/index">飛英任務</a>
+						<a href="https://apps.apple.com/tw/app/%E8%99%9B%E6%93%AC%E5%81%B5%E6%8E%A2%E7%A4%BE/id6449760992" target="_blank" rel="noopener noreferrer">虛擬偵探社</a>
+						<a href="https://adl.edu.tw/mathgame/" target="_blank" rel="noopener noreferrer">速戰數決</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>互動學習</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=physics_interactive&subject=29">物理模擬</a>
+						<a href="laboratory/math/index.html" target="_blank">數學實驗室</a>
+						<a href="modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=concept_its&subject=77">運算思維</a>
+						<a href="https://market.cloud.edu.tw/list/arvr.jsp" target="_blank" rel="noopener noreferrer">VR / AR</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>資源服務</dt>
+					<dd>
+						<a href="https://oidcebook.nlpi.edu.tw/" target="_blank" rel="noopener noreferrer">教育雲電子書</a>
+						<a href="https://www.nmth.gov.tw/digitalresource?uid=312" target="_blank" rel="noopener noreferrer">數位臺史博</a>
+						<a href="https://nclibtv.ncl.edu.tw/" target="_blank" rel="noopener noreferrer">國圖到你家</a>
+						<a href="https://ed.arte.gov.tw/ch/content/m_108syllabus_list_1.aspx" target="_blank" rel="noopener noreferrer">藝術教育網</a>
+						<a href="https://mhi.moe.edu.tw/eduCloud/learning-resource/" target="_blank" rel="noopener noreferrer">本土數位教材專區</a>
+						<a href="https://sdl.ntl.edu.tw" target="_blank" rel="noopener noreferrer">高中自主學習網</a>
+						<a href="https://www.nmns.arplanets.com/categories/c108" target="_blank" rel="noopener noreferrer">科宇宙悠遊學</a>
+						<a href="https://hakkadict.moe.edu.tw/" target="_blank" rel="noopener noreferrer">客語辭典</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>活動專區</dt>
+					<dd>
+						<a href="contest/2021mathscience/info" target="_blank" rel="noopener noreferrer">人機互動挑戰數理王</a>
+						<a href="contest/adlresource/frame?file=OVdiUVpvPT0&sn=RVROPQ&contest_code=QWpNV1l5Y3owMGgybFdaV1pqdU4" target="_blank" rel="noopener noreferrer">第2屆人機互動挑戰數理王</a>
+						<a href="contest/adlresource/frame?file=OVdiUVpvPT0&sn=RURPPQ&contest_code=QWpNV1l5YzAwMGgybFdaV1pqdU4" target="_blank" rel="noopener noreferrer">人機互動 數理同樂</a>
+					</dd>
+				</dl>
+			</div>
+		</div>
+
+		<div class="category" id="examList">
+			<h2 class="textAl">大考專區</h2>
+			<div class="menu-container-new">
+				<a href="modules_new.php?op=modload&name=eduexam&file=useditem&eduexamtype=BAT">學力測驗</a>
+				<a href="modules_new.php?op=modload&name=eduexam&file=useditem&eduexamtype=CAP">會考</a>
+				<a href="modules_new.php?op=modload&name=eduexam&file=useditem&eduexamtype=GSAT">學測</a>
+				<a href="modules_new.php?op=modload&name=eduexam&file=useditem&eduexamtype=AST">指考</a>
+				<a href="modules_new.php?op=modload&name=eduexam&file=useditem&eduexamtype=TVE">統測</a>
+			</div>
+		</div>
+
+		<div class="category" id="issueList">
+			<h2 class="textAl">議題/素養</h2>
+			<div class="menu-container">
+				<dl class="menu-item">
+					<dt>素養專區</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=27&category=1">國語文</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=1">數學</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=29&category=1">自然科學</a>
+						<a href="https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=1" rel="noopener noreferrer">對話式數學</a>
+						<a href="https://ctci.ntcu.edu.tw/mathITSbk/index.php?aa=%27.N2F1dG90dXRvcjctaEhOfFpSbzctMDAwMGhITnxaUm8=.%27&aialuid=MTkwMDQxLXVzZXIyMDQ3NTMz&subject=5" rel="noopener noreferrer">對話式語文</a>
+						<a href="modules_new.php?op=modload&name=21cps&file=coreLiteracyIntroduction">21世紀核心素養</a>
+					<dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>課綱議題</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=1">交通安全</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=水域安全&subject=145">水域安全</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=防災教育&subject=153">防災教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=環境教育&subject=159">環境教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=文化教育&subject=158">文化教育</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=能源議題&subject=136">能源議題</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋與環境&subject=146">海洋與環境</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=海洋教育議題&subject=152">海洋教育</a>
+						<a href="https://mkm.k12ea.gov.tw/textbook" target="_blank" rel="noopener noreferrer">新住民教材</a>
+					<dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>主題教材</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=植樹教材&subject=121">植樹教材</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=美力台灣&subject=135">美力台灣</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=LIS自然&subject=150">LIS自然</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=看見系列&subject=166">看見系列</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=雙語藝術&subject=161">雙語藝術</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=日文&subject=43">日文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=自主學習&subject=48">自主學習</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=科博館探究&subject=169">科博館探究</a>
+					<dd>
+				</dl>
+			</div>
+		</div>
+
+		<div class="category" id="specialList">
+			<h2 class="textAl">特色專區</h2>
+			<div class="menu-container">
+				<!-- <dl class="menu-item">
+					<dt>知識結構星空圖</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=D3&file=chart&subject=10">國語文</a>
+						<a href="modules_new.php?op=modload&name=D3&file=chart&subject=3">數學</a>
+						<a href="modules_new.php?op=modload&name=D3&file=chart&subject=34">英語文</a>
+						<a href="modules_new.php?op=modload&name=D3&file=chart&subject=4">自然科學</a>
+					</dd>
+				</dl> -->
+				<dl class="menu-item">
+					<dt>資訊科技</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=2&category=2">數學運算思維</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=127">人工智慧</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=77&category=2">程式設計</a>
+						<a href="modules_new.php?op=modload&name=LiteracyMaterial&file=Literacylist&subject=54">資訊素養</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=137">Python與AI數位學習</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=134">資通安全實務</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=157">程式教育在E-game</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>遊戲式學習</dt>
+					<dd>
+						<a href="./games/planting/index">守護木林森</a>
+						<a href="./games/game_base_learning/index">因雄崛起</a>
+						<a href="./games/egame/index" target="_blank" rel="noopener noreferrer">E-game</a>
+						<a href="./games/sdgs/index">飛英任務</a>
+						<a href="https://apps.apple.com/tw/app/%E8%99%9B%E6%93%AC%E5%81%B5%E6%8E%A2%E7%A4%BE/id6449760992" target="_blank" rel="noopener noreferrer">虛擬偵探社</a>
+						<a href="https://adl.edu.tw/mathgame/" target="_blank" rel="noopener noreferrer">速戰數決</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>互動學習</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=physics_interactive&subject=29">物理模擬</a>
+						<a href="laboratory/math/index.html" target="_blank">數學實驗室</a>
+						<a href="modules_new.php?op=modload&name=assignCR&file=assignCR_list&type=concept_its&subject=77">運算思維</a>
+						<a href="https://market.cloud.edu.tw/list/arvr.jsp" target="_blank" rel="noopener noreferrer">VR / AR</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>資源服務</dt>
+					<dd>
+						<a href="https://oidcebook.nlpi.edu.tw/" target="_blank" rel="noopener noreferrer">教育雲電子書</a>
+						<a href="https://www.nmth.gov.tw/digitalresource?uid=312" target="_blank" rel="noopener noreferrer">數位臺史博</a>
+						<a href="https://nclibtv.ncl.edu.tw/" target="_blank" rel="noopener noreferrer">國圖到你家</a>
+						<a href="https://ed.arte.gov.tw/ch/content/m_108syllabus_list_1.aspx" target="_blank" rel="noopener noreferrer">藝術教育網</a>
+						<a href="https://mhi.moe.edu.tw/eduCloud/learning-resource/" target="_blank" rel="noopener noreferrer">本土數位教材專區</a>
+						<a href="https://sdl.ntl.edu.tw" target="_blank" rel="noopener noreferrer">高中自主學習網</a>
+						<a href="https://www.nmns.arplanets.com/categories/c108" target="_blank" rel="noopener noreferrer">科宇宙悠遊學</a>
+						<a href="https://hakkadict.moe.edu.tw/" target="_blank" rel="noopener noreferrer">客語辭典</a>
+					</dd>
+				</dl>
+				<!-- <dl class="menu-item">
+					<dt>通用課程</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=5&grade=10">日文</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subjectG=8&grade=1">自主學習</a>
+					</dd>
+				</dl> -->
+				<dl class="menu-item">
+					<dt>活動專區</dt>
+					<dd>
+						<a href="contest/adlresource/frame?file=OVdiUVpvPT0&sn=RVRNPQ&contest_code=QWpNR2F5WnlNcDVXTVhaPQ" target="_blank" rel="noopener noreferrer">E時代字音字形大挑戰</a>
+						<a href="contest/adlresource/frame?file=OVdiUVpvPT0&sn=RXpNPQ&contest_code=QWpNV1l5WHkwMGgyPVFSPQ" target="_blank" rel="noopener noreferrer">數學素養題挑戰賽(國小)</a>
+						<a href="contest/adlresource/frame?file=OVdiUVpvPT0&sn=RXpOPQ&contest_code=QWpNbWJ5YXpVbnhXTUhhPQ" target="_blank" rel="noopener noreferrer">跟著小鷹阿柴遊臺灣</a>
+						<a href="contest/2021summer/info" target="_blank" rel="noopener noreferrer">挑戰一夏</a>
+						<a href="contest/adlresource/frame?file=OVdiUVpvPT0&sn=RUROPQ&contest_code=QWpNV1l5WHkwMGgyPWdTPQ" target="_blank" rel="noopener noreferrer">數學素養題挑戰賽(國中)</a>
+						<a href="contest/2021mathscience/info" target="_blank" rel="noopener noreferrer">人機互動挑戰數理王</a>
+						<a href="contest/adlresource/frame?file=OVdiUVpvPT0&sn=RVROPQ&contest_code=QWpNV1l5Y3owMGgybFdaV1pqdU4" target="_blank" rel="noopener noreferrer">第2屆人機互動挑戰數理王</a>
+						<a href="contest/adlresource/frame?file=OVdiUVpvPT0&sn=RURPPQ&contest_code=QWpNV1l5YzAwMGgybFdaV1pqdU4" target="_blank" rel="noopener noreferrer">人機互動 數理同樂</a>
+					</dd>
+				</dl>
+				<dl class="menu-item">
+					<dt>數位學習工作坊</dt>
+					<dd>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=130">數位學習工作坊A</a>
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=128">數位學習工作坊C</a>
+					</dd>
+				</dl>
+			</div>
+		</div>
+
+		<div class="category" id="HESPList">
+			<h2 class="textAl">高等教育</h2>
+			<div class="menu-container">
+				<dl class="menu-item">
+					<dt class="zooms hespcourse">師資生 <i class="fa-solid fa-caret-down"></i></dt>
+					<dd class="hespcourse">
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=12&grade=1">師資生數學</a>
+						(<a href="modules_new.php?op=modload&name=D3&file=chart&subject=18">星空圖</a>)
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=13&grade=1">師資生國語</a>
+						(<a href="modules_new.php?op=modload&name=D3&file=chart&subject=15">星空圖</a>)
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=14&grade=1">師資生自然</a>
+						(<a href="modules_new.php?op=modload&name=D3&file=chart&subject=16">星空圖</a>)
+						<a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=15&grade=1">師資生社會</a>
+						(<a href="modules_new.php?op=modload&name=D3&file=chart&subject=17">星空圖</a>)
+					</dd>
+				</dl>
+				<dl class="menu-item">
+				</dl>
+				<dl class="menu-item">
+				</dl>
+			</div>
+		</div>
+
+		<div class="menu-resize-div"></div>
+	</div>
+</div>
+<div class="menu-footer clearfix">
+	<div class="menu-sub clearfix">
+		<ul class="menu-list clearfix">
+			<li class="elementaryList" id="#elementaryList">國小</a></li>
+			<li class="secondaryList" id="#secondaryList">國中</a></li>
+			<li class="highList" id="#highList">高中</a></li>
+			<li class="tvedbList" id="#tvedbList">技高</a></li>
+			<li class="examList" id="#examList">大考</a></li>
+		</ul>
+		<ul class="menu-list clearfix">
+			<li class="issueList" id="#issueList">議題/素養</a></li>
+			<li class="specialList" id="#specialList">特色專區</a></li>
+			<li class="HESPList" id="#HESPList">高教</a></li>
+		</ul>
+	</div>
+</div>
+					</div>
+				</div>
+			</li>
+						<li class="externalLink">
+				<a href="https://elearning.cloud.edu.tw/" class="exticon cloud_edu" target="_blank" rel="noopener noreferrer"><i></i></a>
+				<a href="https://meet.google.com/new" class="exticon googleMeet" target="_blank" rel="noopener noreferrer"><i></i></a>
+				<a href="https://classroom.google.com/" class="exticon googleClassroom" target="_blank" rel="noopener noreferrer"><i></i></a>
+				<a class="exticon logouturl" href="modules_new.php?act=logout"><i class="fas fa-sign-out-alt"></i>登出</a>			</li>
+		</ul>
+	</header>
+	<main>
+		<nav>
+			<div class="externalLink">
+				<div>
+					<a href="https://elearning.cloud.edu.tw/" class="exticon cloud_edu" target="_blank" rel="noopener noreferrer"><i></i>教育雲平台</a>
+					<a href="https://meet.google.com/new" class="exticon googleMeet" target="_blank" rel="noopener noreferrer"><i></i>Google Meet</a>
+					<a href="https://classroom.google.com/" class="exticon googleClassroom" target="_blank" rel="noopener noreferrer"><i></i>Google Classroom</a>
+				</div>
+				<a class="exticon logouturl" href="modules_new.php?act=logout"><i class="fas fa-sign-out-alt"></i>登出</a>			</div>
+			<ul class="personalInfo">
+				<li>
+					<div class="headPic"><a href="modules_new.php?op=modload&name=setting&file=personal_setting&setting=roledata_set"><span class="notificationDot"></span><img class="img-circle" src="images/role/head/head01-50.png" /></a></div>
+					<div class="headName">
+						<span></span>
+						<span>					</span>
+						<span></span>
+					</div>
+					<div>
+						<a href="modules_new.php?op=modload&name=setting&file=personal_setting&setting=account" title="個人設定"><i class="fas fa-cog"></i>
+						</a>
+					</div>
+				</li>
+				<li class="displayFlex">
+					<a href="modules_new.php?op=modload&name=notifications&file=QANotification&screen=frame">
+						<span>訊息</span>
+						<span>0 個</span>
+					</a>
+					<a href="modules_new.php?op=modload&name=srl&file=calendar">
+						<span>待辦</span>
+						<span>0 個</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="navList">
+				                <li><span class="navTitleLink"><a href="modules_new.php?op=modload&name=dashboard&file=modules_student" title="我的任務"><i class="fas fa-tachometer-alt"></i>我的任務</a></span></li><li><span class="navTitleLink"><a href="modules_new.php?op=modload&name=D3&file=chart&subject=10" title="知識結構星空圖"><i class="fa-solid fa-share-nodes"></i>知識結構星空圖</a></span></li><li><span class="navTitleLink"><a href="modules_new.php?op=modload&name=coin&file=coin_rank_new&crumbs=獎勵" title="獎勵"><i class="fas fa-donate"></i>獎勵</a></span></li><li><span><i class="fas fa-chart-bar"></i>報表</span><ul><li><a href="modules_new.php?op=modload&name=ExamResult&file=missionReport&crumbs=測驗報告" title="測驗報告">測驗報告</a></li><li><a href="modules_new.php?op=modload&name=learn_video&file=video_personal_file&crumbs=學習紀錄" title="學習紀錄">學習紀錄</a></li></ul></li><li><span><i class="fas fa-comments"></i>討論</span><ul><li><a href="modules_new.php?op=modload&name=srl&file=learning_note&crumbs=筆記" title="筆記">筆記</a></li><li><a href="modules_new.php?op=modload&name=srl&file=learning_ask_student&crumbs=提問" title="提問">提問</a></li><li><a href="eZDiscus/index.php" target="_blank" rel="noopener noreferrer" title="討論區">討論區</a></li></ul></li><li><span><i class="fas fa-clipboard-check"></i>學習扶助</span><ul><li><a href="modules_new.php?op=modload&name=remedyTest&file=query_prioriData&crumbs=科技化評量" title="科技化評量">科技化評量</a></li><li><a href="modules_new.php?op=modload&name=remedyTest&file=query_prioriData_basicalAbility&crumbs=縣市學力檢測" title="縣市學力檢測">縣市學力檢測</a></li><li><a href="modules_new.php?op=modload&name=remedyTest&file=query_prioriData_new&crumbs=大考專區" title="大考專區">大考專區</a></li></ul></li><li><span class="navTitleLink"><a href="modules_new.php?op=modload&name=info&file=web_resource"><i class="fas fa-globe"></i>網站資源</a></span></li>      </ul>
+      <ul class="webInfo">
+        <li><button id="btn2canvas" class="btn report">問題回報</button></li>
+        <li>© since 2016 國立臺中教育大學 <br /> 測驗統計與適性學習研究中心</li>
+      </ul>
+    </nav>
+    <div class="menubtn2">
+      <i class="fa-solid fa-angle-left"></i>
+    </div>
+    <section>
+      <!-- 本 ModalBox小視窗 ModalBoxBig大視窗 為共用不能夠移除 -->
+      <div class="ModalBoxBig"></div>
+      <div class="ModalBox"></div>
+      <!-- 本 ModalBox 為共用不能夠移除 -->
+
+	  				<style>
+	#titleWrap{
+		padding: 10px 15px 0;
+		margin-bottom: 30px;
+	}
+
+	h1{
+		position: relative;
+		font-size: 32px;
+	}
+
+	h1::before{
+		content: "";
+		display: block;
+		position: absolute;
+		width: 40px;
+		height: 5px;
+		background-color: var(--main-color);
+		left: auto;
+		bottom: -13px;
+	}
+
+	.bread-wrap a{
+		position: relative;
+		font-size: 15px;
+		margin-right: 20px;
+		cursor: pointer;
+	}
+
+	.bread-wrap a:last-of-type{
+		color: var(--distinct-color);
+		margin-right: 0;
+		cursor: default;
+	}
+
+	.bread-wrap a::before{
+		content: ">";
+		display: block;
+		position: absolute;
+		right: -16px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.bread-wrap a:last-of-type::before{
+		content: "";
+	}
+</style>
+
+<div id="titleWrap"><div class="bread-wrap"><a href="#">課程總覽</a><a href="#">課程列表-自然：10年級</a></div></div><link rel="stylesheet" href="css/recommend.css">
+<style>
+
+
+	/* new */
+	.class-list4 {
+		background: #fff;
+		border-radius: 5px;
+		box-shadow: 0px 0px 5px #30313345;
+		min-height: 80px;
+		padding: 20px;
+		margin: 15px auto;
+		font-size: 20px;
+	}
+	.publisher{
+		display: flex;
+		width: 95%;
+		margin: auto;
+		justify-content: flex-end;
+		font-size: 26px;
+	}
+	.publisher>li{
+		padding: 0 10px 5px;
+		cursor: pointer;
+	}
+	.publisher> li.activeMark {
+		color: #000;
+		border-bottom: 5px solid var(--main-color);
+	}
+	.seme-list{
+    	color: var(--main-color);
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+	.seme-listDiv{
+		width: 95%;
+		margin: 0 auto 50px;
+	}
+	.span-Div{
+		cursor: pointer;
+		display: flex;
+    	justify-content: space-between;
+	}
+	.spanNote-Div{
+		margin-left: 5%;
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+	.spanNote-Div>div{
+		margin: 20px 10px;
+		cursor: pointer;
+		display: flex;
+	}
+	.spanNote-Div>div>span:first-child{
+		white-space: nowrap;
+		margin-right: 10px;
+	}
+	.spanNote-Div>div:hover{
+		background: var(--main-bright);
+	}
+	.unit-div a{
+		font-weight: bold;
+		margin-right: 10px;
+		font-size: 22px;
+	}
+	.unit-div a > i{
+		font-size: 22px;
+	}
+	.viewlist-subject{
+		color: var(--main-dark);
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+	.viewlist-subject a{
+		margin-left: 20px;
+    	padding: 3px 12px;
+	}
+
+	.viewlist-subject a i{
+		color: #fff;
+		margin-right: 5px;
+	}
+	/* #allClass,#allClass_studyList{
+		margin: 0px 0px 0px auto;
+		margin-bottom: 10px;
+	} */
+	#subGradePub_DIV{
+		width: 95%;
+		margin: 15px auto;
+	}
+	#subGradePub,#subGradePub_DIV{
+		display: flex;
+		align-items: center;
+	}
+	#subGradePub{
+		flex: 1;
+		font-size: 27px;
+		font-weight: bold;
+		letter-spacing: 5px;
+	}
+	.button_studyList > a{
+		padding: 5px 20px;
+	}
+	.button_studyList > a:hover, .allClass-ul>li>a:hover{
+		color: #fff;
+	}
+	.button_studyList{
+		display: flex;
+    margin-left: 10px;
+	}
+	.button_allClass{
+		display: contents;
+	}
+
+	.allClass-ul>li{
+		margin-bottom: 10px;
+	}
+
+	.allClass-ul>li:last-of-type{
+		margin-bottom: 0;
+	}
+
+	a.btn.defaultBtn{
+		display: block;
+	}
+
+	.ModalBoxDetailTitle > i{
+		font-size: 50px;
+		margin-bottom: 20px;
+		color: var(--contrast-color);
+	}
+	@media screen and (max-width: 1370px) {
+		#subGradePub_DIV{
+			flex-wrap: wrap;
+    		justify-content: flex-end;
+		}
+		#subGradePub{
+			margin-bottom: 18px;
+			width: 100%;
+			flex: unset;
+		}
+	}
+</style>
+</head>
+<body>
+	<div id="subGradePub_DIV">
+		<div id="subGradePub">
+			<h1>
+			自然:10年級			</h1>
+		</div>
+	</div>
+	<ul id="publisher" class="publisher">
+	</ul>
+
+	<div id="inBox"></div>
+
+	<div class="ModalBox"></div>
+</body>
+<script>
+	var showRecommend = 1; //顯示推薦課程
+	var ipadWidth = 768; //平板大小
+	var grade = 10;
+	var subjectG = 3;
+	var subsubject = 0;
+	var subjectId = 0;
+	var sHeroGameLinkId = ''; // 因雄崛起遊戲的遊戲點ID
+	var publisher = 0;
+	var stage = 0;
+
+	const buttonOk = [{buttonText: "OK",
+					   // buttonId: "按鈕ID",
+					   buttonClass: "btn  closeModalBox "}],
+		  bIsStudentOrTeacher = '1' === '1' ? true : false;
+
+	$(document).on('click', '#allClass', function () {
+		var listHtml='';
+
+		listHtml += `<ul class="allClass-ul">`;
+
+		if(subjectG == 1){
+			if([1, 2, 3, 4, 5, 6, 7, 8, 9].includes(grade)){
+				listHtml += `<li class="allClass-li-1">
+							<a class="btn defaultBtn" href="../examples/國中小國語文教材列表.xlsx" download="國中小國語文教材列表.xlsx">國中小國語文教材列表.xlsx</a>
+						</li>
+						<li class="allClass-li-1">
+							<a class="btn defaultBtn" href="../examples/國中小國語文教材列表.ods" download="國中小國語文教材列表.ods">國中小國語文教材列表.ods</a>
+						</li>`;
+			}else{
+				listHtml += `<li class="allClass-li-27">
+							<a class="btn defaultBtn" href="../examples/高中國語文領域課程列表.xlsx" download="高中國語文領域課程列表.xlsx">高中國語文領域課程列表.xlsx</a>
+						</li>
+						<li class="allClass-li-27">
+							<a class="btn defaultBtn" href="../examples/高中國語文領域課程列表.ods" download="高中國語文領域課程列表.ods">高中國語文領域課程列表.ods</a>
+						</li>`;
+			}
+		}else if(subjectG == 4){ //英文
+			listHtml += `<li class="allClass-li-30">
+							<a class="btn defaultBtn" href="../examples/因材網英語文領域-3~12年級教材列表.pdf" download="因材網英語文領域-3~12年級教材列表.pdf">英語文108教材列表.pdf</a>
+						</li>
+						<li class="allClass-li-30">
+							<a class="btn defaultBtn" href="../examples/因材網英語文領域-3~12年級教材列表.docx" download="因材網英語文領域-3~12年級教材列表.docx">英語文108教材列表.docx</a>
+						</li>
+						<li class="allClass-li-30">
+							<a class="btn defaultBtn" href="../examples/因材網英語文領域-3~12年級教材列表.xlsx" download="因材網英語文領域-3~12年級教材列表.xlsx">英語文108教材列表.xlsx</a>
+						</li>`;
+		}else if(subjectG == 3 ){ //自然
+			listHtml += ` <li class="allClass-li-30">
+											<a class="btn defaultBtn" href="../examples/國中小自然教材列表_1101025.xlsx" download="../examples/國中小自然教材列表_1101025.xlsx">國中小自然教材列表</a>
+										</li>
+										<li class="allClass-li-30">
+											<a class="btn defaultBtn" href="../examples/國中小自然教材列表_1101025.ods" download="../examples/國中小自然教材列表_1101025.ods">國中小自然教材列表</a>
+										</li>`;
+		}else if(subjectG == 2 ){ //數學
+			listHtml += ` <li class="allClass-li-27">
+											<a class="btn defaultBtn" href="../examples/數學領域12年國教學習內容.xlsx" download="數學領域12年國教學習內容.xlsx">數學領域12年國教學習內容.xlsx</a>
+										</li>
+										<li class="allClass-li-27">
+											<a class="btn defaultBtn" href="../examples/數學領域12年國教學習內容.ods" download="數學領域12年國教學習內容.ods">數學領域12年國教學習內容.ods</a>
+										</li>`;
+			if([1,2,3,4,5,6,7,8,9].includes(grade)){
+				listHtml += `	<li class="allClass-li-1">
+												<a class="btn defaultBtn" href="../examples/數學領域9年1貫知識結構.xlsx" download="數學領域9年1貫知識結構.xlsx">數學領域9年1貫知識結構.xlsx</a>
+											</li>
+											<li class="allClass-li-27">
+												<a class="btn defaultBtn" href="../examples/數學領域9年1貫知識結構.ods" download="數學領域9年1貫知識結構.ods">數學領域9年1貫知識結構.ods</a>
+											</li>`;
+			}
+			if([10,11].includes(grade)){
+				listHtml += ` <li class="allClass-li-1">
+												<a class="btn defaultBtn" href="../examples/因材網高中數學10、11年級教材列表.xlsx" download="因材網高中數學10、11年級教材列表.xlsx">因材網高中數學10、11年級教材列表.xlsx</a>
+											</li>
+											<li class="allClass-li-1">
+												<a class="btn defaultBtn" href="../examples/因材網高中數學10、11年級教材列表.ods" download="因材網高中數學10、11年級教材列表.xlsx">因材網高中數學10、11年級教材列表.ods</a>
+											</li>
+						`;
+			}
+
+
+		}
+
+		listHtml += `</ul>`;
+
+		modalBox("教材列表", listHtml, '');
+	});
+
+	$(document).on('click', '#allClass_studyList', function () {
+		var listHtml='';
+		listTitle = `學習單`;
+		listHtml += `<ul class="allClass-ul">`;
+
+		switch(subjectG){
+			case 2: //數學學習單
+				listHtml += `<li class="allClass-li-2" >
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1cujnx9HUYYD83GxOE0BI27OmqY2q8GC1?usp=sharing" target="_blank">一年級學習單</a>
+						</li>
+						<li class="allClass-li-2" >
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1P90SUYWQx7WPdwJkXTzaq48f_0c31ojv" target="_blank">二年級學習單</a>
+						</li>
+						<li class="allClass-li-2" >
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1JN5ZDQRvskRHtnTL2WQg3nY_Agny3eBf?usp=sharing"  target="_blank">三年級學習單</a>
+						</li>
+						<li class="allClass-li-2" >
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1o9wCWlIMaq5RVd_p_s13qXdgWNiT_mX0?usp=sharing"  target="_blank">四年級學習單</a>
+						</li>
+						<li class="allClass-li-2">
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1t1iYr70170nv8OPLv9T5Lg7jK0QDfE3C?usp=sharing"  target="_blank">五年級學習單</a>
+						</li>
+						<li class="allClass-li-2">
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1lZcR33fj0vWCYAQhOY0mL4tdcua0qVFh?usp=sharing"  target="_blank">六年級學習單</a>
+						</li>
+						<li class="allClass-li-2">
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1uGDHX9WXS-zao6NmTzRU7ea8ONiXg7rq?usp=sharing"  target="_blank">七年級學習單</a>
+						</li>
+						<li class="allClass-li-2">
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1o7Q2G1aELM1llgmuBFHnIBYDMz-qSV7Y?usp=sharing"  target="_blank">八年級學習單</a>
+						</li>
+						<li class="allClass-li-2">
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1J9qx-7WCiXahZ-0ZEaeEPidy-woXvqQJ?usp=sharing"  target="_blank">九年級學習單</a>
+						</li>
+						<li class="allClass-li-2">
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1NOpscLnyObhVVggwb7ncg9B9xiHpej7x?usp=sharing"  target="_blank">高中學習單</a>
+						</li>`;
+			break;
+			case 1: //國語文學習單
+				listHtml += `<li class="allClass-li-2" >
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1vW5vauUFJVOG_Ose52s-KO8D4z0fH9Sl" target="_blank">一年級學習單</a>
+						</li>
+						<li class="allClass-li-2" >
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1RS35-f0-DaZfYpe_P3pL2rJTj3bq7fVl" target="_blank">二年級學習單</a>
+						</li>
+						<li class="allClass-li-2" >
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1Y-0Ej0ri1zY0TXiEftrtOzac4jF37KUx"  target="_blank">三年級學習單</a>
+						</li>
+						<li class="allClass-li-2" >
+							<a class="btn defaultBtn" style="min-width:200px"  href="https://drive.google.com/drive/folders/11jcNylJsG8aSIrT4v_HE0gsmqIY6ktmQ"  target="_blank">四年級學習單</a>
+						</li>
+						<li class="allClass-li-2">
+							<a class="btn defaultBtn" style="min-width:200px"  href="https://drive.google.com/drive/folders/1vX1UJjR3FuhrwL4uwB5sXJQn-xj86w1c"  target="_blank">五年級學習單</a>
+						</li>
+						<li class="allClass-li-2">
+							<a class="btn defaultBtn" style="min-width:200px"  href="https://drive.google.com/drive/folders/1jMvokvX0w4A5pECJVQjV96rIt53awNsF"  target="_blank">六年級學習單</a>
+						</li>
+						<li class="allClass-li-2">
+							<a class="btn defaultBtn" style="min-width:200px"  href="https://drive.google.com/drive/u/0/folders/1Z9RYQZZNJF6lg7EvATSY2PYr5ESVGZpt"  target="_blank">七年級學習單</a>
+						</li>
+						<li class="allClass-li-2">
+							<a class="btn defaultBtn" style="min-width:200px"  href="https://drive.google.com/drive/u/0/folders/1VJl0qCfKGHv1IkrMVef5x5Kuo2ZBvU3O"  target="_blank">八年級學習單</a>
+						</li>
+						<li class="allClass-li-2">
+							<a class="btn defaultBtn" style="min-width:200px"  href="https://drive.google.com/drive/u/0/folders/19QxWNVMBckUDBdq5pCfcUf2rQvMFCRwx"  target="_blank">九年級學習單</a>
+						</li>`;
+			break;
+			case 4: //英語學習單
+				listHtml += `
+						<li class="allClass-li-2" >
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1wGRps7GNSBDhc4pX1mlK6TMub48VLLAr?usp=sharing"  target="_blank">三年級學習單</a>
+						</li>
+						<li class="allClass-li-2" >
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/16FQaDFB-MxGpVcY2Na1LH_p1yMNKHe5k?usp=sharing"  target="_blank">四年級學習單</a>
+						</li>
+						<li class="allClass-li-2" >
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1jk4KtgsNazMCQ_bWI3rZel9IIkg4BlLP?usp=sharing"  target="_blank">五年級學習單</a>
+						</li>
+						<li class="allClass-li-2" >
+							<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1AWkgm_8oPfjH9ujS0v4Pgy9P-aqTIwHF?usp=sharing"  target="_blank">六年級學習單</a>
+						</li>`;
+
+			break;
+		}
+
+		switch (subjectId) {
+			case 120: //資訊教育學習單
+				listHtml += `<li class="allClass-li-2">
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1BoAwya8yJOEJYN1Hu9is6yHe4YF7O4nj?usp=sharing" target="_blank">三年級上學期學習單</a>
+							 </li>
+							 <li class="allClass-li-2" >
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1gJpmNuAu8EbgO-Kqvm-fTM1c1XL3vPrY?usp=sharing" target="_blank">三年級下學期學習單</a>
+							 </li>
+							 <li class="allClass-li-2">
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1L-MjCuUGBu8cTED2RGeRBgS3XepsFv-A?usp=sharing" target="_blank">四年級上學期學習單</a>
+							 </li>
+							 <li class="allClass-li-2" >
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1JznBz5luTHHzRm8fkRaxig5amSw-_D37?usp=sharing" target="_blank">四年級下學期學習單</a>
+							 </li>
+							 <li class="allClass-li-2" >
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1yPTuuC3Ylms3MMRefY4pp55a55XA5GEq?usp=sharing" target="_blank">五年級上學期學習單</a>
+							 </li>
+							 <li class="allClass-li-2" >
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1Jg8zRfPNDc52otCwZCkiRShQndXXC0Rj?usp=sharing" target="_blank">五年級下學期學習單</a>
+							 </li>
+							 <li class="allClass-li-2" >
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1aabCXVXV9F0jHQV0qOdoooWIGG7BLQ7u?usp=sharing" target="_blank">六年級上學期學習單</a>
+							 </li>
+							 <li class="allClass-li-2" >
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://drive.google.com/drive/folders/1B4eFUnDcF_luqL85iATXt0klfIUJ8goG?usp=sharing" target="_blank">六年級下學期學習單</a>
+							 </li>`;
+				break;
+				case 145: //水域安全電子書
+				listTitle = `電子書`;
+				listHtml += `救溺五步、防溺十招
+							<li class="allClass-li-2">
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T01A/index.html" target="_blank"  rel="noreferrer noopener">第一學習階段 原來可以這樣做</a>
+							 </li>
+							 <li class="allClass-li-2" >
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T01B/index.html" target="_blank"  rel="noreferrer noopener">第二學習階段 救溺五步一起說，防溺十招一起做</a>
+							 </li>
+							 <li class="allClass-li-2">
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T01C/index.html" target="_blank" rel="noreferrer noopener">第三學習階段 悔不當初</a>
+							 </li>
+							 水上安全標誌認知
+							 <li class="allClass-li-2" >
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T02A/index.html" target="_blank" rel="noreferrer noopener">第一學習階段 水上安全標誌大風吹</a>
+							 </li>
+							 <li class="allClass-li-2" >
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T02B/index.html" target="_blank" rel="noreferrer noopener">第二學習階段 認識水上安全標誌圖</a>
+							 </li>
+							 <li class="allClass-li-2" >
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T02C/index.html" target="_blank" rel="noreferrer noopener">第三學習階段 說是遲，那是快</a>
+							 </li>
+							心肺復甦術
+							<li class="allClass-li-2">
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T03A/index.html" target="_blank"  rel="noreferrer noopener">第一學習階段 智救好安心</a>
+							 </li>
+							 <li class="allClass-li-2" >
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T03B/index.html" target="_blank" rel="noreferrer noopener">第二學習階段 即刻救援，缺你不可</a>
+							 </li>
+							 <li class="allClass-li-2">
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T03C/index.html" target="_blank" rel="noreferrer noopener">第三學習階段 你我共同守護生命之鍊</a>
+							 </li>
+							 呼吸道異物哽塞急救法
+							<li class="allClass-li-2">
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T05A/index.html" target="_blank"  rel="noreferrer noopener">第一學習階段 哈姆立克我最行</a>
+							 </li>
+							 <li class="allClass-li-2" >
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T05B/index.html" target="_blank" rel="noreferrer noopener">第二學習階段 小小救護員</a>
+							 </li>
+							 <li class="allClass-li-2">
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T05C/index.html" target="_blank" rel="noreferrer noopener">第三學習階段 急救高手</a>
+							 </li>
+							 環境及天候評估
+							 <li class="allClass-li-2">
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T04A/index.html" target="_blank"  rel="noreferrer noopener">第一學習階段 安全搜查線</a>
+							 </li>
+							 <li class="allClass-li-2" >
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T04B/index.html" target="_blank" rel="noreferrer noopener">第二學習階段 挑三檢四找平安、戶外戲水快樂游</a>
+							 </li>
+							 <li class="allClass-li-2">
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T04C/index.html" target="_blank" rel="noreferrer noopener">第三學習階段 千變萬化的白雲</a>
+							 </li>
+							 常見傷害處理
+							 <li class="allClass-li-2">
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T06A/index.html" target="_blank"  rel="noreferrer noopener">第一學習階段 危險KO！萬事OK！</a>
+							 </li>
+							 <li class="allClass-li-2" >
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T06B/index.html" target="_blank" rel="noreferrer noopener">第二學習階段 安全罩得住</a>
+							 </li>
+							 <li class="allClass-li-2">
+							 	<a class="btn defaultBtn" style="min-width:200px" href="https://wish.utaipei.edu.tw/wateredu/courses/T06C/index.html" target="_blank" rel="noreferrer noopener">第三學習階段 防護百寶箱</a>
+							 </li>
+							 `;
+				break;
+		}
+
+		listHtml += `</ul>`;
+
+		modalBox(listTitle, listHtml, '');
+	});
+
+	var router = `QzE2QTUzMjBGQTQ3NTUzMEQ5NTgzQzM0RkQzNTZFRjVFZFVBZExjem8wTnpvaVptOXNaR1Z5UFdGemMybG5iazFwYzNOcGIyNG1abWxzWlQxcmMxOTJhV1YzYkdsemRGOXVaWGRmY0hKdlpHSWlPdz09RWRVQWRMNDIyM0NDNDM2QTMzQTJCQzI0RkRCNURERDdCMkNGRkE==4223CC436A33A2BC24FDB5DDD7B2CFFA==`;
+
+	$.ajax({type: 'POST',
+			url: 'turnpage.php',
+			data: {'router': router,
+					'action': 'getPublisher',
+					'subjectG': subjectG,
+					'subSubject': subsubject,
+					'grade': grade,
+					'subject': subjectId
+			},
+			dataType: 'JSON',
+			async: false,
+	}).done(function(result){
+		if(result.status != '' && result.status == 'timeout'){
+			location.href = 'logout_msg.php';
+		}
+
+		if (result.length === 0) {
+			$('#publisher').empty();
+		} else {
+			let subNameHtml = '';
+			if([1,2,3,4].includes(result.subsubject_subject_group)){
+				subNameHtml += `<div class="button_allClass"><button id="allClass" class="btn defaultBtn">教材列表下載</button></div>`;
+			}
+			if([2].includes(subjectG)){ //數學
+				subNameHtml += `<div class="button_studyList"><button id="allClass_studyList" class="btn defaultBtn">學習單下載</button></div>`;
+				if([7,8,9].includes(grade)){
+					subNameHtml += ` <div class="button_studyList"><a target="_blank"  class="btn defaultBtn" href="https://drive.google.com/drive/folders/1emTSW_0ilBIXTfoysiOYLZj5eFEMjlV1?usp=sharing">國中會考詳解影片</a></div>`;
+				}
+			}
+			if([1].includes(subjectG) && grade < 10){ //國語文
+				subNameHtml += `<div class="button_studyList"><button id="allClass_studyList" class="btn defaultBtn">學習單下載</button></div>`;
+				subNameHtml += `<div class="button_studyList"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1sHDjFgamkQdw1twnkDfFXsDHw-ceeuMDeNuuXoeKw1o/edit#gid=0" class="btn defaultBtn">康軒課文推薦教材</a></div>`;
+				subNameHtml += `<div class="button_studyList"><a target="_blank" href="https://docs.google.com/spreadsheets/d/1iKzdNPcyFM8FHWM-Mc5GilPDQV_VHaG45rsSbAyQazE/edit#gid=1910101232" class="btn defaultBtn">翰林課文推薦教材</a></div>`;
+				subNameHtml += `<div class="button_studyList"><a target="_blank" href="https://docs.google.com/spreadsheets/d/16BJ3yRvnCIYCgF9vVW984fgu3Tz0eYyOD6xqRaLEq1U/edit" class="btn defaultBtn">南一課文推薦教材</a></div>`;
+			}
+			if([4].includes(subjectG)){ //英文
+				subNameHtml += `<div class="button_studyList"><button id="allClass_studyList" class="btn defaultBtn">108學習單下載</button></div>`;
+			}
+			if ([120].includes(subjectId)) { // 資訊教育
+				subNameHtml += `<div class="button_studyList"><button id="allClass_studyList" class="btn defaultBtn">學習單下載</button></div>`;
+			}
+			if ([145].includes(subjectId)) { // 資訊教育
+				subNameHtml += `<div class="button_studyList"><button id="allClass_studyList" class="btn defaultBtn">電子書</button></div>`;
+			}
+			var vAbove = [
+				{subject: 166, name: '看見自然'},
+				{subject: 167, name: '看見家鄉'}
+			];
+			if ([166, 167].includes(subjectId)) { // 看見系列
+				vAbove.forEach(function(value) {
+					if (value.subject === subjectId) return;
+					subNameHtml += `<div class="button_studyList"><a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=${value.subject}" class="btn defaultBtn">${value.name}</a></div>`;
+				});
+			}
+			var vEgame = [
+				{subject: 157, name: 'E-game (國小)'},
+				{subject: 148, name: '程式設計 (國中)'},
+				{subject: 149, name: '演算法 (國中)'},
+			];
+			if ([157, 148, 149].includes(subjectId)) { // Egame
+				vEgame.forEach(function(value) {
+					subNameHtml += `<div class="button_studyList"><a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&subject=${value.subject}" class="btn defaultBtn">${value.name}</a></div>`;
+				});
+			}
+			if ([168].includes(subjectId)) { // 交通安全
+				subNameHtml += `<div class="button_studyList"><a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=1" class="btn defaultBtn">國小低年級篇</a></div>`;
+				subNameHtml += `<div class="button_studyList"><a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=2" class="btn defaultBtn">國小中年級篇</a></div>`;
+				subNameHtml += `<div class="button_studyList"><a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=3" class="btn defaultBtn">國小高年級篇</a></div>`;
+				subNameHtml += `<div class="button_studyList"><a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=4" class="btn defaultBtn">國中篇</a></div>`;
+				subNameHtml += `<div class="button_studyList"><a href="modules_new.php?op=modload&name=assignMission&file=ks_viewlist_new&sub=交通安全&subject=168&stage=5" class="btn defaultBtn">高中篇</a></div>`;
+			}
+			$('#subGradePub').after(subNameHtml);
+
+			let sHtml = '';
+			$.each(result.publisher, function(key, value) {
+				sHtml += `<li id="publisher-${value['publisher_id']}">${value['publisher_name']}</li>`;
+			});
+			$('#publisher').empty().append(sHtml);
+
+			if (publisher === 0) {
+				presetPublisherId = '#publisher-' + result.seme_publisher_id;
+			}
+			else {
+				presetPublisherId = '#publisher-' + publisher;
+			}
+
+			$('.activeMark').removeClass('activeMark');
+			$(presetPublisherId).addClass('activeMark');
+			getList(presetPublisherId);
+		}
+	});
+
+	$('#publisher>li').on("click",function() {
+		$('.activeMark').removeClass('activeMark');
+		$(this).addClass('activeMark');
+		getList(this.id);
+	});
+
+	function getList(publisherNow){
+		var router = `QzE2QTUzMjBGQTQ3NTUzMEQ5NTgzQzM0RkQzNTZFRjVFZFVBZExjem8wTnpvaVptOXNaR1Z5UFdGemMybG5iazFwYzNOcGIyNG1abWxzWlQxcmMxOTJhV1YzYkdsemRGOXVaWGRmY0hKdlpHSWlPdz09RWRVQWRMNDIyM0NDNDM2QTMzQTJCQzI0RkRCNURERDdCMkNGRkE==4223CC436A33A2BC24FDB5DDD7B2CFFA==`;
+
+		// let iSubjectId = Number(``);
+		$.ajax({type: 'POST',
+				url: 'turnpage.php',
+				data: {'router': router,
+						'action': 'getList',
+						'subjectG': subjectG,
+						'grade': grade,
+						'publisher': publisherNow.split('-')[1],
+						'subSubject': subsubject,
+						'subject': subjectId,
+						'stage': stage
+				},
+				dataType: 'JSON',
+				async: false,
+		}).done(function(result){
+			if(result.status != '' && result.status == 'timeout'){
+				location.href = 'logout_msg.php';
+			}
+
+			let iHtml = '';
+			$.each(result.list, function(key, value) {  //seme學年度//seme學期
+				var semeYear = value['seme'].toString().substring(0, 3);
+
+				// 26能力指標 27教材內容細目 46學習內容 47學習表現 55學習重點 沒有分上下學期故排除
+				if([26, 27, 46, 47, 55, 58, 59, 72, 73].indexOf(Number(publisherNow.split('-')[1])) === -1) {
+					var semeS = value['seme'].toString().substring(3, 4);
+
+					if(semeS == 1){
+						iHtml += `<div class="seme-listDiv">
+							<div class="seme-list">${semeYear}學年度上學期</div>`;
+					}else if(semeS == 2){
+						iHtml += `<div class="seme-listDiv">
+							<div class="seme-list">${semeYear}學年度下學期</div>`;
+					}
+				}else{
+					iHtml += `<div class="seme-listDiv">
+							<div class="seme-list">${semeYear}學年度</div>`;
+				}
+
+				$.each(value['seme_list'], function(listKey, listValue) {
+					if (
+						listKey === 0 ||
+						value['seme_list'][listKey]['subject_id'] !== value['seme_list'][listKey - 1]['subject_id']
+					) {
+						iHtml += `<div class="viewlist-subject">${result.subject_text[listValue['subject_id']]}`
+						if(subjectId == 121){
+							iHtml += '<a class="btn confirmBtn" href="./games/planting/index" target="_blank"><i class="fa-solid fa-gamepad"></i>守護木林森</a>';
+						}
+						iHtml += `</div>`;
+					}
+
+					publisherNum = publisherNow.split('-')[1];
+
+					if (subjectG == 1 && listValue['unit'] === 0) { //chinese108特例
+						iHtml += `<div class="class-list4 unit-div">
+									<div>
+										<a href="modules_new.php?op=modload&amp;name=assignMission&amp;file=ks_viewunit_new&subject=${listValue['subject_id']}&publisher=${publisherNum}&grade=${grade}&seme=${value['seme']}&unit=chinese108">
+											<i class="fas fa-caret-square-right"></i>
+											${listValue['unit_name']}
+										</a>
+									</div>`;
+						$.each(listValue['bNodes'], function(bNodesKey, bNodesValue) {
+							iHtml += `<div class="spanNote-Div">
+										<div onclick="location.href='modules_new.php?op=modload&amp;name=assignMission&amp;file=ks_viewunit_new&subject=${listValue['subject_id']}&publisher=${publisherNum}&grade=${grade}&seme=${value['seme']}&unit=chinese108#${bNodesValue['indicate_id']}';"><span>${bNodesValue['indicate_id']}</span><span>${bNodesValue['indicate_name']}</span></div>
+									</div>`;
+						});
+					} else {
+						iHtml += `<div class="class-list4 unit-div">
+									<div>
+										<a href="modules_new.php?op=modload&amp;name=assignMission&amp;file=ks_viewunit_new&subject=${listValue['subject_id']}&publisher=${publisherNum}&stage=${stage}&grade=${grade}&seme=${value['seme']}&unit=${listValue['unit']}">
+											<i class="fas fa-caret-square-right"></i>
+											${listValue['unit_name']}
+										</a>
+										${bIsStudentOrTeacher && listValue['game_link_id'] ? `<button class="btn retroBtn" data-gameLinkId="${listValue['game_link_id']}">挑戰答題遊戲</button>` : ''}
+									</div>`;
+						$.each(listValue['bNodes'], function(bNodesKey, bNodesValue) {
+							iHtml += `<div class="spanNote-Div">
+										<div onclick="location.href='modules_new.php?op=modload&amp;name=assignMission&amp;file=ks_viewunit_new&subject=${listValue['subject_id']}&publisher=${publisherNum}&stage=${stage}&grade=${grade}&seme=${value['seme']}&unit=${listValue['unit']}&subsubject=${subsubject}#${bNodesValue['indicate_id']}';"><span>${bNodesValue['indicate_id']}</span><span>${bNodesValue['indicate_name']}</span></div>
+									</div>`;
+						});
+					}
+
+					iHtml += `</div>`;
+				});
+
+				iHtml += `</div>`;
+			});
+			$('#inBox').empty().append(iHtml);
+		});
+	}
+
+	function getHeroGameDataParam() {
+		return $.ajax({
+					type: 'POST',
+					url: 'turnpage.php',
+					data: {'router': router,
+						   'action': 'getHeroGameDataParam'
+					},
+					dataType: 'JSON'
+				});
+	}
+
+	$(document).on('click', 'button[data-gameLinkId]', function() {
+		sHeroGameLinkId = $(this).attr('data-gameLinkId');
+
+		const oHeroGameBtn = [{buttonText: "確定前往",
+							   buttonId: "heroGameConfirm",
+							   buttonClass: "btn confirmBtn closeModalBox "},
+							  {buttonText: "取消",
+							   buttonId: "heroGameCancel",
+							   buttonClass: "btn cancelBtn closeModalBox "}];
+
+		modalBox(`<i class="fas fa-exclamation-triangle"></i>`,
+				 `<h2>您即將離開因材網<br>確定要前往<span class="noteWordYellow">${$(this).text()}</span>嗎？</h2>`,
+				 oHeroGameBtn,
+				 false);
+	});
+
+	$(document).on('click', '#heroGameConfirm', function() {
+		Promise.all([getHeroGameDataParam()]).then(oValues => {
+			window.open(`https://adl.edu.tw/hero/opid/?data=${oValues[0]['hero_game_data_param']}&from=adl&game_link_id=${sHeroGameLinkId}`);
+		});
+	});
+</script>
+		</section>
+		<!-- dialogModal 問題回報視窗 -->
+	</main>
+	<!-- 1. Google tag (gtag.js) -->
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-KV6JP68J"></script> -->
+	<script>
+		var bHiddenNAV = '';
+
+		const sAclUrl = document.referrer.split('?');
+
+		if(sAclUrl[0] == location.origin + "/modules_new.php"){
+			$('main').addClass('hidemenu');
+		}
+
+		if (bHiddenNAV === 'hidden') {
+			$('header').remove();
+			$('main').addClass('nomenu');
+			$('main > nav').remove();
+			$('main > .menubtn2').remove();
+			$('html').css('overflow', 'auto');
+			$('[type=radio]:checked, [type=radio]:not(:checked), [type=checkbox]:checked, [type=checkbox]:not(:checked)').css('position', 'unset');
+			$('input').css('height', 'auto')
+		}
+
+		// ga
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('set', {
+			'縣市': '臺中市',
+			'學校': '',
+			'學等': 'js',
+			'學年': '1122',
+			'年級': '11',
+			'班級': '1',
+			'身份': '學生'
+		});
+		gtag('config', 'UA-108376301-1', {
+			'user_id': '193313-user4042346',
+			'custom_map': {
+				'dimension1': '縣市',
+				'dimension2': '學校',
+				'dimension3': '學等',
+				'dimension4': '學年',
+				'dimension5': '年級',
+				'dimension6': '班級',
+				'dimension7': '身份'
+			}
+		});
+		gtag('event', 'page_view', {
+			'縣市': '臺中市',
+			'學校': '',
+			'學等': 'js',
+			'學年': '1122',
+			'年級': '11',
+			'班級': '1',
+			'身份': '學生'
+		});
+
+		$('#cloud_idx').click(function(e) {
+			var router = 'QzE2QTUzMjBGQTQ3NTUzMEQ5NTgzQzM0RkQzNTZFRjVFZFVBZExjem96TlRvaVptOXNaR1Z5UFd4bFlYSnVhVzVuWTJ4dmRXUW1abWxzWlQxbFpIVmZabTl5ZFcwaU93PT1FZFVBZEw0MjIzQ0M0MzZBMzNBMkJDMjRGREI1REREN0IyQ0ZGQQ===4223CC436A33A2BC24FDB5DDD7B2CFFA==';
+			$.post('turnpage.php', {
+				router: router
+			});
+
+			let sNowUrl = e.currentTarget.getAttribute('href_url');
+			location.href = sNowUrl;
+		});
+
+		/** html2canvas */
+		$('#btn2canvas').click(function(e) {
+			$.LoadingOverlay('show');
+			$('html').addClass('screenshot');
+			html2canvas(document.body).then(function(canvas) { //截圖套件
+				//圖片轉Dataurl
+				var imagedata = canvas.toDataURL('image/png');
+				var imgdata = imagedata.replace(/^data:image\/(png|jpg);base64,/, '');
+				var router = `QzE2QTUzMjBGQTQ3NTUzMEQ5NTgzQzM0RkQzNTZFRjVFZFVBZExjem8wTlRvaVptOXNaR1Z5UFdGemMybG5iazFwYzNOcGIyNG1abWxzWlQxd2NtOWtZbDltWldWa1ltRmphMTlrWVhSaElqcz1FZFVBZEw0MjIzQ0M0MzZBMzNBMkJDMjRGREI1REREN0IyQ0ZGQQ===4223CC436A33A2BC24FDB5DDD7B2CFFA==`;
+				$.ajax({ //圖片存檔在user_feedback
+					url: 'turnpage.php',
+					data: {
+						'router': router,
+						'imgdata': imgdata
+					},
+					type: 'post',
+					success: function(response) {
+						var url = 'QAfeedback.php?imgpath=' + response; //回傳圖片網址
+						openIframeModal('fas fa-flag', '問題回報', url); //打開問題回報網址
+						$.LoadingOverlay('hide');
+					}
+				});
+			});
+		});
+
+		// venobox
+		if ($.fn.venobox) {
+			$('.venobox').venobox({
+				numeratio: true,
+				infinigall: true,
+				border: '0px',
+			});
+			$('.venoboxinline').venobox({
+				framewidth: 'auto',
+				frameheight: 'auto',
+				border: '20px',
+				titleattr: 'data-title',
+				framewidth: '100%',
+			});
+			$('.venoboxframe').venobox({
+				border: '6px'
+			});
+		}
+
+		//問題回報分頁套件
+		function openIframeModal(icon, title, url) {
+			$('#dialogModal').iziModal({
+				title: title,
+				icon: icon,
+				bodyOverflow: true,
+				openFullscreen: true, //內容超過一頁建議用全螢幕，要不然過長會無法滾動
+				padding: 5, //一定要加，不然會跑版
+				iframe: true,
+				iframeURL: url,
+				zindex: 10000,
+				onOpened: function() {},
+				onOpening: function() {
+					$('#qreport').hide();
+				},
+				onClosing: function() {
+					$('#qreport').show();
+				},
+				onClosed: function() {
+					$('#dialogModal').iziModal('destroy');
+					$('html').removeClass('screenshot');
+				},
+			}).iziModal('open');
+			$('.iziModal-iframe').on('load', function() {
+				$('.iziModal-wrap').scrollTop(0); //讀取後滾到最上面
+			});
+		}
+
+		// 排序
+		function sortBySemeObjectKey(obj) {
+			return Object.keys(obj).map(key => Number(key)).sort(function(a, b) {
+				return b - a
+			}).reduce(function(result, key) {
+				result.push({
+					semeNum: key,
+					semeName: obj[key]
+				});
+				return result;
+			}, []);
+		}
+
+		// menu開關
+		$(document).on('click', '.menubtn, .menubtn2', function() {
+			if ($('main').hasClass('hidemenu')) {
+				$('main').addClass('showmenu').removeClass('hidemenu');
+			} else if ($('main').hasClass('showmenu')) {
+				$('main').addClass('hidemenu').removeClass('showmenu');
+			} else {
+				if ($(window).width() > 1023) {
+					// 大螢幕預設顯示>無
+					$('main').addClass('hidemenu').removeClass('showmenu');
+				} else if ($(window).width() <= 1023) {
+					// 大螢幕預設無>顯示
+					$('main').addClass('showmenu').removeClass('hidemenu');
+				}
+			}
+			$('.menubtn2 i').toggleClass('menubtn2_icon');
+		});
+
+		$('.navList a').each(function() {
+			var bActive = false;
+			if ('modules_new.php' + decodeURI(window.location.search) === $(this).attr('href')) {
+				$('li.active').removeClass('active');
+				localStorage.setItem('tmp_title', $(this).attr('title')); // 暫存給內頁使用
+				bActive = true;
+			} else if ($(this).attr('title') === localStorage.getItem('tmp_title')) {
+				bActive = true;
+			}
+
+			if (bActive) {
+				$(this).parentsUntil('ul').last().addClass('active');
+				var iPosition = $('.navList').scrollTop() + $('li.active').offset().top - ($('.personalInfo').height() + $('header').height());
+				$('.navList').scrollTop(iPosition);
+			}
+		});
+		$(function() {
+			if (typeof $.fn.modal === 'function') {
+				$.fn.bootstrapBtn = $.fn.button.noConflict();
+		    }
+		});
+
+		if ($('#robotBtn').length != 0 && new URLSearchParams(window.location.href).get("file") != 'conversational_robot') {
+				// if ($('#robotBtn').length == 0 && new URLSearchParams(window.location.href).get("file") != 'conversational_robot') {
+				// if ($('#robotBtn').length == 0) {
+				// $('main > section').append('<div class="btn btnBorder btnCircle robotBtn" id="robotBtn"></div>');
+				var offsetX = 0;
+				var offsetY = 0;
+				var isDragging = false;
+				var robotBtn = document.getElementById('robotBtn');
+				var hammertime = new Hammer(robotBtn);
+				// 定義拖曳手勢
+				hammertime.add(new Hammer.Pan({
+					threshold: 0,
+					pointers: 0
+				}));
+
+				// 定義點擊手勢
+				hammertime.add(new Hammer.Tap());
+
+				// 設定拖曳手勢在點擊時失效
+				hammertime.get('pan').requireFailure('tap');
+
+
+				hammertime.on('panstart', function(e) {
+					robotBtn.style.pointerEvents = 'none';
+					offsetX = e.target.offsetLeft - e.center.x;
+					offsetY = e.target.offsetTop - e.center.y;
+				});
+
+				hammertime.on('pan', function(e) {
+					var newX = e.center.x + offsetX;
+					var newY = e.center.y + offsetY;
+					robotBtn.style.left = newX + 'px';
+					robotBtn.style.top = newY + 'px';
+				});
+
+				hammertime.on('panend', function(e) {
+					robotBtn.style.pointerEvents = 'auto';
+				});
+
+
+				robotBtn.addEventListener('click', function(e) {
+					// if (!$(this).hasClass('disableBtn')) {
+						e.preventDefault();
+						$(this).hide();
+
+						var sRobotWidth;
+						if (isMobileDevice()) {
+							sRobotWidth = screen.width;
+							sRobotheight = screen.height * 0.6;
+
+						} else {
+							sRobotWidth = screen.width / 2;
+							sRobotheight = screen.height * 0.7;
+						}
+
+						$(".chatWrap").dialog({
+							title: '通用型學習夥伴',
+							height: sRobotheight,
+							width: sRobotWidth,
+							position: {
+								my: "right bottom",
+								at: "right bottom",
+								of: window
+							},
+							close: function(event, ui) {
+								$('#robotBtn').show();
+							}
+						});
+						dialogInitialized = true;
+					// }
+				});
+		}
+
+	</script>
+	<div id="dialogModal"></div><!-- 問題回報 -->
+</body>
+
+</html>

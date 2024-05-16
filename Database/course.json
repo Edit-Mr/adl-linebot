@@ -1,0 +1,370 @@
+{
+    "普通型高中": {
+        "十一年級": {
+            "國語文": {
+                "seme": 1121,
+                "seme_list": [
+                    {
+                        "subject_id": 119,
+                        "unit": 1,
+                        "unit_name": "能量的形式與轉換（Ba）",
+                        "game_link_id": "",
+                        "bNodes": [
+                            {
+                                "indicate_id": "11-PBa-Va-1",
+                                "indicate_name": "功等於力和位移的向量內積，功率為功的時間變化率。 \t \t \t \t"
+                            },
+                            {
+                                "indicate_id": "11-PBa-Va-2",
+                                "indicate_name": "功能定理。"
+                            },
+                            {
+                                "indicate_id": "11-PBa-Va-3",
+                                "indicate_name": "位能的定義。"
+                            },
+                            {
+                                "indicate_id": "11-PBa-Va-4",
+                                "indicate_name": "重力位能及彈簧位能的一般表示式。"
+                            },
+                            {
+                                "indicate_id": "11-PBa-Va-5",
+                                "indicate_name": "一般性的力學能守恆律與實例。"
+                            }
+                        ]
+                    },
+                    {
+                        "subject_id": 119,
+                        "unit": 2,
+                        "unit_name": "溫度與熱量（Bb）",
+                        "game_link_id": "",
+                        "bNodes": [
+                            {
+                                "indicate_id": "11-PBb-Va-1",
+                                "indicate_name": "理想氣體狀態方程為PV=nRT，此溫度T為絕對溫度。"
+                            },
+                            {
+                                "indicate_id": "11-PBb-Va-2",
+                                "indicate_name": "將牛頓力學定律應用到理想氣體動力論，可以推導出氣體壓力以及體積與內能的定量關係。將此結果套用到理想氣體狀態方程式則可得出理想氣體的內能與絕對溫度成正比的結論。"
+                            }
+                        ]
+                    },
+                    {
+                        "subject_id": 119,
+                        "unit": 3,
+                        "unit_name": "自然界的尺度與單位（Ea）",
+                        "game_link_id": "",
+                        "bNodes": [
+                            {
+                                "indicate_id": "11-PEa-Va-1",
+                                "indicate_name": "測量都會有不確定度，不確定度源自被測量物、測量儀器的特性，並受測量者及環境的影響。不確定度有國際公定的標準計算方法。"
+                            }
+                        ]
+                    },
+                    {
+                        "subject_id": 119,
+                        "unit": 4,
+                        "unit_name": "力與運動（Eb）",
+                        "game_link_id": "",
+                        "bNodes": [
+                            {
+                                "indicate_id": "11-PEb-Va-1",
+                                "indicate_name": "質點如在一平面上運動，則其位移、速度、加速度有兩個獨立的分量。"
+                            },
+                            {
+                                "indicate_id": "11-PEb-Va-2",
+                                "indicate_name": "直線等加速運動(例如:自由落體運動)，其位移、速度、加速度及時間的數學關係。"
+                            },
+                            {
+                                "indicate_id": "11-PEb-Va-3",
+                                "indicate_name": "二質點在同一直線上運動，其相對速度為二質點速度之差。"
+                            },
+                            {
+                                "indicate_id": "11-PEb-Va-4",
+                                "indicate_name": "簡諧運動為一週期性運動，其位移和速度可用時間的正弦函數或餘弦函數表示。"
+                            },
+                            {
+                                "indicate_id": "11-PEb-Va-5",
+                                "indicate_name": "質點如在一平面上運動，則其位移、速度、加速度有兩個分量，應用向量表示，例如:拋體運動，其軌跡是拋物線。"
+                            },
+                            {
+                                "indicate_id": "11-PEb-Va-6",
+                                "indicate_name": "質點作等速圓周運動時其速率及角速度不變，但有向心加速度，因此速度的方向會改變。"
+                            },
+                            {
+                                "indicate_id": "11-PEb-Va-7",
+                                "indicate_name": "力是向量，可以分解和合成。"
+                            },
+                            {
+                                "indicate_id": "11-PEb-Va-8",
+                                "indicate_name": "牛頓三大運動定律包括慣性定律、運動定律、作用與反作用定律。"
+                            },
+                            {
+                                "indicate_id": "11-PEb-Va-9",
+                                "indicate_name": "牛頓第二運動定律的應用，例如:簡諧運動與等速圓周運動。"
+                            },
+                            {
+                                "indicate_id": "11-PEb-Va-10",
+                                "indicate_name": "質點的動量等於質點的質量乘以速度，其時間變化率等於質點所受作用力。衝量等於動量的變化。"
+                            },
+                            {
+                                "indicate_id": "11-PEb-Va-11",
+                                "indicate_name": "質點系統的動量對時間的變化率等於外力的總和，如外力的總和為零，則系統動量守恆。"
+                            },
+                            {
+                                "indicate_id": "11-PEb-Va-12",
+                                "indicate_name": "質點系統質心的定義。"
+                            },
+                            {
+                                "indicate_id": "11-PEb-Va-13",
+                                "indicate_name": "質心速度、質心加速度及系統總動量及其所受外力的關係。"
+                            },
+                            {
+                                "indicate_id": "11-PEb-Va-14",
+                                "indicate_name": "一質點的角動量等於其位置向量和動量的向量外積，其時間變化率等於質點所受的力矩。"
+                            },
+                            {
+                                "indicate_id": "11-PEb-Va-15",
+                                "indicate_name": "許多生活上和工程上的問題都可用牛頓三大運動定律來解釋或計算，例如:靜力平衡、摩擦力、一維碰撞問題。"
+                            }
+                        ]
+                    },
+                    {
+                        "subject_id": 119,
+                        "unit": 5,
+                        "unit_name": "波動、光及聲音（Ka）",
+                        "game_link_id": "",
+                        "bNodes": [
+                            {
+                                "indicate_id": "11-PKa-Va-1",
+                                "indicate_name": "力學波須透過介質來傳播，但光可在真空中傳播。"
+                            },
+                            {
+                                "indicate_id": "11-PKa-Va-2",
+                                "indicate_name": "介質振動會產生波。"
+                            },
+                            {
+                                "indicate_id": "11-PKa-Va-3",
+                                "indicate_name": "正弦波在時間上以及空間中均有週期性。"
+                            },
+                            {
+                                "indicate_id": "11-PKa-Va-4",
+                                "indicate_name": "波遇到不同的介質時會反射和透射，例如：繩波。"
+                            },
+                            {
+                                "indicate_id": "11-PKa-Va-5",
+                                "indicate_name": "線性波相遇時波形可以疊加。"
+                            },
+                            {
+                                "indicate_id": "11-PKa-Va-6",
+                                "indicate_name": "兩個振幅、波長、週期皆相同的波相向行進會經由干涉形成駐波。"
+                            },
+                            {
+                                "indicate_id": "11-PKa-Va-7",
+                                "indicate_name": "如聲音形成駐波，其頻率最低者稱為基音，頻率高者稱為泛音。"
+                            },
+                            {
+                                "indicate_id": "11-PKa-Va-8",
+                                "indicate_name": "物體振動的頻率和聲波頻率相同時會產生聲音的共振（或共鳴）。"
+                            },
+                            {
+                                "indicate_id": "11-PKa-Va-9",
+                                "indicate_name": "惠更斯原理可解釋波的傳遞，波前的每一點就像一個向外傳播的點波源。"
+                            },
+                            {
+                                "indicate_id": "11-PKa-Va-10",
+                                "indicate_name": "光有波動的性質。"
+                            },
+                            {
+                                "indicate_id": "11-PKa-Va-11",
+                                "indicate_name": "光的折射遵循司乃耳定律，光由光密介質進入光疏介質的入射角大於臨界角時會發生全反射。"
+                            },
+                            {
+                                "indicate_id": "11-PKa-Va-12",
+                                "indicate_name": "光經透鏡成像可用透鏡公式分析，透鏡有很多用途。"
+                            },
+                            {
+                                "indicate_id": "11-PKa-Va-13",
+                                "indicate_name": "光有干涉與繞射的現象，其亮紋和暗紋決定於相位差。"
+                            }
+                        ]
+                    },
+                    {
+                        "subject_id": 119,
+                        "unit": 6,
+                        "unit_name": "萬有引力（Kb）",
+                        "game_link_id": "",
+                        "bNodes": [
+                            {
+                                "indicate_id": "11-PKb-Va-1",
+                                "indicate_name": "萬有引力定律的說明。"
+                            },
+                            {
+                                "indicate_id": "11-PKb-Va-2",
+                                "indicate_name": "地球表面的重力與重力加速度。"
+                            },
+                            {
+                                "indicate_id": "11-PKb-Va-3",
+                                "indicate_name": "行星與人造衛星的運動。"
+                            },
+                            {
+                                "indicate_id": "11-PKb-Va-4",
+                                "indicate_name": "以圓周運動為例說明如何由萬有引力定律推論出克卜勒定律。"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": 46,
+                "stage": "0",
+                "grade": "11"
+            },
+            "數學": {
+                "seme": 1131,
+                "seme_list": [
+                    {
+                        "subject_id": 28,
+                        "unit": 1,
+                        "unit_name": "數與量",
+                        "game_link_id": "RXpNVE54TXhBNEFqQURNRE00TXhFPT1R",
+                        "bNodes": [
+                            {
+                                "indicate_id": "N-11A-1",
+                                "indicate_name": "弧度量"
+                            }
+                        ]
+                    },
+                    {
+                        "subject_id": 28,
+                        "unit": 2,
+                        "unit_name": "坐標幾何",
+                        "game_link_id": "RXpNVE54TXhBNEFqQURNRE00TXhFPT1n",
+                        "bNodes": [
+                            {
+                                "indicate_id": "G-11A-1",
+                                "indicate_name": "平面向量"
+                            },
+                            {
+                                "indicate_id": "G-11A-2",
+                                "indicate_name": "空間坐標系"
+                            },
+                            {
+                                "indicate_id": "G-11A-3",
+                                "indicate_name": "空間向量"
+                            },
+                            {
+                                "indicate_id": "G-11A-4",
+                                "indicate_name": "三角不等式"
+                            },
+                            {
+                                "indicate_id": "G-11A-5",
+                                "indicate_name": "三角的和差角公式"
+                            },
+                            {
+                                "indicate_id": "G-11A-6",
+                                "indicate_name": "平面向量的運算"
+                            },
+                            {
+                                "indicate_id": "G-11A-7",
+                                "indicate_name": "空間向量的運算"
+                            },
+                            {
+                                "indicate_id": "G-11A-8",
+                                "indicate_name": "三階行列式"
+                            },
+                            {
+                                "indicate_id": "G-11A-9",
+                                "indicate_name": "平面方程式"
+                            },
+                            {
+                                "indicate_id": "G-11A-10",
+                                "indicate_name": "空間中的直線方程式"
+                            }
+                        ]
+                    },
+                    {
+                        "subject_id": 28,
+                        "unit": 3,
+                        "unit_name": "代數",
+                        "game_link_id": "RXpNVE54TXhBNEFqQURNRE00TXhFPT13",
+                        "bNodes": [
+                            {
+                                "indicate_id": "A-11A-1",
+                                "indicate_name": "二元一次方程組的矩陣表達"
+                            },
+                            {
+                                "indicate_id": "A-11A-2",
+                                "indicate_name": "三元一次聯立方程式"
+                            },
+                            {
+                                "indicate_id": "A-11A-3",
+                                "indicate_name": "矩陣的運算"
+                            },
+                            {
+                                "indicate_id": "A-11A-4",
+                                "indicate_name": "對數律"
+                            }
+                        ]
+                    },
+                    {
+                        "subject_id": 28,
+                        "unit": 4,
+                        "unit_name": "函數",
+                        "game_link_id": "RXpNVE54TXhBNEFqQURNRE00TnhFPT1B",
+                        "bNodes": [
+                            {
+                                "indicate_id": "F-11A-1",
+                                "indicate_name": "三角函數的圖形"
+                            },
+                            {
+                                "indicate_id": "F-11A-2",
+                                "indicate_name": "正餘弦的疊合"
+                            },
+                            {
+                                "indicate_id": "F-11A-3",
+                                "indicate_name": "矩陣的應用"
+                            },
+                            {
+                                "indicate_id": "F-11A-4",
+                                "indicate_name": "指數與對數函數"
+                            }
+                        ]
+                    },
+                    {
+                        "subject_id": 28,
+                        "unit": 5,
+                        "unit_name": "資料與不確定性",
+                        "game_link_id": "RXpNVE54TXhBNEFqQURNRE00TnhFPT1R",
+                        "bNodes": [
+                            {
+                                "indicate_id": "D-11A-1",
+                                "indicate_name": "主觀機率與客觀機率"
+                            },
+                            {
+                                "indicate_id": "D-11A-2",
+                                "indicate_name": "條件機率"
+                            },
+                            {
+                                "indicate_id": "D-11A-3",
+                                "indicate_name": "貝氏定理"
+                            }
+                        ]
+                    },
+                    {
+                        "subject_id": 28,
+                        "unit": 6,
+                        "unit_name": "空間與形狀",
+                        "game_link_id": "RXpNVE54TXhBNEFqQURNRE00TnhFPT1n",
+                        "bNodes": [
+                            {
+                                "indicate_id": "S-11A-1",
+                                "indicate_name": "空間概念"
+                            }
+                        ]
+                    }
+                ],
+                "publisher": 58,
+                "stage": "0",
+                "grade": "11"
+            }
+        }
+    }
+}

@@ -12,6 +12,27 @@
 
 期待這些改進能夠為教師和學生提供更好的學研經驗，並進一步推廣適性教學的實踐。
 
+## 部屬
+
+首先請你確保已經安裝了 Node.js 環境，然後執行以下命令安裝相關依賴：
+
+```bash
+npm install
+```
+
+### 爬蟲
+
+依序執行 `subject.js`, `course.js`, `lesson.js`, `video.js`。
+
+### Line Bot
+
+在 Line Developer Console 創建一個 Message API，並將其 Channel Access Token 和 Channel Secret 填入 `.env` 文件中。
+
+```bash
+COOKIE=YOUR_COOKIE
+CHANNEL_SECRET=YOUR_CHANNEL_SECRET
+```
+
 ## 備註
 
 此 Line Bot 並非因材網官方製作，僅為毛哥EM個人作品。此開源專案以 Apache License 2.0 釋出，使用因才網官方 API，僅供學習和研究使用。

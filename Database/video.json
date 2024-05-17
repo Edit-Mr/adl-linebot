@@ -1,0 +1,1977 @@
+{
+  "普通型高中": {
+    "十一年級": {
+      "國語文": {
+        "seme": 1121,
+        "publisher": 46,
+        "stage": "0",
+        "grade": "11",
+        "seme_list": [
+          {
+            "subject_id": 119,
+            "unit": 1,
+            "unit_name": "能量的形式與轉換（Ba）",
+            "game_link_id": "",
+            "bNodes": [
+              {
+                "id": "11-PBa-Va-1-1",
+                "name": "功與能量的概念",
+                "video": "data\\/video_data\\/15418-11-PBa-Va-1-1-123-1.mp4"
+              },
+              {
+                "id": "11-PBa-Va-1-2",
+                "name": "作功的定義",
+                "video": "data\\/video_data\\/17264-11-PBa-Va-1-2-123-1.mp4"
+              },
+              {
+                "id": "11-PBa-Va-1-3",
+                "name": "功率的概念與定義",
+                "video": "data\\/video_data\\/17265-11-PBa-Va-1-3-123-1.mp4"
+              },
+              {
+                "id": "11-PBa-Va-1-4",
+                "name": "功率與能量",
+                "video": "data\\/video_data\\/17266-11-PBa-Va-1-4-123-1.mp4"
+              },
+              {
+                "id": "11-PBa-Va-1-5",
+                "name": "變力作功",
+                "video": "data\\/video_data\\/17267-11-PBa-Va-1-5-123-1.mp4"
+              },
+              {
+                "id": "11-PBa-Va-2-1",
+                "name": "動能",
+                "video": "data\\/video_data\\/17279-11-PBa-Va-2-1-123-1.mp4"
+              },
+              {
+                "id": "11-PBa-Va-2-2",
+                "name": "功能定理",
+                "video": "data\\/video_data\\/17268-11-PBa-Va-2-2-123-1.mp4"
+              },
+              {
+                "id": "11-PBa-Va-3-1",
+                "name": "位能的定義",
+                "video": "data\\/video_data\\/17289-11-PBa-Va-3-1-123-2.mp4"
+              },
+              {
+                "id": "11-PBa-Va-4-1",
+                "name": "位能與動能",
+                "video": "data\\/video_data\\/17290-11-PBa-Va-4-1-123-2.mp4"
+              },
+              {
+                "id": "11-PBa-Va-4-2",
+                "name": "力學能守恆",
+                "video": "data\\/video_data\\/17293-11-PBa-Va-4-2-123-1.mp4"
+              },
+              {
+                "id": "11-PBa-Va-4-3",
+                "name": "力學能守恆的應用(單擺的能量)",
+                "video": "data\\/video_data\\/17340-11-PBa-Va-4-3-123-1.mp4"
+              },
+              {
+                "id": "11-PBa-Va-4-4",
+                "name": "力學能守恆的應用(垂直圓周運動)",
+                "video": "data\\/video_data\\/17341-11-PBa-Va-4-4-123-2.mp4"
+              },
+              {
+                "id": "11-PBa-Va-4-5",
+                "name": "彈力位能",
+                "video": "data\\/video_data\\/17342-11-PBa-Va-4-5-123-2.mp4"
+              },
+              {
+                "id": "11-PBa-Va-4-6",
+                "name": "彈力位能的應用",
+                "video": "data\\/video_data\\/17344-11-PBa-Va-4-6-123-2.mp4"
+              },
+              {
+                "id": "11-PBa-Va-4-7",
+                "name": "彈力位能與簡諧運動",
+                "video": "data\\/video_data\\/17346-11-PBa-Va-4-7-123-2.mp4"
+              },
+              {
+                "id": "11-PBa-Va-4-8",
+                "name": "重力位能(一般式)",
+                "video": "data\\/video_data\\/17378-11-PBa-Va-4-8-123-1.mp4"
+              },
+              {
+                "id": "11-PBa-Va-4-9",
+                "name": "脫離速度",
+                "video": "data\\/video_data\\/17352-11-PBa-Va-4-9-123-2.mp4"
+              },
+              {
+                "id": "11-PBa-Va-4-10",
+                "name": "人造衛星的重力位能",
+                "video": "data\\/video_data\\/17292-11-PBa-Va-4-10-123-1.mp4"
+              },
+              {
+                "id": "11-PBa-Va-5-1",
+                "name": "力學能守恆律現象與守恆力",
+                "video": "data\\/video_data\\/17379-11-PBa-Va-5-1-123-2.mp4"
+              },
+              {
+                "id": "11-PBa-Va-5-2",
+                "name": "非守恆力",
+                "video": "data\\/video_data\\/17380-11-PBa-Va-5-2-123-1.mp4"
+              },
+              {
+                "id": "11-PBa-Va-5-3",
+                "name": "力學能守恆律的應用",
+                "video": "data\\/video_data\\/18676-11-PBa-Va-5-3-123-1.mp4"
+              }
+            ],
+            "mid": "73274"
+          },
+          {
+            "subject_id": 119,
+            "unit": 2,
+            "unit_name": "溫度與熱量（Bb）",
+            "game_link_id": "",
+            "bNodes": [
+              {
+                "id": "11-PBb-Va-1-1",
+                "name": "理想氣體-氣體的巨觀性質(壓力與大氣壓力)",
+                "video": "data\\/video_data\\/17381-11-PBb-Va-1-1-123-2.mp4"
+              },
+              {
+                "id": "11-PBb-Va-1-2",
+                "name": "理想氣體-波以耳定律",
+                "video": "data\\/video_data\\/17388-11-PBb-Va-1-2-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-1-3",
+                "name": "理想氣體-氣體體積與溫度的關係(定壓氣體溫度計)",
+                "video": "data\\/video_data\\/17425-11-PBb-Va-1-3-123-2.mp4"
+              },
+              {
+                "id": "11-PBb-Va-1-4",
+                "name": "理想氣體-查爾斯定律(VT關係)",
+                "video": "data\\/video_data\\/17426-11-PBb-Va-1-4-123-2.mp4"
+              },
+              {
+                "id": "11-PBb-Va-1-5",
+                "name": "理想氣體-呂薩克定律(PT關係)",
+                "video": "data\\/video_data\\/17428-11-PBb-Va-1-5-123-2.mp4"
+              },
+              {
+                "id": "11-PBb-Va-1-6",
+                "name": "理想氣體-絕對0度的現象推測)",
+                "video": "data\\/video_data\\/17431-11-PBb-Va-1-6-123-2.mp4"
+              },
+              {
+                "id": "11-PBb-Va-1-7",
+                "name": "理想氣體-亞佛加厥定律(PV與n的關係)",
+                "video": "data\\/video_data\\/17432-11-PBb-Va-1-7-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-1-8",
+                "name": "理想氣體-理想氣體的假設",
+                "video": "data\\/video_data\\/18531-11-PBb-Va-1-8-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-1-9",
+                "name": "理想氣體-運用數個理論整合出理想氣體方程式",
+                "video": "data\\/video_data\\/17433-11-PBb-Va-1-9-123-2.mp4"
+              },
+              {
+                "id": "11-PBb-Va-1-10",
+                "name": "理想氣體-運用完整的理想氣體方程式處理問題",
+                "video": "data\\/video_data\\/17389-11-PBb-Va-1-10-123-2.mp4"
+              },
+              {
+                "id": "11-PBb-Va-1-11",
+                "name": "精簡化理想氣體方程式處理問題",
+                "video": "data\\/video_data\\/17387-11-PBb-Va-1-11-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-1-12",
+                "name": "理想氣體方程式應用-波以耳",
+                "video": "data\\/video_data\\/18231-11-PBb-Va-1-12-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-1-13",
+                "name": "查爾斯定律的應用(VT關係)",
+                "video": "data\\/video_data\\/18130-11-PBb-Va-1-13-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-1-14",
+                "name": "理想氣體-氣體壓力與溫度的關係定容氣體溫度計",
+                "video": "data\\/video_data\\/20013-11-PBb-Va-1-14-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-2-1",
+                "name": "氣體壓力的微觀觀點",
+                "video": "data\\/video_data\\/19123-11-PBb-Va-2-1-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-2-2",
+                "name": "氣體粒子的動能論",
+                "video": "data\\/video_data\\/20015-11-PBb-Va-2-2-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-2-3-1",
+                "name": "氣體分子動力論單一粒子",
+                "video": "data\\/video_data\\/20014-11-PBb-Va-2-3-1-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-2-3-2",
+                "name": "氣體分子動力論多個粒子",
+                "video": "data\\/video_data\\/20016-11-PBb-Va-2-3-2-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-2-4",
+                "name": "方均根速率(微觀)",
+                "video": "data\\/video_data\\/20017-11-PBb-Va-2-4-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-2-5-1",
+                "name": "氣體分子的速率分布",
+                "video": "data\\/video_data\\/20018-11-PBb-Va-2-5-1-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-2-5-2",
+                "name": "氣體微觀方均根速率",
+                "video": "data\\/video_data\\/20024-11-PBb-Va-2-5-2-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-2-6",
+                "name": "整合理想氣體方程式與氣體分子動力",
+                "video": "data\\/video_data\\/21328-11-PBb-Va-2-6-123-1.mp4"
+              },
+              {
+                "id": "11-PBb-Va-2-7",
+                "name": "氣體分子動力論應用-香水-擴散",
+                "video": "data\\/video_data\\/18370-11-PBb-Va-2-7-123-1.mp4"
+              }
+            ],
+            "mid": "73333"
+          }
+        ]
+      },
+      "數學": {
+        "seme": 1131,
+        "publisher": 58,
+        "stage": "0",
+        "grade": "11",
+        "seme_list": [
+          {
+            "subject_id": 28,
+            "unit": 1,
+            "unit_name": "數與量",
+            "game_link_id": "RXpNVE54TXhBNEFqQURNRE00TXhFPT1R",
+            "bNodes": [
+              {
+                "id": "N-11A-1-S01",
+                "name": "能理解弧度量的意義",
+                "video": "data\\/video_data\\/9289-N-11A-1-S01-32-2.mp4"
+              },
+              {
+                "id": "N-11A-1-S02",
+                "name": "能換算弧度量與度度量及其應用",
+                "video": "data\\/video_data\\/9291-N-11A-1-S02-32-2.mp4"
+              },
+              {
+                "id": "N-11A-1-S03",
+                "name": "以計算機求三角比的值",
+                "video": "data\\/video_data\\/9292-N-11A-1-S03-32-2.mp4"
+              },
+              {
+                "id": "N-11A-1-S04",
+                "name": "能理解弧度量計算弧長與扇形面積的公式",
+                "video": "data\\/video_data\\/9293-N-11A-1-S04-32-2.mp4"
+              },
+              {
+                "id": "N-11A-1-S05",
+                "name": "能應用弧度量計算弧長與扇形面積的公式",
+                "video": "data\\/video_data\\/9294-N-11A-1-S05-32-2.mp4"
+              },
+              {
+                "id": "N-11A-1-S06",
+                "name": "能對弧度量之相關概念進行統整",
+                "video": "data\\/video_data\\/9295-N-11A-1-S06-32-1.mp4"
+              },
+              {
+                "id": "N-11A-1-S07",
+                "name": "能綜合應用弧度量之相關概念以解決問題",
+                "video": "data\\/video_data\\/9296-N-11A-1-S07-32-1.mp4"
+              }
+            ],
+            "mid": "78326"
+          },
+          {
+            "subject_id": 28,
+            "unit": 2,
+            "unit_name": "坐標幾何",
+            "game_link_id": "RXpNVE54TXhBNEFqQURNRE00TXhFPT1n",
+            "bNodes": [
+              {
+                "id": "G-11A-1-S01",
+                "name": "能理解向量的意義及其幾何表示法",
+                "video": "data\\/video_data\\/9574-G-11A-1-S01-32-1.mp4"
+              },
+              {
+                "id": "G-11A-1-S02",
+                "name": "能理解向量的坐標表示法",
+                "video": "data\\/video_data\\/9575-G-11A-1-S02-32-1.mp4"
+              },
+              {
+                "id": "G-11A-1-S03",
+                "name": "能理解並應用向量的加法與減法及其運算性質",
+                "video": "data\\/video_data\\/9576-G-11A-1-S03-32-1.mp4"
+              },
+              {
+                "id": "G-11A-1-S04",
+                "name": "能理解並應用向量的係數積及其運算性質",
+                "video": "data\\/video_data\\/9577-G-11A-1-S04-32-1.mp4"
+              },
+              {
+                "id": "G-11A-1-S05",
+                "name": "能以圖示解析向量的基本運算",
+                "video": "data\\/video_data\\/9578-G-11A-1-S05-32-1.mp4"
+              },
+              {
+                "id": "G-11A-1-S06",
+                "name": "能理解向量理解並應用的線性組合",
+                "video": "data\\/video_data\\/9579-G-11A-1-S06-32-1.mp4"
+              },
+              {
+                "id": "G-11A-1-S07",
+                "name": "能理解並應用向量的線性組合的延伸:向量的分點公式",
+                "video": "data\\/video_data\\/9835-G-11A-1-S07-32-1.mp4"
+              },
+              {
+                "id": "G-11A-1-S08",
+                "name": "能對平面向量之相關概念進行統整",
+                "video": "data\\/video_data\\/9581-G-11A-1-S08-32-1.mp4"
+              },
+              {
+                "id": "G-11A-1-S08E",
+                "name": "能對平面向量之相關概念進行統整_基礎版",
+                "video": "data\\/video_data\\/19036-G-11A-1-S08E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-1-S09",
+                "name": "能綜合應用平面向量之相關概念以解決問題",
+                "video": "data\\/video_data\\/9582-G-11A-1-S09-32-1.mp4"
+              },
+              {
+                "id": "G-11A-1-S09E",
+                "name": "能綜合應用平面向量之相關概念以解決問題_基礎版",
+                "video": "data\\/video_data\\/19037-G-11A-1-S09E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-2-S01",
+                "name": "能理解空間坐標系、空間中的點坐標",
+                "video": "data\\/video_data\\/9297-G-11A-2-S01-32-1.mp4"
+              },
+              {
+                "id": "G-11A-2-S02",
+                "name": "能理解與應用點在空間坐標平面上的投影點與對稱點",
+                "video": "data\\/video_data\\/9298-G-11A-2-S02-32-1.mp4"
+              },
+              {
+                "id": "G-11A-2-S03",
+                "name": "能理解與應用點在空間坐標軸上的投影點與對稱點",
+                "video": "data\\/video_data\\/9299-G-11A-2-S03-32-1.mp4"
+              },
+              {
+                "id": "G-11A-2-S04",
+                "name": "能理解與應用空間中兩點的中點公式與距離公式",
+                "video": "data\\/video_data\\/9300-G-11A-2-S04-32-1.mp4"
+              },
+              {
+                "id": "G-11A-2-S05",
+                "name": "能理解與應用點到空間坐標平面及到坐標軸的距離",
+                "video": "data\\/video_data\\/9301-G-11A-2-S05-32-1.mp4"
+              },
+              {
+                "id": "G-11A-2-S05E",
+                "name": "能理解與應用點到空間坐標平面及到坐標軸的距離_基礎版",
+                "video": "data\\/video_data\\/19041-G-11A-2-S05E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-2-S06",
+                "name": "能對空間坐標系之相關概念進行統整",
+                "video": "data\\/video_data\\/9302-G-11A-2-S06-32-1.mp4"
+              },
+              {
+                "id": "G-11A-2-S07",
+                "name": "能綜合應用空間坐標系之相關概念以解決問題",
+                "video": "data\\/video_data\\/9303-G-11A-2-S07-32-1.mp4"
+              },
+              {
+                "id": "G-11A-2-S07E",
+                "name": "能綜合應用空間坐標系之相關概念以解決問題_基礎版",
+                "video": "data\\/video_data\\/19042-G-11A-2-S07E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-3-S01",
+                "name": "能理解空間向量的意義與表示法",
+                "video": "data\\/video_data\\/9304-G-11A-3-S01-32-1.mp4"
+              },
+              {
+                "id": "G-11A-3-S02",
+                "name": "能理解與操作向量的長度、向量加、減法的圖示法與坐標表示法、係數積",
+                "video": "data\\/video_data\\/9305-G-11A-3-S02-32-1.mp4"
+              },
+              {
+                "id": "G-11A-3-S03",
+                "name": "能理解空間中兩平行向量的幾何與代數意涵",
+                "video": "data\\/video_data\\/9306-G-11A-3-S03-32-1.mp4"
+              },
+              {
+                "id": "G-11A-3-S04",
+                "name": "能理解並應用空間向量的分點公式",
+                "video": "data\\/video_data\\/9307-G-11A-3-S04-32-1.mp4"
+              },
+              {
+                "id": "G-11A-3-S05",
+                "name": "能理解與應用空間向量的線性組合，以標出點所形成的區域",
+                "video": "data\\/video_data\\/9308-G-11A-3-S05-32-1.mp4"
+              },
+              {
+                "id": "G-11A-3-S06",
+                "name": "能對空間向量之相關概念進行統整",
+                "video": "data\\/video_data\\/9309-G-11A-3-S06-32-1.mp4"
+              },
+              {
+                "id": "G-11A-3-S07",
+                "name": "能綜合應用空間向量之相關概念以解決問題",
+                "video": "data\\/video_data\\/9310-G-11A-3-S07-32-1.mp4"
+              },
+              {
+                "id": "G-11A-3-S07E",
+                "name": "能綜合應用空間向量之相關概念以解決問題_基礎版",
+                "video": "data\\/video_data\\/19018-G-11A-3-S07E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-4-S01",
+                "name": "能以向量表示三角不等式並能比較其大小關係",
+                "video": "data\\/video_data\\/9583-G-11A-4-S01-32-1.mp4"
+              },
+              {
+                "id": "G-11A-4-S02",
+                "name": "能理解三角不等式與其等號成立時之條件",
+                "video": "data\\/video_data\\/9584-G-11A-4-S02-32-1.mp4"
+              },
+              {
+                "id": "G-11A-4-S03",
+                "name": "能應用向量形式之三角不等式",
+                "video": "data\\/video_data\\/9585-G-11A-4-S03-32-1.mp4"
+              },
+              {
+                "id": "G-11A-4-S04",
+                "name": "能理解並應用實數之三角不等式",
+                "video": "data\\/video_data\\/9586-G-11A-4-S04-32-1.mp4"
+              },
+              {
+                "id": "G-11A-4-S05",
+                "name": "能對三角不等式之相關概念進行統整",
+                "video": "data\\/video_data\\/9669-G-11A-4-S05-32-1.mp4"
+              },
+              {
+                "id": "G-11A-4-S05E",
+                "name": "能對三角不等式之相關概念進行統整_基礎版",
+                "video": "data\\/video_data\\/17347-G-11A-4-S05E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-4-S06",
+                "name": "能綜合應用三角不等式之相關概念以解決問題",
+                "video": "data\\/video_data\\/9670-G-11A-4-S06-32-1.mp4"
+              },
+              {
+                "id": "G-11A-4-S06E",
+                "name": "能綜合應用三角不等式之相關概念以解決問題_基礎版",
+                "video": "data\\/video_data\\/17383-G-11A-4-S06E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-5-S01",
+                "name": "能理解正弦的和角與差角公式之推導與應用",
+                "video": "data\\/video_data\\/9311-G-11A-5-S01-32-1.mp4"
+              },
+              {
+                "id": "G-11A-5-S01E",
+                "name": "能理解正弦的和角與差角公式之推導與應用_基礎版",
+                "video": "data\\/video_data\\/18765-G-11A-5-S01E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-5-S02",
+                "name": "能理解餘弦的和角與差角公式之推導與應用",
+                "video": "data\\/video_data\\/9312-G-11A-5-S02-32-1.mp4"
+              },
+              {
+                "id": "G-11A-5-S03",
+                "name": "能理解正切的和角與差角公式之推導與應用",
+                "video": "data\\/video_data\\/9313-G-11A-5-S03-32-1.mp4"
+              },
+              {
+                "id": "G-11A-5-S04",
+                "name": "能應用和差角公式解決生活問題",
+                "video": "data\\/video_data\\/9314-G-11A-5-S04-32-1.mp4"
+              },
+              {
+                "id": "G-11A-5-S04E",
+                "name": "能應用和差角公式解決生活問題_基礎版",
+                "video": "data\\/video_data\\/18770-G-11A-5-S04E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-5-S05",
+                "name": "能推導並應用正弦的二倍角公式",
+                "video": "data\\/video_data\\/9315-G-11A-5-S05-32-1.mp4"
+              },
+              {
+                "id": "G-11A-5-S06",
+                "name": "能推導並應用餘弦的二倍角公式",
+                "video": "data\\/video_data\\/9316-G-11A-5-S06-32-1.mp4"
+              },
+              {
+                "id": "G-11A-5-S07",
+                "name": "能推導並應用正切的二倍角公式",
+                "video": "data\\/video_data\\/9317-G-11A-5-S07-32-1.mp4"
+              },
+              {
+                "id": "G-11A-5-S08",
+                "name": "能認識及計算半角與三倍角的公式",
+                "video": "data\\/video_data\\/9318-G-11A-5-S08-32-1.mp4"
+              },
+              {
+                "id": "G-11A-5-S08E",
+                "name": "能認識及計算半角與三倍角的公式_基礎版",
+                "video": "data\\/video_data\\/19040-G-11A-5-S08E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-5-S09",
+                "name": "能應用倍角與半角公式解決生活問題",
+                "video": "data\\/video_data\\/9319-G-11A-5-S09-32-1.mp4"
+              },
+              {
+                "id": "G-11A-5-S10",
+                "name": "能對三角的和差角公式之相關概念進行統整",
+                "video": "data\\/video_data\\/9320-G-11A-5-S10-32-1.mp4"
+              },
+              {
+                "id": "G-11A-5-S11",
+                "name": "能綜合應用三角的和差角公式之相關概念以解決問題",
+                "video": "data\\/video_data\\/9343-G-11A-5-S11-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S01",
+                "name": "能理解平面向量內積及其幾何意義",
+                "video": "data\\/video_data\\/9344-G-11A-6-S01-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S02",
+                "name": "能理解平面向量內積的代數意義",
+                "video": "data\\/video_data\\/9345-G-11A-6-S02-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S02E",
+                "name": "能理解平面向量內積的代數意義_基礎版",
+                "video": "data\\/video_data\\/18774-G-11A-6-S02E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S03",
+                "name": "能理解平面向量內積的運算性質",
+                "video": "data\\/video_data\\/9346-G-11A-6-S03-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S03E",
+                "name": "能理解平面向量內積的運算性質_基礎版",
+                "video": "data\\/video_data\\/17384-G-11A-6-S03E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S04",
+                "name": "能理解並判斷兩向量的平行與垂直",
+                "video": "data\\/video_data\\/9347-G-11A-6-S04-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S04E",
+                "name": "能理解並判斷兩向量的平行與垂直_基礎版",
+                "video": "data\\/video_data\\/17385-G-11A-6-S04E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S05",
+                "name": "能理解正射影的意義與應用",
+                "video": "data\\/video_data\\/9348-G-11A-6-S05-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S05E",
+                "name": "能理解正射影的意義與應用_基礎版",
+                "video": "data\\/video_data\\/17394-G-11A-6-S05E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S06",
+                "name": "能理解與應用柯西不等式",
+                "video": "data\\/video_data\\/9349-G-11A-6-S06-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S06E",
+                "name": "能理解與應用柯西不等式_基礎版",
+                "video": "data\\/video_data\\/17396-G-11A-6-S06E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S07",
+                "name": "能理解平面上的直線方程式與法向量",
+                "video": "data\\/video_data\\/9350-G-11A-6-S07-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S08",
+                "name": "能理解直線的參數式與方向向量",
+                "video": "data\\/video_data\\/9351-G-11A-6-S08-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S09",
+                "name": "能理解與應用向量內積求兩直角之交角",
+                "video": "data\\/video_data\\/9352-G-11A-6-S09-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S09E",
+                "name": "能理解與應用向量內積求兩直角之交角_基礎版",
+                "video": "data\\/video_data\\/18968-G-11A-6-S09E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S10",
+                "name": "能理解與計算兩向量所張成的平行四邊形面積",
+                "video": "data\\/video_data\\/9353-G-11A-6-S10-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S10E",
+                "name": "能理解與計算兩向量所張成的平行四邊形面積_基礎版",
+                "video": "data\\/video_data\\/19043-G-11A-6-S10E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S11",
+                "name": "能理解兩階行列式的運算性質",
+                "video": "data\\/video_data\\/9354-G-11A-6-S11-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S11E",
+                "name": "能理解兩階行列式的運算性質_基礎版",
+                "video": "data\\/video_data\\/19044-G-11A-6-S11E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S12",
+                "name": "能理解並應用二元一次方程組解的克拉瑪公式",
+                "video": "data\\/video_data\\/9355-G-11A-6-S12-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S13",
+                "name": "能理解二元一次方成組的線性組合意涵",
+                "video": "data\\/video_data\\/9356-G-11A-6-S13-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S13E",
+                "name": "能理解二元一次方成組的線性組合意涵_基礎版",
+                "video": "data\\/video_data\\/19045-G-11A-6-S13E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S14",
+                "name": "能理解克拉瑪公式的幾何意義",
+                "video": "data\\/video_data\\/9357-G-11A-6-S14-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S14E",
+                "name": "能理解克拉瑪公式的幾何意義_基礎版"
+              },
+              {
+                "id": "G-11A-6-S15",
+                "name": "能理解克拉瑪公式判別兩直線的關係",
+                "video": "data\\/video_data\\/9358-G-11A-6-S15-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S15E",
+                "name": "能理解克拉瑪公式判別兩直線的關係_基礎版"
+              },
+              {
+                "id": "G-11A-6-S16",
+                "name": "能對平面向量的運算之相關概念進行統整❲一❳",
+                "video": "data\\/video_data\\/9361-G-11A-6-S16-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S16E",
+                "name": "能對平面向量的運算之相關概念進行統整_基礎版❲一❳",
+                "video": "data\\/video_data\\/17397-G-11A-6-S16E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S17",
+                "name": "能對平面向量的運算之相關概念進行統整❲二❳",
+                "video": "data\\/video_data\\/9362-G-11A-6-S17-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S17E",
+                "name": "能對平面向量的運算之相關概念進行統整_基礎版❲二❳",
+                "video": "data\\/video_data\\/17550-G-11A-6-S17E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S18",
+                "name": "能綜合應用平面向量的運算之相關概念以解決問題❲一❳",
+                "video": "data\\/video_data\\/9363-G-11A-6-S18-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S18E",
+                "name": "能綜合應用平面向量的運算之相關概念以解決問題_基礎版❲一❳",
+                "video": "data\\/video_data\\/17551-G-11A-6-S18E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S19",
+                "name": "能綜合應用平面向量的運算之相關概念以解決問題❲二❳",
+                "video": "data\\/video_data\\/9364-G-11A-6-S19-32-1.mp4"
+              },
+              {
+                "id": "G-11A-6-S19E",
+                "name": "能綜合應用平面向量的運算之相關概念以解決問題_基礎版❲二❳",
+                "video": "data\\/video_data\\/17560-G-11A-6-S19E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S01",
+                "name": "並了解空間向量的內積定義與坐標表示",
+                "video": "data\\/video_data\\/9365-G-11A-7-S01-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S01E",
+                "name": "並了解空間向量的內積定義與坐標表示_基礎版",
+                "video": "data\\/video_data\\/18787-G-11A-7-S01E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S02",
+                "name": "並理解內積的性質並以坐標表示進行運算",
+                "video": "data\\/video_data\\/9366-G-11A-7-S02-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S02E",
+                "name": "並理解內積的性質並以坐標表示進行運算_基礎版",
+                "video": "data\\/video_data\\/18820-G-11A-7-S02E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S03",
+                "name": "並理解與判斷空間中兩向量的平行或垂直",
+                "video": "data\\/video_data\\/9367-G-11A-7-S03-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S04",
+                "name": "並理解空間向量正射影的求法",
+                "video": "data\\/video_data\\/9368-G-11A-7-S04-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S04E",
+                "name": "並理解空間向量正射影的求法_基礎版",
+                "video": "data\\/video_data\\/18709-G-11A-7-S04E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S05",
+                "name": "能應用空間向量的正射影解決相關問題",
+                "video": "data\\/video_data\\/9369-G-11A-7-S05-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S05E",
+                "name": "能應用空間向量的正射影解決相關問題_基礎版",
+                "video": "data\\/video_data\\/18519-G-11A-7-S05E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S06",
+                "name": "能理解柯西不等式與其等號成立的條件",
+                "video": "data\\/video_data\\/9370-G-11A-7-S06-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S06E",
+                "name": "能理解柯西不等式與其等號成立的條件_基礎版",
+                "video": "data\\/video_data\\/18520-G-11A-7-S06E-32-3.mp4"
+              },
+              {
+                "id": "G-11A-7-S07",
+                "name": "能應用柯西不等式求極值",
+                "video": "data\\/video_data\\/9371-G-11A-7-S07-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S07E",
+                "name": "能應用柯西不等式求極值_基礎版",
+                "video": "data\\/video_data\\/18521-G-11A-7-S07E-32-4.mp4"
+              },
+              {
+                "id": "G-11A-7-S08",
+                "name": "能利用空間向量的內積求平行四邊形與三角形的面積",
+                "video": "data\\/video_data\\/9372-G-11A-7-S08-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S08E",
+                "name": "能利用空間向量的內積求平行四邊形與三角形的面積_基礎版",
+                "video": "data\\/video_data\\/18841-G-11A-7-S08E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S09",
+                "name": "能了解空間向量外積的意義",
+                "video": "data\\/video_data\\/9373-G-11A-7-S09-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S10",
+                "name": "能理解空間向量的外積的運算性質",
+                "video": "data\\/video_data\\/9374-G-11A-7-S10-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S10E",
+                "name": "能理解空間向量的外積的運算性質_基礎版",
+                "video": "data\\/video_data\\/19046-G-11A-7-S10E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S11",
+                "name": "能理解空間向量的外積的幾何意涵",
+                "video": "data\\/video_data\\/9375-G-11A-7-S11-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S11E",
+                "name": "能理解空間向量的外積的幾何意涵_基礎版",
+                "video": "data\\/video_data\\/21544-G-11A-7-S11E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S12",
+                "name": "能對空間向量的運算之相關概念進行統整",
+                "video": "data\\/video_data\\/9376-G-11A-7-S12-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S12E",
+                "name": "能對空間向量的運算之相關概念進行統整_基礎版",
+                "video": "data\\/video_data\\/19047-G-11A-7-S12E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S13",
+                "name": "能綜合應用空間向量的運算之相關概念以解決問題",
+                "video": "data\\/video_data\\/9377-G-11A-7-S13-32-1.mp4"
+              },
+              {
+                "id": "G-11A-7-S13E",
+                "name": "能綜合應用空間向量的運算之相關概念以解決問題_基礎版",
+                "video": "data\\/video_data\\/19048-G-11A-7-S13E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-8-S01",
+                "name": "能認識三階行列式的定義",
+                "video": "data\\/video_data\\/9378-G-11A-8-S01-32-1.mp4"
+              },
+              {
+                "id": "G-11A-8-S02",
+                "name": "能理解與熟練三階行列式的運算性質",
+                "video": "data\\/video_data\\/9379-G-11A-8-S02-32-1.mp4"
+              },
+              {
+                "id": "G-11A-8-S03",
+                "name": "能理解與熟練三階行列式的降階",
+                "video": "data\\/video_data\\/9380-G-11A-8-S03-32-1.mp4"
+              },
+              {
+                "id": "G-11A-8-S04",
+                "name": "能理解與熟練三重積與其運算性質",
+                "video": "data\\/video_data\\/9381-G-11A-8-S04-32-1.mp4"
+              },
+              {
+                "id": "G-11A-8-S04E",
+                "name": "能理解與熟練三重積與其運算性質_基礎版",
+                "video": "data\\/video_data\\/18847-G-11A-8-S04E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-8-S05",
+                "name": "能應用三重積的絕對值計算平行六面體體積",
+                "video": "data\\/video_data\\/9382-G-11A-8-S05-32-1.mp4"
+              },
+              {
+                "id": "G-11A-8-S05E",
+                "name": "能應用三重積的絕對值計算平行六面體體積_基礎版",
+                "video": "data\\/video_data\\/18852-G-11A-8-S05E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-8-S06",
+                "name": "能應用體積判斷三向量是否共平面",
+                "video": "data\\/video_data\\/9383-G-11A-8-S06-32-1.mp4"
+              },
+              {
+                "id": "G-11A-8-S07",
+                "name": "能理解三階行列式運算性質的幾何意涵",
+                "video": "data\\/video_data\\/9384-G-11A-8-S07-32-1.mp4"
+              },
+              {
+                "id": "G-11A-8-S08",
+                "name": "能對三階行列式之相關概念進行統整❲一❳",
+                "video": "data\\/video_data\\/9385-G-11A-8-S08-32-1.mp4"
+              },
+              {
+                "id": "G-11A-8-S08E",
+                "name": "能對三階行列式之相關概念進行統整❲一❳_基礎版",
+                "video": "data\\/video_data\\/18857-G-11A-8-S08E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-8-S09",
+                "name": "能對三階行列式之相關概念進行統整❲二❳",
+                "video": "data\\/video_data\\/9387-G-11A-8-S09-32-1.mp4"
+              },
+              {
+                "id": "G-11A-8-S10",
+                "name": "能綜合應用三階行列式的相關概念以解決問題",
+                "video": "data\\/video_data\\/9661-G-11A-8-S10-32-1.mp4"
+              },
+              {
+                "id": "G-11A-9-S01",
+                "name": "能理解平面法向量的幾何意義與代數意義",
+                "video": "data\\/video_data\\/9859-G-11A-9-S01-32-1.mp4"
+              },
+              {
+                "id": "G-11A-9-S02",
+                "name": "能理解平面方程式的標準式",
+                "video": "data\\/video_data\\/9860-G-11A-9-S02-32-1.mp4"
+              },
+              {
+                "id": "G-11A-9-S02E",
+                "name": "能理解平面方程式的標準式_基礎版",
+                "video": "data\\/video_data\\/18522-G-11A-9-S02E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-9-S03",
+                "name": "能理解不共線三點的平面法向量",
+                "video": "data\\/video_data\\/9861-G-11A-9-S03-32-1.mp4"
+              },
+              {
+                "id": "G-11A-9-S04",
+                "name": "能認識並理解特殊平面方程式的特徵及應用",
+                "video": "data\\/video_data\\/9862-G-11A-9-S04-32-1.mp4"
+              },
+              {
+                "id": "G-11A-9-S05",
+                "name": "能理解兩平面的夾角",
+                "video": "data\\/video_data\\/9863-G-11A-9-S05-32-1.mp4"
+              },
+              {
+                "id": "G-11A-9-S05E",
+                "name": "能理解兩平面的夾角_基礎版",
+                "video": "data\\/video_data\\/18863-G-11A-9-S05E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-9-S06",
+                "name": "能理解點到平面的距離公式",
+                "video": "data\\/video_data\\/9864-G-11A-9-S06-32-1.mp4"
+              },
+              {
+                "id": "G-11A-9-S07",
+                "name": "能理解兩位置向量所有線性組合的意義",
+                "video": "data\\/video_data\\/9865-G-11A-9-S07-32-1.mp4"
+              },
+              {
+                "id": "G-11A-9-S07E",
+                "name": "能理解兩位置向量所有線性組合的意義_基礎版",
+                "video": "data\\/video_data\\/18973-G-11A-9-S07E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-9-S08",
+                "name": "能利用平面方程式的概念解決問題",
+                "video": "data\\/video_data\\/9866-G-11A-9-S08-32-1.mp4"
+              },
+              {
+                "id": "G-11A-9-S09",
+                "name": "能對平面方程式之相關概念進行統整",
+                "video": "data\\/video_data\\/9737-G-11A-9-S09-32-1.mp4"
+              },
+              {
+                "id": "G-11A-9-S09E",
+                "name": "能對平面方程式之相關概念進行統整_基礎版",
+                "video": "data\\/video_data\\/19050-G-11A-9-S09E-32-1.mp4"
+              },
+              {
+                "id": "G-11A-9-S10",
+                "name": "能綜合應用平面方程式之相關概念以解決問題",
+                "video": "data\\/video_data\\/9738-G-11A-9-S10-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S01",
+                "name": "能認識並理解空間中直線的方向向量",
+                "video": "data\\/video_data\\/9815-G-11A-10-S01-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S02",
+                "name": "能理解空間中直線的參數式",
+                "video": "data\\/video_data\\/9816-G-11A-10-S02-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S03",
+                "name": "能理解空間中直線的比例式",
+                "video": "data\\/video_data\\/9817-G-11A-10-S03-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S04",
+                "name": "能理解參數式與比例式的互換",
+                "video": "data\\/video_data\\/9818-G-11A-10-S04-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S05",
+                "name": "能理解不平行的兩相交平面的交線表示法",
+                "video": "data\\/video_data\\/9819-G-11A-10-S05-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S06",
+                "name": "能說明空間中直線與平面的關係",
+                "video": "data\\/video_data\\/9820-G-11A-10-S06-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S07",
+                "name": "能計算空間中直線與平面的交點",
+                "video": "data\\/video_data\\/9821-G-11A-10-S07-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S08",
+                "name": "能計算空間中點到平面的投影點與對稱點",
+                "video": "data\\/video_data\\/9822-G-11A-10-S08-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S09",
+                "name": "能計算空間中點到直線的投影點及距離",
+                "video": "data\\/video_data\\/9823-G-11A-10-S09-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S10",
+                "name": "能計算空間中兩相交直線的交點",
+                "video": "data\\/video_data\\/9824-G-11A-10-S10-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S11",
+                "name": "能說明空間中兩方面向量平行直線的關係",
+                "video": "data\\/video_data\\/9825-G-11A-10-S11-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S12",
+                "name": "能說明空間中兩方向向量不平行直線的關係",
+                "video": "data\\/video_data\\/9827-G-11A-10-S12-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S13",
+                "name": "能計算空間中兩平行線間的距離",
+                "video": "data\\/video_data\\/9828-G-11A-10-S13-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S14",
+                "name": "能計算空間中兩歪斜線的距離及公垂線的參數式",
+                "video": "data\\/video_data\\/9829-G-11A-10-S14-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S15",
+                "name": "能對空間中的直線方程式之相關概念進行統整",
+                "video": "data\\/video_data\\/9739-G-11A-10-S15-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S16",
+                "name": "能綜合應用空間中的直線方程式之相關概念以解決問題",
+                "video": "data\\/video_data\\/9740-G-11A-10-S16-32-1.mp4"
+              },
+              {
+                "id": "G-11A-10-S16E",
+                "name": "能綜合應用空間中的直線方程式之相關概念以解決問題_基礎版",
+                "video": "data\\/video_data\\/17627-G-11A-10-S16E-32-1.mp4"
+              }
+            ],
+            "mid": "78328"
+          },
+          {
+            "subject_id": 28,
+            "unit": 3,
+            "unit_name": "代數",
+            "game_link_id": "RXpNVE54TXhBNEFqQURNRE00TXhFPT13",
+            "bNodes": [
+              {
+                "id": "A-11A-1-S01",
+                "name": "能經由試算表認識矩陣表示法及其符號",
+                "video": "data\\/video_data\\/9459-A-11A-1-S01-32-1.mp4"
+              },
+              {
+                "id": "A-11A-1-S02",
+                "name": "能經由矩陣列運算與加減消去法解二元一次方程組",
+                "video": "data\\/video_data\\/9460-A-11A-1-S02-32-1.mp4"
+              },
+              {
+                "id": "A-11A-1-S02E",
+                "name": "能經由矩陣列運算與加減消去法解二元一次方程組_基礎版",
+                "video": "data\\/video_data\\/17040-A-11A-1-S02E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-1-S03",
+                "name": "能利用資訊工具操作矩陣的列運算",
+                "video": "data\\/video_data\\/9461-A-11A-1-S03-32-1.mp4"
+              },
+              {
+                "id": "A-11A-1-S04",
+                "name": "能認識二階行列式與二元一次方程組的克拉瑪公式",
+                "video": "data\\/video_data\\/9462-A-11A-1-S04-32-1.mp4"
+              },
+              {
+                "id": "A-11A-1-S05",
+                "name": "能理解二元一次方程組可以寫成矩陣運算式",
+                "video": "data\\/video_data\\/9463-A-11A-1-S05-32-1.mp4"
+              },
+              {
+                "id": "A-11A-1-S06",
+                "name": "能理解二元一次方程組可以寫成平面向量的線性組合",
+                "video": "data\\/video_data\\/9464-A-11A-1-S06-32-1.mp4"
+              },
+              {
+                "id": "A-11A-1-S07",
+                "name": "能從向量線性組合觀點解釋二元一次方程組解的情況",
+                "video": "data\\/video_data\\/9465-A-11A-1-S07-32-1.mp4"
+              },
+              {
+                "id": "A-11A-1-S08",
+                "name": "能從線性組合的觀點，理解克拉瑪公式的幾何意涵",
+                "video": "data\\/video_data\\/9466-A-11A-1-S08-32-1.mp4"
+              },
+              {
+                "id": "A-11A-1-S08E",
+                "name": "能從線性組合的觀點，理解克拉瑪公式的幾何意涵_基礎版",
+                "video": "data\\/video_data\\/17041-A-11A-1-S08E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-1-S09",
+                "name": "能對二元一次方程組的矩陣表達之相關概念進行統整",
+                "video": "data\\/video_data\\/9467-A-11A-1-S09-32-1.mp4"
+              },
+              {
+                "id": "A-11A-1-S10",
+                "name": "能綜合應用二元一次方程組的矩陣表達之相關概念以解決問題",
+                "video": "data\\/video_data\\/9468-A-11A-1-S10-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S01",
+                "name": "能列出及求解三元一次聯立方程式",
+                "video": "data\\/video_data\\/9469-A-11A-2-S01-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S02",
+                "name": "能透過代入與消去法，理解高斯消去法",
+                "video": "data\\/video_data\\/9470-A-11A-2-S02-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S03",
+                "name": "能透過代入與消去法，理解矩陣列運算",
+                "video": "data\\/video_data\\/9471-A-11A-2-S03-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S04",
+                "name": "能利用資訊工具展演矩陣的列運算",
+                "video": "data\\/video_data\\/9472-A-11A-2-S04-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S04E",
+                "name": "能利用資訊工具展演矩陣的列運算_基礎版",
+                "video": "data\\/video_data\\/18200-A-11A-2-S04E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S05",
+                "name": "能透過矩陣列運算，求解三元一次聯立方程式 ❲無解❳",
+                "video": "data\\/video_data\\/9473-A-11A-2-S05-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S06",
+                "name": "能透過矩陣列運算，求解三元一次聯立方程式 ❲無限多解❳",
+                "video": "data\\/video_data\\/9474-A-11A-2-S06-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S07",
+                "name": "能透過矩陣列運算，討論二元一次聯立方程式解的情形",
+                "video": "data\\/video_data\\/9475-A-11A-2-S07-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S08",
+                "name": "能透過矩陣列運算，討論三元一次聯立方程式解的情形",
+                "video": "data\\/video_data\\/9476-A-11A-2-S08-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S09",
+                "name": "能以空間向量的線性組合理解三元一次聯立方程式解的意涵",
+                "video": "data\\/video_data\\/9477-A-11A-2-S09-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S09E",
+                "name": "能以空間向量的線性組合理解三元一次聯立方程式解的意涵_基礎版",
+                "video": "data\\/video_data\\/18517-A-11A-2-S09E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S10",
+                "name": "能以三平面關係，理解三元一次聯立方程式解的意涵",
+                "video": "data\\/video_data\\/9478-A-11A-2-S10-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S11",
+                "name": "能將三元一次聯立方程式寫成矩陣運算式並用電腦求解",
+                "video": "data\\/video_data\\/9479-A-11A-2-S11-32-2.mp4"
+              },
+              {
+                "id": "A-11A-2-S12",
+                "name": "能對三元一次聯立方程式之相關概念進行統整",
+                "video": "data\\/video_data\\/9480-A-11A-2-S12-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S12E",
+                "name": "能對三元一次聯立方程式之相關概念進行統整_基礎版",
+                "video": "data\\/video_data\\/19027-A-11A-2-S12E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S13",
+                "name": "能綜合應用三元一次聯立方程式之相關概念以解決問題",
+                "video": "data\\/video_data\\/9481-A-11A-2-S13-32-1.mp4"
+              },
+              {
+                "id": "A-11A-2-S13E",
+                "name": "能綜合應用三元一次聯立方程式之相關概念以解決問題_基礎版",
+                "video": "data\\/video_data\\/19028-A-11A-2-S13E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S01",
+                "name": "能認識矩陣的定義及矩陣的相等概念",
+                "video": "data\\/video_data\\/9482-A-11A-3-S01-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S02",
+                "name": "能認識矩陣的加法、減法及係數積的運算及性質",
+                "video": "data\\/video_data\\/9483-A-11A-3-S02-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S03",
+                "name": "能透過試算表操作矩陣的加法、減法、係數積的運算",
+                "video": "data\\/video_data\\/9758-A-11A-3-S03-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S04",
+                "name": "能認識矩陣乘法的運算",
+                "video": "data\\/video_data\\/9761-A-11A-3-S04-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S05",
+                "name": "能認識矩陣乘法與實數乘法的差異",
+                "video": "data\\/video_data\\/9488-A-11A-3-S05-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S05E",
+                "name": "能認識矩陣乘法與實數乘法的差異_基礎版",
+                "video": "data\\/video_data\\/17042-A-11A-3-S05E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S06",
+                "name": "能透過試算表操作矩陣相乘的運算，並用以檢驗矩陣乘法的性質",
+                "video": "data\\/video_data\\/9489-A-11A-3-S06-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S07",
+                "name": "能透過單位方陣理解反方陣的定義，並推導出二階反方陣",
+                "video": "data\\/video_data\\/9490-A-11A-3-S07-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S08",
+                "name": "能利用矩陣列運算求出二階反方陣",
+                "video": "data\\/video_data\\/9491-A-11A-3-S08-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S09",
+                "name": "能透過試算表操作矩陣列運算，算出二階方陣的反方陣",
+                "video": "data\\/video_data\\/9760-A-11A-3-S09-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S10",
+                "name": "能透過試算表算出三階方陣的反方陣",
+                "video": "data\\/video_data\\/9772-A-11A-3-S10-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S11",
+                "name": "能利用二階反方陣解聯立方程式，並解決相關問題",
+                "video": "data\\/video_data\\/9494-A-11A-3-S11-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S11E",
+                "name": "能利用二階反方陣解聯立方程式，並解決相關問題_基礎版",
+                "video": "data\\/video_data\\/17043-A-11A-3-S11E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S12",
+                "name": "能對矩陣的運算之相關概念進行統整❲一❳",
+                "video": "data\\/video_data\\/9499-A-11A-3-S12-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S13",
+                "name": "能對矩陣的運算之相關概念進行統整❲二❳",
+                "video": "data\\/video_data\\/9498-A-11A-3-S13-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S13E",
+                "name": "能對矩陣的運算之相關概念進行統整_基礎版❲二❳",
+                "video": "data\\/video_data\\/17044-A-11A-3-S13E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S14",
+                "name": "能綜合應用矩陣的運算之相關概念以解決問題",
+                "video": "data\\/video_data\\/9497-A-11A-3-S14-32-1.mp4"
+              },
+              {
+                "id": "A-11A-3-S14E",
+                "name": "能綜合應用矩陣的運算之相關概念以解決問題_基礎版",
+                "video": "data\\/video_data\\/17045-A-11A-3-S14E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S01",
+                "name": "能理解對數的定義並計算對數值",
+                "video": "data\\/video_data\\/9500-A-11A-4-S01-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S01E",
+                "name": "能理解對數的定義並計算對數值_基礎版",
+                "video": "data\\/video_data\\/18202-A-11A-4-S01E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S02",
+                "name": "能理解對數與指數的互換關係",
+                "video": "data\\/video_data\\/9501-A-11A-4-S02-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S02E",
+                "name": "能理解對數與指數的互換關係_基礎版",
+                "video": "data\\/video_data\\/17046-A-11A-4-S02E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S03",
+                "name": "能理解常用對數的對數律",
+                "video": "data\\/video_data\\/9502-A-11A-4-S03-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S03E",
+                "name": "能理解常用對數的對數律_基礎版",
+                "video": "data\\/video_data\\/17047-A-11A-4-S03E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S04",
+                "name": "能利用對數律運算求值",
+                "video": "data\\/video_data\\/9503-A-11A-4-S04-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S04E",
+                "name": "能利用對數律運算求值_基礎版",
+                "video": "data\\/video_data\\/17048-A-11A-4-S04E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S05",
+                "name": "能理解換底公式並運算求值",
+                "video": "data\\/video_data\\/9504-A-11A-4-S05-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S05E",
+                "name": "能理解換底公式並運算求值_基礎版",
+                "video": "data\\/video_data\\/18518-A-11A-4-S05E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S06",
+                "name": "能利用對數律並搭配計算機解指數方程式",
+                "video": "data\\/video_data\\/9505-A-11A-4-S06-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S07",
+                "name": "能利用常用對數與指數律，並搭配計算機來估算正數的乘冪",
+                "video": "data\\/video_data\\/9506-A-11A-4-S07-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S08",
+                "name": "能對對數律之相關概念進行統整",
+                "video": "data\\/video_data\\/9507-A-11A-4-S08-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S08E",
+                "name": "能對對數律之相關概念進行統整_基礎版",
+                "video": "data\\/video_data\\/17049-A-11A-4-S08E-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S09",
+                "name": "能綜合應用對數律之相關概念以解決問題",
+                "video": "data\\/video_data\\/9508-A-11A-4-S09-32-1.mp4"
+              },
+              {
+                "id": "A-11A-4-S09E",
+                "name": "能綜合應用對數律之相關概念以解決問題_基礎版",
+                "video": "data\\/video_data\\/17050-A-11A-4-S09E-32-1.mp4"
+              }
+            ],
+            "mid": "78342"
+          },
+          {
+            "subject_id": 28,
+            "unit": 4,
+            "unit_name": "函數",
+            "game_link_id": "RXpNVE54TXhBNEFqQURNRE00TnhFPT1B",
+            "bNodes": [
+              {
+                "id": "F-11A-1-S01",
+                "name": "能計算特殊角的正弦值並描繪sin函數圖形",
+                "video": "data\\/video_data\\/9912-F-11A-1-S01-32-1.mp4"
+              },
+              {
+                "id": "F-11A-1-S02",
+                "name": "能以資訊工具繪製sin函數圖形並觀察其特徵",
+                "video": "data\\/video_data\\/9782-F-11A-1-S02-32-1.mp4"
+              },
+              {
+                "id": "F-11A-1-S03",
+                "name": "能說明sin函數的圖形特色",
+                "video": "data\\/video_data\\/9917-F-11A-1-S03-32-1.mp4"
+              },
+              {
+                "id": "F-11A-1-S04",
+                "name": "能理解sin函數圖形的平移",
+                "video": "data\\/video_data\\/9918-F-11A-1-S04-32-1.mp4"
+              },
+              {
+                "id": "F-11A-1-S05",
+                "name": "能理解sin函數圖形的伸縮",
+                "video": "data\\/video_data\\/9888-F-11A-1-S05-32-1.mp4"
+              },
+              {
+                "id": "F-11A-1-S06",
+                "name": "能透過sin函數圖形的平移與伸縮，說明其週期、最大值及最小值",
+                "video": "data\\/video_data\\/9911-F-11A-1-S06-32-1.mp4"
+              },
+              {
+                "id": "F-11A-1-S07",
+                "name": "能理解正、餘弦函數圖形之間的關係，並能說明cos函數的圖形特色",
+                "video": "data\\/video_data\\/9889-F-11A-1-S07-32-1.mp4"
+              },
+              {
+                "id": "F-11A-1-S08",
+                "name": "能透過cos函數圖形的平移與伸縮，說明其週期、最大值及最小值",
+                "video": "data\\/video_data\\/9887-F-11A-1-S08-32-1.mp4"
+              },
+              {
+                "id": "F-11A-1-S09",
+                "name": "能求解含三角函數的方程式",
+                "video": "data\\/video_data\\/9510-F-11A-1-S09-32-1.mp4"
+              },
+              {
+                "id": "F-11A-1-S10",
+                "name": "能求解含三角函數的不等式",
+                "video": "data\\/video_data\\/9511-F-11A-1-S10-32-1.mp4"
+              },
+              {
+                "id": "F-11A-1-S11",
+                "name": "能描繪出tan函數的圖形，並能說明tan函數的圖形特色",
+                "video": "data\\/video_data\\/9512-F-11A-1-S11-32-1.mp4"
+              },
+              {
+                "id": "F-11A-1-S12",
+                "name": "能透過三角函數的圖形觀念解決相關的應用問題",
+                "video": "data\\/video_data\\/9513-F-11A-1-S12-32-1.mp4"
+              },
+              {
+                "id": "F-11A-1-S13",
+                "name": "能對三角函數的圖形之相關概念進行統整",
+                "video": "data\\/video_data\\/9514-F-11A-1-S13-32-1.mp4"
+              },
+              {
+                "id": "F-11A-1-S14",
+                "name": "能綜合應用三角函數的圖形之相關概念以解決問題",
+                "video": "data\\/video_data\\/9515-F-11A-1-S14-32-1.mp4"
+              },
+              {
+                "id": "F-11A-2-S01",
+                "name": "能從代數及幾何觀點探索sinx+cosx的極值",
+                "video": "data\\/video_data\\/9802-F-11A-2-S01-32-1.mp4"
+              },
+              {
+                "id": "F-11A-2-S02",
+                "name": "能利用和角公式將sinx+cosx化成正弦波",
+                "video": "data\\/video_data\\/9803-F-11A-2-S02-32-1.mp4"
+              },
+              {
+                "id": "F-11A-2-S03",
+                "name": "能以資訊工具描繪asinx+bcosx的圖形並觀察圖形特徵",
+                "video": "data\\/video_data\\/9783-F-11A-2-S03-32-1.mp4"
+              },
+              {
+                "id": "F-11A-2-S04",
+                "name": "能理解一般形式asinx+bcosx的疊合",
+                "video": "data\\/video_data\\/9804-F-11A-2-S04-32-1.mp4"
+              },
+              {
+                "id": "F-11A-2-S05",
+                "name": "能利用和角公式將sinx+cosx化成餘弦波",
+                "video": "data\\/video_data\\/9805-F-11A-2-S05-32-1.mp4"
+              },
+              {
+                "id": "F-11A-2-S06",
+                "name": "能利用正餘弦疊合求極值❲角度相同❳",
+                "video": "data\\/video_data\\/9806-F-11A-2-S06-32-1.mp4"
+              },
+              {
+                "id": "F-11A-2-S07",
+                "name": "能利用正餘弦疊合求極值❲角度不相同❳",
+                "video": "data\\/video_data\\/9807-F-11A-2-S07-32-1.mp4"
+              },
+              {
+                "id": "F-11A-2-S08",
+                "name": "能利用正餘弦疊合求極值❲角度有限制❳",
+                "video": "data\\/video_data\\/9786-F-11A-2-S08-32-1.mp4"
+              },
+              {
+                "id": "F-11A-2-S09",
+                "name": "能利用正餘弦疊合解方程式",
+                "video": "data\\/video_data\\/9785-F-11A-2-S09-32-1.mp4"
+              },
+              {
+                "id": "F-11A-2-S10",
+                "name": "能利用正餘弦疊合處理情境題",
+                "video": "data\\/video_data\\/9784-F-11A-2-S10-32-1.mp4"
+              },
+              {
+                "id": "F-11A-2-S11",
+                "name": "能對正餘弦的疊合之相關概念進行統整",
+                "video": "data\\/video_data\\/9526-F-11A-2-S11-32-1.mp4"
+              },
+              {
+                "id": "F-11A-2-S11E",
+                "name": "能對正餘弦的疊合之相關概念進行統整_基礎版",
+                "video": "data\\/video_data\\/17055-F-11A-2-S11E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-2-S12",
+                "name": "能綜合應用正餘弦的疊合之相關概念以解決問題",
+                "video": "data\\/video_data\\/9527-F-11A-2-S12-32-1.mp4"
+              },
+              {
+                "id": "F-11A-2-S12E",
+                "name": "能綜合應用正餘弦的疊合之相關概念以解決問題_基礎版",
+                "video": "data\\/video_data\\/17056-F-11A-2-S12E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-3-S01",
+                "name": "能理解二階方陣將一點變換至另一點的線性變換意涵",
+                "video": "data\\/video_data\\/9528-F-11A-3-S01-32-1.mp4"
+              },
+              {
+                "id": "F-11A-3-S02",
+                "name": "能理解平面上的伸縮變換，並找出伸縮變換所對應的二階方陣",
+                "video": "data\\/video_data\\/9529-F-11A-3-S02-32-1.mp4"
+              },
+              {
+                "id": "F-11A-3-S03",
+                "name": "能理解平面上的鏡射變換，並找出鏡射變換所對應的二階方陣",
+                "video": "data\\/video_data\\/9530-F-11A-3-S03-32-1.mp4"
+              },
+              {
+                "id": "F-11A-3-S04",
+                "name": "能理解平面上的旋轉變換，並找出旋轉變換所對應的二階方陣",
+                "video": "data\\/video_data\\/9531-F-11A-3-S04-32-1.mp4"
+              },
+              {
+                "id": "F-11A-3-S05",
+                "name": "能理解平面上的推移變換，並找出推移變換所對應的二階方陣",
+                "video": "data\\/video_data\\/9532-F-11A-3-S05-32-1.mp4"
+              },
+              {
+                "id": "F-11A-3-S06",
+                "name": "能理解與應用平面上伸縮、鏡射、旋轉與推移變換對圖形面積的影響",
+                "video": "data\\/video_data\\/9533-F-11A-3-S06-32-1.mp4"
+              },
+              {
+                "id": "F-11A-3-S07",
+                "name": "能從情境問題建立二階轉移方陣模式",
+                "video": "data\\/video_data\\/9534-F-11A-3-S07-32-1.mp4"
+              },
+              {
+                "id": "F-11A-3-S08",
+                "name": "能運用轉移方陣解決情境問題",
+                "video": "data\\/video_data\\/9535-F-11A-3-S08-32-1.mp4"
+              },
+              {
+                "id": "F-11A-3-S09",
+                "name": "能對矩陣的應用之相關概念進行統整(一)",
+                "video": "data\\/video_data\\/9536-F-11A-3-S09-32-1.mp4"
+              },
+              {
+                "id": "F-11A-3-S10",
+                "name": "能對矩陣的應用之相關概念進行統整(二)",
+                "video": "data\\/video_data\\/9537-F-11A-3-S10-32-1.mp4"
+              },
+              {
+                "id": "F-11A-3-S11",
+                "name": "能綜合矩陣的應用之相關概念以解決問題",
+                "video": "data\\/video_data\\/9538-F-11A-3-S11-32-1.mp4"
+              },
+              {
+                "id": "F-11A-3-S11E",
+                "name": "能綜合矩陣的應用之相關概念以解決問題_基礎版",
+                "video": "data\\/video_data\\/17057-F-11A-3-S11E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S01",
+                "name": "能理解指數函數的定義",
+                "video": "data\\/video_data\\/9539-F-11A-4-S01-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S01E",
+                "name": "能理解指數函數的定義_基礎版",
+                "video": "data\\/video_data\\/17460-F-11A-4-S01E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S02",
+                "name": "能描繪底數大於1的指數函數圖形，並說明圖形特徵",
+                "video": "data\\/video_data\\/9540-F-11A-4-S02-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S03",
+                "name": "能描繪底數小於1的指數函數圖形，並說明圖形特徵",
+                "video": "data\\/video_data\\/9541-F-11A-4-S03-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S04",
+                "name": "能理解特定指數函數圖形的對稱性",
+                "video": "data\\/video_data\\/9542-F-11A-4-S04-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S05",
+                "name": "能求解指數方程式",
+                "video": "data\\/video_data\\/9543-F-11A-4-S05-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S05E",
+                "name": "能求解指數方程式_基礎版",
+                "video": "data\\/video_data\\/17058-F-11A-4-S05E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S06",
+                "name": "能利用指數函數圖形來比較大小",
+                "video": "data\\/video_data\\/9544-F-11A-4-S06-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S06E",
+                "name": "能利用指數函數圖形來比較大小_基礎版",
+                "video": "data\\/video_data\\/17459-F-11A-4-S06E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S07",
+                "name": "能求解指數不等式",
+                "video": "data\\/video_data\\/9545-F-11A-4-S07-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S07E",
+                "name": "能求解指數不等式_基礎版",
+                "video": "data\\/video_data\\/17467-F-11A-4-S07E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S08",
+                "name": "能理解對數函數的定義",
+                "video": "data\\/video_data\\/9546-F-11A-4-S08-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S08E",
+                "name": "能理解對數函數的定義_基礎版",
+                "video": "data\\/video_data\\/17468-F-11A-4-S08E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S09",
+                "name": "能描繪底數大於1的對數函數圖形，並說明圖形特徵",
+                "video": "data\\/video_data\\/9547-F-11A-4-S09-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S10",
+                "name": "能描繪底數小於1的對數函數圖形，並說明圖形特徵",
+                "video": "data\\/video_data\\/9548-F-11A-4-S10-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S11",
+                "name": "能理解特定對數函數圖形的對稱性",
+                "video": "data\\/video_data\\/9549-F-11A-4-S11-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S11E",
+                "name": "能理解特定對數函數圖形的對稱性_基礎版",
+                "video": "data\\/video_data\\/17469-F-11A-4-S11E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S12",
+                "name": "能理解同底數的指數函數與對數函數之間的圖形關係",
+                "video": "data\\/video_data\\/9550-F-11A-4-S12-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S12E",
+                "name": "能理解同底數的指數函數與對數函數之間的圖形關係_基礎版",
+                "video": "data\\/video_data\\/17470-F-11A-4-S12E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S13",
+                "name": "能求解對數方程式",
+                "video": "data\\/video_data\\/9551-F-11A-4-S13-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S13E",
+                "name": "能求解對數方程式_基礎版",
+                "video": "data\\/video_data\\/18208-F-11A-4-S13E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S14",
+                "name": "能利用對數函數圖形來比較大小",
+                "video": "data\\/video_data\\/9552-F-11A-4-S14-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S15",
+                "name": "能求解對數不等式",
+                "video": "data\\/video_data\\/9553-F-11A-4-S15-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S15E",
+                "name": "能求解對數不等式_基礎版",
+                "video": "data\\/video_data\\/18209-F-11A-4-S15E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S16",
+                "name": "能理解指對數在金融、科學上的應用",
+                "video": "data\\/video_data\\/9554-F-11A-4-S16-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S16E",
+                "name": "能理解指對數在金融、科學上的應用_基礎版",
+                "video": "data\\/video_data\\/18210-F-11A-4-S16E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S17",
+                "name": "能對指數與對數函數之相關概念進行統整❲一❳",
+                "video": "data\\/video_data\\/9555-F-11A-4-S17-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S17E",
+                "name": "能對指數與對數函數之相關概念進行統整_基礎版❲一❳",
+                "video": "data\\/video_data\\/17471-F-11A-4-S17E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S18",
+                "name": "能對指數與對數函數之相關概念進行統整❲二❳",
+                "video": "data\\/video_data\\/9556-F-11A-4-S18-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S18E",
+                "name": "能對指數與對數函數之相關概念進行統整_基礎版❲二❳",
+                "video": "data\\/video_data\\/17472-F-11A-4-S18E-32-1.mp4"
+              },
+              {
+                "id": "F-11A-4-S19",
+                "name": "能綜合應用指數與對數函數之相關概念以解決問題",
+                "video": "data\\/video_data\\/9557-F-11A-4-S19-32-1.mp4"
+              }
+            ],
+            "mid": "78347"
+          },
+          {
+            "subject_id": 28,
+            "unit": 5,
+            "unit_name": "資料與不確定性",
+            "game_link_id": "RXpNVE54TXhBNEFqQURNRE00TnhFPT1R",
+            "bNodes": [
+              {
+                "id": "D-11A-1-S01",
+                "name": "能分辨古典機率、客觀機率和主觀機率的差別",
+                "video": "data\\/video_data\\/9558-D-11A-1-S01-32-1.mp4"
+              },
+              {
+                "id": "D-11A-1-S01E",
+                "name": "能分辨古典機率、客觀機率和主觀機率的差別_基礎版",
+                "video": "data\\/video_data\\/19029-D-11A-1-S01E-32-1.mp4"
+              },
+              {
+                "id": "D-11A-1-S02",
+                "name": "能理解客觀❲頻率、試驗❳機率的定義",
+                "video": "data\\/video_data\\/9559-D-11A-1-S02-32-1.mp4"
+              },
+              {
+                "id": "D-11A-1-S03",
+                "name": "能理解客觀機率❲頻率❳與統計的關係",
+                "video": "data\\/video_data\\/9560-D-11A-1-S03-32-1.mp4"
+              },
+              {
+                "id": "D-11A-1-S04",
+                "name": "能將客觀機率❲頻率❳應用在生活中",
+                "video": "data\\/video_data\\/9561-D-11A-1-S04-32-1.mp4"
+              },
+              {
+                "id": "D-11A-1-S05",
+                "name": "能理解主觀機率的定義",
+                "video": "data\\/video_data\\/9562-D-11A-1-S05-32-1.mp4"
+              },
+              {
+                "id": "D-11A-1-S06",
+                "name": "能對主觀機率與客觀機率之相關概念進行統整",
+                "video": "data\\/video_data\\/9753-D-11A-1-S06-32-1.mp4"
+              },
+              {
+                "id": "D-11A-2-S01",
+                "name": "能在情境中理解條件機率的意義",
+                "video": "data\\/video_data\\/9563-D-11A-2-S01-32-1.mp4"
+              },
+              {
+                "id": "D-11A-2-S02",
+                "name": "能理解條件機率的定義及其應用",
+                "video": "data\\/video_data\\/9564-D-11A-2-S02-32-1.mp4"
+              },
+              {
+                "id": "D-11A-2-S02E",
+                "name": "能理解條件機率的定義及其應用_基礎版",
+                "video": "data\\/video_data\\/19065-D-11A-2-S02E-32-1.mp4"
+              },
+              {
+                "id": "D-11A-2-S03",
+                "name": "能利用條件機率的乘法原理解決機率問題",
+                "video": "data\\/video_data\\/9565-D-11A-2-S03-32-1.mp4"
+              },
+              {
+                "id": "D-11A-2-S03E",
+                "name": "能利用條件機率的乘法原理解決機率問題_基礎版",
+                "video": "data\\/video_data\\/19030-D-11A-2-S03E-32-1.mp4"
+              },
+              {
+                "id": "D-11A-2-S04",
+                "name": "能理解多個事件為獨立事件的定義",
+                "video": "data\\/video_data\\/9566-D-11A-2-S04-32-1.mp4"
+              },
+              {
+                "id": "D-11A-2-S04E",
+                "name": "能理解多個事件為獨立事件的定義_基礎版",
+                "video": "data\\/video_data\\/19031-D-11A-2-S04E-32-1.mp4"
+              },
+              {
+                "id": "D-11A-2-S05",
+                "name": "能理解獨立事件的餘事件的獨立性",
+                "video": "data\\/video_data\\/9567-D-11A-2-S05-32-1.mp4"
+              },
+              {
+                "id": "D-11A-2-S05E",
+                "name": "能理解獨立事件的餘事件的獨立性_基礎版",
+                "video": "data\\/video_data\\/17052-D-11A-2-S05E-32-1.mp4"
+              },
+              {
+                "id": "D-11A-2-S06",
+                "name": "能利用獨立事件的性質解決機率問題",
+                "video": "data\\/video_data\\/9568-D-11A-2-S06-32-1.mp4"
+              },
+              {
+                "id": "D-11A-2-S06E",
+                "name": "能利用獨立事件的性質解決機率問題_基礎版",
+                "video": "data\\/video_data\\/17053-D-11A-2-S06E-32-1.mp4"
+              },
+              {
+                "id": "D-11A-2-S07",
+                "name": "能對條件機率之相關概念進行統整",
+                "video": "data\\/video_data\\/9754-D-11A-2-S07-32-1.mp4"
+              },
+              {
+                "id": "D-11A-2-S08",
+                "name": "能綜合應用條件機率之相關概念以解決問題",
+                "video": "data\\/video_data\\/9755-D-11A-2-S08-32-1.mp4"
+              },
+              {
+                "id": "D-11A-3-S01",
+                "name": "能理解樣本空間的分割概念",
+                "video": "data\\/video_data\\/9569-D-11A-3-S01-32-1.mp4"
+              },
+              {
+                "id": "D-11A-3-S02",
+                "name": "能理解貝氏定理的意義",
+                "video": "data\\/video_data\\/9570-D-11A-3-S02-32-1.mp4"
+              },
+              {
+                "id": "D-11A-3-S03",
+                "name": "能運用貝氏定理理解事前機率與事後機率",
+                "video": "data\\/video_data\\/9571-D-11A-3-S03-32-1.mp4"
+              },
+              {
+                "id": "D-11A-3-S03E",
+                "name": "能運用貝氏定理理解事前機率與事後機率_基礎版",
+                "video": "data\\/video_data\\/18203-D-11A-3-S03E-32-1.mp4"
+              },
+              {
+                "id": "D-11A-3-S04",
+                "name": "能利用樹狀圖求解貝氏定理的問題",
+                "video": "data\\/video_data\\/9572-D-11A-3-S04-32-1.mp4"
+              },
+              {
+                "id": "D-11A-3-S04E",
+                "name": "能利用樹狀圖求解貝氏定理的問題_基礎版",
+                "video": "data\\/video_data\\/18204-D-11A-3-S04E-32-1.mp4"
+              },
+              {
+                "id": "D-11A-3-S05",
+                "name": "能運用貝氏定理處理生活應用問題",
+                "video": "data\\/video_data\\/9573-D-11A-3-S05-32-1.mp4"
+              },
+              {
+                "id": "D-11A-3-S05E",
+                "name": "能運用貝氏定理處理生活應用問題_基礎版",
+                "video": "data\\/video_data\\/18205-D-11A-3-S05E-32-1.mp4"
+              },
+              {
+                "id": "D-11A-3-S06",
+                "name": "能對貝氏定理之相關概念進行統整",
+                "video": "data\\/video_data\\/9756-D-11A-3-S06-32-1.mp4"
+              },
+              {
+                "id": "D-11A-3-S06E",
+                "name": "能對貝氏定理之相關概念進行統整_基礎版",
+                "video": "data\\/video_data\\/18206-D-11A-3-S06E-32-1.mp4"
+              },
+              {
+                "id": "D-11A-3-S07",
+                "name": "能綜合應用貝氏定理之相關概念以解決問題",
+                "video": "data\\/video_data\\/9757-D-11A-3-S07-32-1.mp4"
+              }
+            ],
+            "mid": "78353"
+          },
+          {
+            "subject_id": 28,
+            "unit": 6,
+            "unit_name": "空間與形狀",
+            "game_link_id": "RXpNVE54TXhBNEFqQURNRE00TnhFPT1n",
+            "bNodes": [
+              {
+                "id": "S-11A-1-S01",
+                "name": "能透過空間中點、線、面的公設，找出決定唯一平面的條件",
+                "video": "data\\/video_data\\/9854-S-11A-1-S01-32-1.mp4"
+              },
+              {
+                "id": "S-11A-1-S02",
+                "name": "能透過長方體紙盒理解空間中直線間的四種關係",
+                "video": "data\\/video_data\\/9855-S-11A-1-S02-32-1.mp4"
+              },
+              {
+                "id": "S-11A-1-S03",
+                "name": "能認識空間中直線與平面的關係，並理解直線垂直平面的意義",
+                "video": "data\\/video_data\\/9856-S-11A-1-S03-32-1.mp4"
+              },
+              {
+                "id": "S-11A-1-S04",
+                "name": "能理解三垂線定理的內涵",
+                "video": "data\\/video_data\\/9857-S-11A-1-S04-32-1.mp4"
+              },
+              {
+                "id": "S-11A-1-S05",
+                "name": "能認識空間中平面與平面的關係，並能計算兩面角的夾角餘弦值",
+                "video": "data\\/video_data\\/9858-S-11A-1-S05-32-1.mp4"
+              },
+              {
+                "id": "S-11A-1-S06",
+                "name": "能對空間概念之相關概念進行統整",
+                "video": "data\\/video_data\\/9735-S-11A-1-S06-32-1.mp4"
+              },
+              {
+                "id": "S-11A-1-S06E",
+                "name": "能對空間概念之相關概念進行統整_基礎版",
+                "video": "data\\/video_data\\/19052-S-11A-1-S06E-32-1.mp4"
+              },
+              {
+                "id": "S-11A-1-S07",
+                "name": "能綜合應用空間概念之相關概念以解決問題",
+                "video": "data\\/video_data\\/9736-S-11A-1-S07-32-1.mp4"
+              },
+              {
+                "id": "S-11A-1-S07E",
+                "name": "能綜合應用空間概念之相關概念以解決問題_基礎版",
+                "video": "data\\/video_data\\/19053-S-11A-1-S07E-32-1.mp4"
+              }
+            ],
+            "mid": "78358"
+          }
+        ]
+      }
+    }
+  }
+}

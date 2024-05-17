@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Edit-Mr/adl-linebot#readme",
   "dependencies": {
+    "@line/bot-sdk": "^9.2.2",
     "axios": "^1.6.8",
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.4.5"

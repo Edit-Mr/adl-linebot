@@ -29,7 +29,6 @@ async function fetchCourseData() {
 }
 
 function parseData(html) {
-    console.log(html);
     const $ = cheerio.load(html);
     const results = {};
 

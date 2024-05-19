@@ -19,75 +19,93 @@ app.post("/webhook", line.middleware(config), (req, res) => {
 });
 
 function handleEvent(event) {
-  if (event.type !== "message" || event.message.type !== "text") {
-    return Promise.resolve(null);
-  }
-  const parts = event.message.text.split("/");
-  if (!videodata[parts[0]])
-    return client.replyMessage(event.replyToken, flexElement("", "課程分類", "以下是課程列表", Object.keys(videodata)));
-  let current = videodata[parts[0]];
-  if (!current[parts[1]])
-    return client.replyMessage(event.replyToken, flexElement(parts[0], "年級列表", "以下是年級列表", Object.keys(current)));
-  current = current[parts[1]];
-  if (!current[parts[2]])
-    return client.replyMessage(event.replyToken, flexElement(parts[0] + "/" + parts[1], "科目列表", "以下是科目列表", Object.keys(current)));
-  current = current[parts[2]];
-  let checkCurrent = current.seme_list.find(e => e.unit_name === parts[3]);
-  if (!checkCurrent) {
-    // return client.replyMessage(event.replyToken, {
-    //   type: "text",
-    //   text: "以下是單元列表:\n" + current.seme_list.map(e => e.unit_name).join("\n"),
-    // });
-    return client.replyMessage(event.replyToken, flexElement(parts[0] + "/" + parts[1] + "/" + parts[2], "單元列表", "以下是單元列表", current.seme_list.map(e => e.unit_name)));
-  }
-  current = checkCurrent;
-  checkCurrent = current.bNodes.find(e => e.name === parts[4]);
-  if (!checkCurrent) {
-    // return client.replyMessage(event.replyToken, {
-    //   type: "text",
-    //   text: "以下是影片列表:\n" + current.bNodes.map(e => e.name).join("\n"),
-    // });
-    return client.replyMessage(event.replyToken, flexElement(parts[0] + "/" + parts[1] + "/" + parts[2] + "/" + parts[3], "影片列表", "以下是影片列表", current.bNodes.map(e => e.name)));
-  }
-  current = checkCurrent;
-  let resources = current.resources;
-  let messages = [];
- 
-const typeTranslate = {
-  "video": "影片",
-  "prac": "練習題",
-  "worksheet": "學習單",
-  "external": "外部資源"
-}
-  const resourcesButtons = resources.map(r => {
-    return {
-      "type": "action",
-      "action": {
-        "type": "uri",
-        "label": typeTranslate[r.type],
-        "uri": "https://adl.edu.tw/" + r.url
+  try {
+    if (event.type !== "message" || event.message.type !== "text") {
+      return Promise.resolve(null);
+    }
+    const parts = event.message.text.split("/");
+    if (!videodata[parts[0]])
+      if (!videodata[parts[0] + "/" + parts[1]])
+        return client.replyMessage(event.replyToken, flexElement("", "課程分類", "以下是課程列表", Object.keys(videodata)));
+      else {
+        videodata[parts[0]] = videodata[parts[0] + "/" + parts[1]];
+        delete videodata[parts[0] + "/" + parts[1]];
       }
-    };
-  }
-  );
-  if (current.video) {
-    messages.push({
-      type: "video",
-      originalContentUrl: "https://adl.edu.tw/" + JSON.parse(`"${current.video.replace(/\\\\/g, '\\')}"`),
-      previewImageUrl: "https://raw.githubusercontent.com/Edit-Mr/adl-linebot/main/thumbnail.jpg",
-      "quickReply": { // 2
-        "items": [
-         ...resourcesButtons
-          
-        ]
+    let current = videodata[parts[0]];
+    if (!current[parts[1]])
+      if (!current[parts[1] + "/" + parts[2]])
+        return client.replyMessage(event.replyToken, flexElement(parts[0], "年級列表", "以下是年級列表", Object.keys(current)));
+      else {
+        current[parts[1]] = current[parts[1] + "/" + parts[2]];
+        delete current[parts[1] + "/" + parts[2]];
       }
+    current = current[parts[1]];
+    if (!current[parts[2]])
+      if (!current[parts[2] + "/" + parts[3]])
+        return client.replyMessage(event.replyToken, flexElement(parts[0] + "/" + parts[1], "科目列表", "以下是科目列表", Object.keys(current)));
+      else {
+        current[parts[2]] = current[parts[2] + "/" + parts[3]];
+        delete current[parts[2] + "/" + parts[3]];
+      }
+    current = current[parts[2]];
+    let checkCurrent = current.seme_list.find(e => e.unit_name === parts[3]);
+    if (!checkCurrent) {
+      let checkCurrent2 = current.seme_list.find(e => e.unit_name === parts[3] + "/" + parts[4]);
+      if (!checkCurrent2)
+        return client.replyMessage(event.replyToken, flexElement(parts[0] + "/" + parts[1] + "/" + parts[2], "單元列表", "以下是單元列表", current.seme_list.map(e => e.unit_name)));
+      else checkCurrent = checkCurrent2;
+    }
+    current = checkCurrent;
+    checkCurrent = current.bNodes.find(e => e.name === parts[4]);
+    if (!checkCurrent) {
+      checkCurrent2 = current.bNodes.find(e => e.name === parts[4] + "/" + parts[5]);
+      if (!checkCurrent2)
+        return client.replyMessage(event.replyToken, flexElement(parts[0] + "/" + parts[1] + "/" + parts[2] + "/" + parts[3], "影片列表", "以下是影片列表", current.bNodes.map(e => e.name)));
+      else checkCurrent = checkCurrent2;
+    }
+    current = checkCurrent;
+    let resources = current.resources;
+    let messages = [];
+    const typeTranslate = {
+      "video": "影片",
+      "prac": "練習題",
+      "worksheet": "學習單",
+      "external": "外部資源"
+    }
+    const resourcesButtons = resources.map(r => {
+      return {
+        "type": "action",
+        "action": {
+          "type": "uri",
+          "label": typeTranslate[r.type],
+          "uri": "https://adl.edu.tw/" + r.url
+        }
+      };
+    }
+    );
+    if (current.video) {
+      messages.push({
+        type: "video",
+        originalContentUrl: "https://adl.edu.tw/" + JSON.parse(`"${current.video.replace(/\\\\/g, '\\')}"`),
+        previewImageUrl: "https://raw.githubusercontent.com/Edit-Mr/adl-linebot/main/thumbnail.jpg",
+        "quickReply": { // 2
+          "items": [
+            ...resourcesButtons
+
+          ]
+        }
+      });
+    }
+    fs.appendFile("access.log", JSON.stringify(event) + "\n", () => { });
+    return client.replyMessage(event.replyToken, messages);
+  } catch (e) {
+    console.log(e);
+    return client.replyMessage(event.replyToken, {
+      type: "text",
+      text: "似乎找不到資源 ):。若你確認此資源存在，請回報給毛哥EM。"
     });
   }
-
-  fs.appendFile("access.log", JSON.stringify(event) + "\n", () => { });
-  return client.replyMessage(event.replyToken, messages);
-  // save log to access.log
-}
+};
 
 app.listen(3030, () => {
   console.log("Application is running on port 3030");
@@ -159,14 +177,24 @@ const flexElement = (path, title, text, urls) => {
                 "text": "更新日期: 2024/5/19",
                 "size": "xs",
                 "color": "#aaaaaa",
-                "flex": 0
+                "flex": 0,
+                "action": {
+                  "type": "uri",
+                  "label": "GitHub",
+                  "uri": "https://github.com/Edit-Mr/adl-linebot"
+                }
               },
               {
                 "type": "text",
                 "text": "問題回報",
                 "color": "#aaaaaa",
                 "size": "xs",
-                "align": "end"
+                "align": "end",
+                "action": {
+                  "type": "uri",
+                  "label": "毛哥EM Instagram",
+                  "uri": "https://www.instagram.com/elvisdragonmao/"
+                }
               }
             ]
           }

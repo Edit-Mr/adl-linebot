@@ -84,11 +84,11 @@ async function processFile(filePath) {
         }
     }
     // Write the updated JSON to new file called course.json
-    fs.writeFile("Database/course.json", JSON.stringify(jsonData), err => {
+    fs.writeFile("../Database/course.json", JSON.stringify(jsonData), err => {
         if (err) {
             console.error("Error during writing file:", err);
         }
     });
 }
 // Run the process
-processFile("Database/test.json");
+processFile("../Database/subject.json");

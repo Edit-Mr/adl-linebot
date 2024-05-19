@@ -6,6 +6,7 @@ const cheerio = require("cheerio");
 const fs = require("fs");
 require("dotenv").config();
 const Cookie = process.env.COOKIE;
+
 async function fetchCourseData() {
     const url =
         "https://adl.edu.tw/modules_new.php?op=modload&name=dashboard&file=modules_student";
@@ -18,8 +19,9 @@ async function fetchCourseData() {
         });
         const data = parseData(response.data);
         // save to Database/subject.json
+		//
         fs.writeFileSync(
-            "./Database/subject.json",
+            "../Database/subject.json",
             JSON.stringify(data, null, 4)
         );
         console.log("Data saved to Database/subject.json");
@@ -29,6 +31,7 @@ async function fetchCourseData() {
 }
 
 function parseData(html) {
+	console.log(html);
     const $ = cheerio.load(html);
     const results = {};
 

@@ -1,5 +1,8 @@
 # ADL-Linebot: 教育部因材網影片機器人
 
+> [!NOTE]  
+> 此專案目前沒有部署，底下的 Line Bot 帳號並不會進行回覆。若有需求或想測試請自行部署，或到 [Discord](https://dc.elvismao.com) 與我們一起討論！
+
 ![](screenshots.jpg)
 
 ## [ID: @206usbec](https://lin.ee/LCCKeEI)

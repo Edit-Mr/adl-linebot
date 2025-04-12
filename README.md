@@ -38,9 +38,9 @@ Line Bot 的實現主要包括以下步驟：
 2. **配置環境變量**: 在項目目錄中創建 `.env` 文件，填入相應的配置。
 
 ```bash
-COOKIE=YOUR_COOKIE
-CHANNEL_SECRET=YOUR_CHANNEL_SECRET
-CHANNEL_ACCESS_TOKEN=YOUR_CHANNEL_ACCESS_TOKEN
+COOKIE=
+CHANNEL_SECRET=
+ACCESS_TOKEN＝
 ```
 
 請先登入英才網帳號並開啟開發者工具。點選隨機功能攔截其中的封包複製整串 cookie 貼上即可。
@@ -54,24 +54,25 @@ CHANNEL_ACCESS_TOKEN=YOUR_CHANNEL_ACCESS_TOKEN
 1. 安裝依賴包：
 
 ```bash
-npm install
+pnpm i
 ```
 
-2. 執行爬蟲腳本，依次執行 `subject.js`, `course.js`, `lesson.js`, `video.js` 來獲取完整的影片數據。
+2. 可選：執行爬蟲腳本，依次執行 `subject.js`, `course.js`, `lesson.js`, `video.js` 來獲取完整的影片數據。
 
 3. 在 Line Developer Console 創建一個新的 Message API，將其 Channel Access Token 和 Channel Secret 填入 `.env` 文件中。
 
 4. 啟動服務：
 
 ```bash
-node app.js
+pnpm start
 ```
 
 這樣，您的 Line Bot 就可以運行了，用戶可以通過掃描 QR Code 或添加 [ID: @206usbec](https://lin.ee/LCCKeEI) 來使用這個機器人，獲取他們需要的教學影片。
 
 ## 備註
 
-此 Line Bot 並非因材網官方製作，而是由個人開發者毛哥EM創建，作為一個開源項目發布。這個項目使用 Apache License 2.0 授權，旨在提供一個替代性的學習資源訪問方式，僅供學習和研究使用。感謝您的支持和理解，期待這個工具能夠幫助更多的學生和教師。
+此 Line Bot 並非因材網官方製作，而是由個人開發者毛哥EM創建，作為一個開源項目以 Apache License 2.0 發布，僅供學習和研究使用。
+
 ### 爬蟲
 
 依序執行 `subject.js`, `course.js`, `lesson.js`, `video.js`。
@@ -81,8 +82,8 @@ node app.js
 在 Line Developer Console 創建一個 Message API，並將其 Channel Access Token 和 Channel Secret 填入 `.env` 文件中。
 
 ```bash
-COOKIE=YOUR_COOKIE
-CHANNEL_SECRET=YOUR_CHANNEL_SECRET
+CHANNEL_SECRET=
+ACCESS_TOKEN＝
 ```
 
 ## 備註
